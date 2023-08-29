@@ -1,0 +1,377 @@
+
+
+
+.containerAbout {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.infoImageContainer{
+  width: 100%;
+}
+
+
+  
+.landing-page  .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.landing-page .contentAbout .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  min-height: calc(100vh - 80px);
+  /* diminuir o espaçamento embaxio na seção de sobre nós , colocar o gap e o min-height no comentario */
+}
+
+.landing-page .contentAbout .infoAbout h1 {
+  color: #2f2f2f;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+.landing-page .contentAbout .infoAbout p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+/* .landing-page .contentAbout .infoAbout button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #FF6609;
+} */
+.landing-page .contentAbout .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.landing-page .contentAbout .assertiveness {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.landing-page .contentAbout .assertiveness h2 {
+  color: #2f2f2f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.landing-page   .assertiveness h5 {
+  color: #2f2f2f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.landing-page .contentAbout .progressContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.landing-page .contentAbout .progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.landing-page .contentAbout .progressBarFill {
+  height: 100%;
+  background-color: #ff6609;
+  width: 0;
+  transition: width 1s ease;
+}
+
+
+
+.landing-page .contentAbout .progressBox {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%); /* Move a caixinha para o centro da posição */
+  background-color: #121242;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* estilos para o layout da imagem */
+.landing-page .contentAbout .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page .contentAbout .infoAbout {
+  flex: 1;
+  margin-right: 20px; /*  espaçamento entre as informações e a imagem */
+}
+.landing-page .contentAbout .assertiveness {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .containerAbout {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .containerAbout {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .containerAbout {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .landing-page .contentAbout .containerAbout {
+ 
+    margin-bottom: 30px;
+}
+.containerAbout {
+  flex-wrap: wrap;
+  margin-top: 50px;
+ 
+ }
+}
+
+
+@media (max-width: 767px) {
+  .landing-page .contentAbout .containerAbout {
+    gap: 0;
+    min-height: calc(100vh - 101px);
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 767px) {
+  .landing-page .contentAbout .infoAbout {
+    text-align: center;
+    margin-bottom: 15px 
+  }
+}
+
+@media (max-width: 767px) {
+  .landing-page .containerAbout {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-page .contentAbout .containerAbout {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    
+   
+  }
+  .landing-page .contentAbout .containerAbout h1{
+    font-size: 30px;
+ 
+  }
+
+  .landing-page .contentAbout .infoAbout {
+    margin-left: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
+    margin-right: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
+    text-align: center; /* Centralizamos o texto */
+  }
+
+  .landing-page .contentAbout .assertiveness {
+    margin-top: 40px; /* Ajustamos o espaçamento entre cada elemento assertiveness */
+    margin-bottom: 40px;
+   
+    
+  }
+
+  .landing-page .contentAbout .progressContainer {
+    width: 90%;
+    border-bottom: 20px;
+  }
+
+
+  .landing-page .contentAbout .progressBar {
+    height: 12px; /* Reduzimos a altura da barra de progresso para dispositivos móveis */
+  }
+
+  .landing-page .contentAbout .progressBox {
+    top: 15px; /* Posicionamos a caixinha acima da barra de progresso */
+    font-size: 10px;
+  
+  
+  }
+
+  .landing-page .contentAbout .progressText {
+    right: 0; /* Alinhamos o texto da porcentagem à direita */
+  }
+
+
+}
+
+/* End Landing Page */
+
+
+/*===================================== TIMELINE============================================= */
+
+
+.landing-page-timeline{
+  background: url("../../assests/temilinebg2.png"  ) ;
+  object-fit: cover;
+   background-repeat: no-repeat;
+}
+.landing-page-timeline{
+}
+
+
+.gestaodh{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.vertical-timeline-element--work{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dateTimeline{
+color:#FF6609;
+font-size: 50px;
+font-weight: bold;
+}
+
+
+/*  ABOUT */
+
+
+
+.card-sectionAbout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 80px auto;
+}
+
+.cardAbout {
+  flex: 1;
+  margin: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.cardAbout:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.orange-cardAbout {
+  background-color: #ED7829;
+}
+
+.blue-cardAbout {
+  background-color: #121242;
+}
+
+.iconAbout {
+  font-size: 32px;
+}
+
+
+
+.titleAbout {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.textAbout {
+  margin-bottom: 8px;
+}
+
+
+
+.contact-btnAbout-orange {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 8px 16px;
+  background-color: #121242;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btnAbout-orange svg {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+.contact-btnAbout-orange:hover {
+  background-color: #120052;
+}
+
+.contact-btnAbout-blue {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 8px 16px;
+  background-color: #ED7829;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btnAbout-blue svg {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+.contact-btnAbout-blue:hover {
+  background-color: #d16217;
+}
+
+
+@media (max-width: 600px) {
+  .card-sectionAbout {
+    flex-direction: column;
+  }
+}

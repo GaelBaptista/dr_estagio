@@ -1,0 +1,180 @@
+/* Estilos para alinhamento e espaçamento */
+.footer-section {
+  background: #151414;
+  padding: 50px 0;
+}
+
+.footer-cta,
+.footer-content {
+  padding: 30px 0;
+
+ 
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* 
+
+.footer-cta {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .rowFooter {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    
+    .single-cta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      text-align: center;
+      max-width: 250px; /* Tamanho máximo para evitar que fique muito grande 
+    }
+    */
+    
+    ul {
+      margin: 0px;
+      padding: 0px;
+  }
+  .footer-section {
+    background: #151414;
+    position: relative;
+  }
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+  .cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+      max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+        color: #7e7e7e;
+    line-height: 28px;
+  }
+  .footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 24px; /* Aumenta o tamanho dos ícones */
+    margin-right: 15px;
+    display: inline-block;
+  }
+  
+  .footer-social-icon i {
+    height: 50px; /* Aumenta o tamanho do espaço ocupado pelo ícone */
+    width: 50px; /* Aumenta o tamanho do espaço ocupado pelo ícone */
+    text-align: center;
+    line-height: 50px; /* Ajusta a altura do ícone */
+    border-radius: 50%;
+    padding: 10px; /* Adiciona um espaçamento interno */
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+  }
+  
+  .footer-social-icon i:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Altera a cor de fundo ao passar o mouse */
+  }
+  
+  .facebook-bg {
+    background: #3B5998;
+  }
+  
+  .twitter-bg {
+    background: #55ACEE;
+  }
+  
+  .google-bg {
+    background: #DD4B39;
+  }
+  .copyright-area{
+    background: #202020;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+  }
+  .copyright-text p a{
+    color: #ff5e14;
+  }
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+    color: #ff5e14;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
+
+
+  
+@media screen and (max-width: 650px) {
+  .single-cta {
+    flex: 1; /* Faz com que todos os elementos tenham a mesma largura */
+   margin:10px;
+   padding: 10px; /* Adiciona um pequeno espaçamento entre os elementos */
+    width: 300px;
+   
+   
+  }
+
+
+  .single-cta i {
+    font-size: 20px; /* Reduz o tamanho do ícone para economizar espaço */
+  }
+
+  .cta-text {
+    padding-left: 10px; /* Reduz o espaçamento à esquerda para economizar espaço */
+  }
+}
