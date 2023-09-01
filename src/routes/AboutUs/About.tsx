@@ -75,14 +75,14 @@ export function About() {
   ];
 
 
-  const [progress, setProgress] = useState(0);
+  // const [progress, setProgress] = useState(0);
 
-  useEffect(() => {
-    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
-    setTimeout(() => {
-      setProgress(85);
-    }, 500); // Ajuste o valor do atraso conforme necessário
-  }, [])
+  // useEffect(() => {
+   
+  //   setTimeout(() => {
+  //     setProgress(85);
+  //   }, 500);
+  // }, [])
 
   const [Assert, setAssert] = useState(0);
 
