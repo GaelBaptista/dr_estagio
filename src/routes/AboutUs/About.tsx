@@ -2,7 +2,7 @@ import './about.css'
 import React, { useEffect, useState }  from 'react';
 import ImgAbout from '../../assests/AboutusIMG.png'
 import TimelineBG from '../../assests/TimelineBG (1).png'
-import ServicosHome from '../Projects/Sericos/assetsServicos/ServicosHome.png'
+
 
 
 // Timeline

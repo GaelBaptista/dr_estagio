@@ -2,7 +2,7 @@
 import {HiDocumentText} from 'react-icons/hi'
 import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
+
 import { MdPermContactCalendar } from 'react-icons/md'
 
 
