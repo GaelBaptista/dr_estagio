@@ -18,7 +18,7 @@ export function ArticleSection() {
     {
       num: "02",
       title: "Cartilha Lei do Estágio",
-      description: "Aqui está nossa cartilha sobre a lei do estágio",
+      description: "Esclarecendo a Lei do Estágio",
        date: "",
       image: imgCard2,
       link: "https://drive.google.com/file/d/1JPa4rP3r8VrCW0fGktWVhwpuT1MmUskI/view?usp=sharing",

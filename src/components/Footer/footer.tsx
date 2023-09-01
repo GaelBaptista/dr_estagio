@@ -57,7 +57,7 @@ export function Footer() {
                 <p>Na missão de integração e desenvolvimento, a Dr. Estágio se dedica a aprimorar e nutrir habilidades excepcionais, trazendo uma contribuição significativa para o sucesso contínuo da sua organização.</p>
               </div>
               <div className="footer-social-icon">
-                <span>Empresa Associada</span>
+                <span>Empresa Associada à Associação Brasileira de Eságio</span>
                 <img className='Abres' src={Abres} width={'200px'} height={'100px'}  alt="" />
                 
                {/* <a href="#"><FaFacebookF className="facebook-bg" /></a>

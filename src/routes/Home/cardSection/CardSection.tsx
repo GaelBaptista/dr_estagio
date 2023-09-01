@@ -35,7 +35,7 @@ export function CardSection () {
         
         <div >
           <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"><MdAttachMoney/></i></span>
-            <h3>Mais Econômia</h3>
+            <h3>Mais Economia</h3>
             <div className='list'>
             <span className='bolinha2'></span>
             <p>Sem vínculo empregatício</p>
@@ -60,11 +60,11 @@ export function CardSection () {
             </div>
             <div className='list'>
             <span className='bolinha2'></span>
-            <p>Estimular o conhecimento</p>
+            <p>Análise de habilidades e competências </p>
             </div>
             <div className='list'>
             <span className='bolinha1'></span>
-            <p>Desenvolver profissionais</p>
+            <p>Banco de Talento qualificado</p>
             </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ export function Video () {
   return (
     <section>
       <div className="section-head VideoSection ">
-          <h4><span>Depoimentos de </span> Nossos clientes</h4>
+          <h4><span>Depoimentos de</span>Nossos clientes</h4>
           {/* <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
             cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
 
@@ -38,23 +38,23 @@ export function Video () {
       <div className="video-container">
       <YoutubeEmbed
           videoId="Qm3hpfwab2A"
-          title="Barbára - Redenção"
+          title="Supermercado Redenção"
           videoLink="https://www.youtube.com/watch?v=Qm3hpfwab2A"
         />
       
          <YoutubeEmbed
           videoId="zLmcyDmMKmo"
-          title="Título do Vídeo 2"
+          title="Aconhe Max"
           videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
         />
          <YoutubeEmbed
           videoId="W7WYhvKXiUg"
-          title="Título do Vídeo 2"
+          title="Queiroz Supermercado - RN"
           videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
         />
           <YoutubeEmbed
           videoId="UfcOU-QJAT0"
-          title="Título do Vídeo 2"
+          title="Anali "
           videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
         />
           

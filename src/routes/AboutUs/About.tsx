@@ -2,6 +2,7 @@ import './about.css'
 import React, { useEffect, useState }  from 'react';
 import ImgAbout from '../../assests/AboutusIMG.png'
 import TimelineBG from '../../assests/TimelineBG (1).png'
+import ServicosHome from '../Projects/Sericos/assetsServicos/ServicosHome.png'
 
 
 // Timeline
@@ -46,21 +47,21 @@ export function About() {
       date: '',
       title: 'Contratação mais assertiva',
       subtitle: '',
-      desc: 'Contrate inicialmente na modalidade de estágio e tenha oportunidade de observar o desempenho do estagiário antes de uma contratação definitiva.',
+      desc: 'Contrate inicialmente na modalidade de estágio essa abordagem possibilita uma análise completa das habilidades, adaptação à cultura da empresa e potencial de crescimento, resultando em decisões de contratação mais assertivas.',
     },
     {
       icon: hexagonBlue,
       date: '',
       title: 'Profissionais em treinamento',
       subtitle: '',
-      desc: 'O curso na área de atuação é um diferencial para o desenvolvimento profissional ',
+      desc: 'Os estudantes tem a oportunidade de aplicar seus conhecimentos teóricos em estágios de acordo com o curso da área de atuação, capacitando-se com técnicas e habilidades para o seu desenvolvimento profissional destacando-se no mercado de trabalho.',
     },
     {
       icon: hexagonOrange,
       date: '',
       title: 'Plano de carreira',
       subtitle: '',
-      desc: 'O fator motivacional de uma contratação efetiva, faz com que o estagiário tenha uma visão de plano de carreira dentro da empresa',
+      desc: 'O fator motivacional de uma contratação efetiva, faz com que o estagiário tenha uma visão de plano de carreira dentro da empresa.',
     },
     {
       icon: hexagonBlue,
@@ -94,20 +95,34 @@ export function About() {
 // FUNÇÂO PARA O EMAIL
   const recipientEmail = "comercial@drestagio.com.br";
   const mailtoLink = `mailto:${recipientEmail}`;
+
   return (
-  
+  <>
+  {/* quem somos */}
+  <div className="section-head about-TITLE ">
+          <h4>Quem  <strong>Somos</strong></h4>
+          <p>Operante desde 2015 e com marca registrada no INPI, a <strong> Dr. Estágio </strong> estende sua atuação por todo o
+             território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.
+             Como especialistas em programas de estágio voltados para o varejo, desempenhamos um papel fundamental no 
+             desenvolvimento de profissionais de destaque no setor supermercadista. Ao nos tornarmos parceiros de 
+             empresas conveniadas, proporcionamos a oportunidade de lapidar 
+             jovens talentos por meio do estágio, contribuindo para a formação de futuros profissionais qualificados. </p>
+        </div>
+  {/* Nossa proposta*/}
     <section className="landing-page">
-    {/*================================================ ABOUT US ========================================================== */}
-    <div className="contentAbout">
+
+  <div className="contentAbout">
       <div className="containerAbout">
         <div className="infoImageContainer">
           <div className="infoAbout">
             <h1>Nossa Proposta</h1>
-            <p>
-            Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender
-              e exercitar diversas tarefas nos salões onde as demandas podem variar ao longo do dia. A Dr.Estágio é facilitador contratação de 
-              estágio fazendo todo o processo burocrático do estágio desde a divulgação das vagas, emissão dos termos de estágio, seguro de vida,
-              suporte e acompanhamento. Auxiliamos sua equipe de RH em todo processo, garantindo assim mais produtividade e gestão de tempo.
+            <p >
+        Formar junto às empresas conveniadas um banco de jovens talentos especializados nos
+      departamentos e funções específicas, suprindo assim a necessidade de mão de obra
+      qualificada para ocupar futuras vagas de colaborador CLT.
+      A <strong> DR.ESTÁGIO </strong> ajuda a sua empresa na redução de custos e ganho na produtividade com
+      a qualidade no atendimento da sua unidade.
+      Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender e executar diversas tarefas.
             </p>
             {/* <button>Fale Conosco</button> */}
           </div>
@@ -135,7 +150,7 @@ export function About() {
       </div>
     </div>
 
-
+{/* video institucional */}
 <VidSobreNos/>
 
 
@@ -144,8 +159,9 @@ export function About() {
  
       <div className="section-head ">
           <h4><span>Gestão de </span> DH</h4>
-          <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
-            cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
+          <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa impulsionar o 
+          desenvolvimento e aprimoramento dos jovens profissionais 
+          dentro das organizações capacitando-os a crescer, aprender e contribuir de forma significativa.
 
           </p>
         </div>
@@ -327,5 +343,6 @@ export function About() {
       
 
     </section>
+    </>
   )
   }

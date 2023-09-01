@@ -116,7 +116,7 @@ export function Home () {
         <div className="quadrado">
           <Link to='/projects/vagas'>
             <div className="icone"><HiDocumentText/></div>
-            <div>Estágio Oportunidade </div>
+            <div>Vagas de Estágio  </div>
             </Link>
         </div>
         <div className="quadrado">
@@ -128,24 +128,24 @@ export function Home () {
         <div className="quadrado">
           <Link to='/projects/servicos'>
             <div className="icone"><FaCube/></div>
-            <div>Novas Habilidades </div>
+            <div>Nossos Serviços </div>
             </Link>
         </div>
         <div className="quadrado">
         <Link to='/projects/eventos'>
 
             <div className="icone"><BsPersonBadgeFill/></div>
-            <div>Profissionais Qualificados</div>
+            <div>Responsabilidade Social</div>
             </Link>
 
         </div>
-        <div className="quadrado-quinto">
+        {/* <div className="quadrado-quinto">
           <a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer">
             <div className="icone-quinto"><IoLogoWhatsapp/></div>
             <div className="whatsapp-texto">WhatsApp</div>
             <div className="numero-grande">(85) 99247-7241</div>
             </a>
-        </div>
+        </div> */}
     </div>
     </section>
   
