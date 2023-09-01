@@ -13,7 +13,7 @@ export function ArticleSection() {
       description: "Mudanças que impactam sua rotina",
       date: "",
       image: imgCard1,
-      link: "https://drive.google.com/file/d/1Ds69kWLec-JvKxU07EUGd4asecGd5Zw-/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1j0YsaYOoO_e6Xt1DszoVM0cjoiZFlZkE/view?usp=sharing",
     },
     {
       num: "02",
@@ -21,7 +21,7 @@ export function ArticleSection() {
       description: "Esclarecendo a Lei do Estágio",
        date: "",
       image: imgCard2,
-      link: "https://drive.google.com/file/d/1JPa4rP3r8VrCW0fGktWVhwpuT1MmUskI/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1hJqoBw--1dlYxmeUa4-IBMRParAbkhQC/view?usp=sharing",
     },
     {
       num: "03",
@@ -29,7 +29,7 @@ export function ArticleSection() {
       description: "O estágio visa ao aprendizado de competências próprias da atividade profissional…",
      date: "",
       image: imgCard3,
-      link: "https://drive.google.com/file/d/18AduD6DCocTHdtGK2Wj2kA2trWmp70uQ/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1zYwsh31MX3gQUnWXWGM6zOgQiGeguqT_/view?usp=sharing",
     },
     
   ]);
