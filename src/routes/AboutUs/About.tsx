@@ -150,7 +150,7 @@ export function About() {
       A <strong> DR.ESTÁGIO </strong> ajuda a sua empresa na redução de custos e ganho na produtividade com
       a qualidade no atendimento da sua unidade.
       Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender 
-      e executar diversas tarefas.Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os 
+      e executar diversas tarefas. <br /><br />Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os 
       benefícios que nosso programa de estágio tem a oferecer para aprimorar o quadro de colaboradores da sua 
       empresa.
             </p>
