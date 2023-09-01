@@ -49,7 +49,7 @@ export function Video () {
       
          <YoutubeEmbed
           videoId="zLmcyDmMKmo"
-          title="Aconhe Max"
+          title="AconcheMax"
           videoLink="https://youtu.be/zLmcyDmMKmo?si=HUWVZlYHokgkb2cA"
         />
          <YoutubeEmbed
