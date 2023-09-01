@@ -169,6 +169,8 @@ a.button {
 
 #home .text p {
   margin-bottom: 2rem;
+text-align: justify;
+
 }
 
 /* About */
@@ -216,6 +218,7 @@ a.button {
 
 #about .text p {
   margin-bottom: 2rem;
+
 }
 
 /* Services */
@@ -232,6 +235,9 @@ a.button {
   justify-content: center;
   align-items: center;
 }
+.subtitle {
+  text-align: justify;
+}
 
 /* Estilos para o conteúdo do card */
 .card {
@@ -240,12 +246,15 @@ a.button {
   padding: 20px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
-  text-align: center;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+.info-card-serv p{
+  text-align: justify!important
 }
 
 /* Estilos para as bolinhas (indicadores) do carrossel */

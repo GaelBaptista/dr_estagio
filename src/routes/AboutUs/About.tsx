@@ -74,6 +74,7 @@ export function About() {
    
   ];
 
+
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
@@ -88,7 +89,33 @@ export function About() {
   useEffect(() => {
     // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
     setTimeout(() => {
-      setAssert(100);
+      setAssert(60);
+    }, 500); // Ajuste o valor do atraso conforme necessário
+  }, [])
+  const [Reducao, setReducao] = useState(0);
+
+  useEffect(() => {
+    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    setTimeout(() => {
+      setReducao(55);
+    }, 500); // Ajuste o valor do atraso conforme necessário
+  }, [])
+
+  const [Produtividade, setProdutividade] = useState(0);
+
+  useEffect(() => {
+    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    setTimeout(() => {
+      setProdutividade(40);
+    }, 500); // Ajuste o valor do atraso conforme necessário
+  }, [])
+
+  const [Economia, setEconomia] = useState(0);
+
+  useEffect(() => {
+    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    setTimeout(() => {
+      setEconomia(65);
     }, 500); // Ajuste o valor do atraso conforme necessário
   }, [])
   
@@ -122,13 +149,16 @@ export function About() {
       qualificada para ocupar futuras vagas de colaborador CLT.
       A <strong> DR.ESTÁGIO </strong> ajuda a sua empresa na redução de custos e ganho na produtividade com
       a qualidade no atendimento da sua unidade.
-      Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender e executar diversas tarefas.
+      Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender 
+      e executar diversas tarefas.Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os 
+      benefícios que nosso programa de estágio tem a oferecer para aprimorar o quadro de colaboradores da sua 
+      empresa.
             </p>
             {/* <button>Fale Conosco</button> */}
           </div>
 
           {/* Barra de Progresso */}
-          <div className="assertiveness">
+          {/* <div className="assertiveness">
             <h2>Assertividade</h2>
             <div className="progressContainer">
               <div className="progressBar">
@@ -141,7 +171,7 @@ export function About() {
                 <span>{`${progress}%`}</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="image">
@@ -249,16 +279,16 @@ export function About() {
       <div className="containerAbout">
         <div className="infoImageContainer">
           <div className="infoAbout">
-            <h1>Acompanhamento de Estágio </h1>
-            <p>
+            <h1>Indicadores do Programa de Estágio </h1>
+            {/* <p>
            Temos equipes de suporte para a sua empresa e para seus estagiários 
-            </p>
+            </p> */}
             
           </div>
 
           {/* Barra de Progresso */}
           <div className="assertiveness">
-            <h5>Suporte a empresa pelos nosso canais de comunicações</h5>
+            <h5>Assertividade em efetivações</h5>
             <div className="progressContainer">
               <div className="progressBar">
                 <div
@@ -279,31 +309,31 @@ export function About() {
 
           <div className="assertiveness">
       
-          <h5>Suporte ao estagiário Online</h5>
+          <h5>Redução de Turnover</h5>
             <div className="progressContainer">
               <div className="progressBar">
                 <div
                   className="progressBarFill"
-                  style={{ width: `${Assert}%` }}
+                  style={{ width: `${Reducao}%` }}
                 />
               </div>
-              <div className="progressBox" style={{ left: `${Assert}%` }}>
-                <span>{`${Assert}%`}</span>
+              <div className="progressBox" style={{ left: `${Reducao}%` }}>
+                <span>{`${Reducao}%`}</span>
               </div>
             </div>
           </div>
 {/* ASSERT 3 */}
           <div className="assertiveness">
-          <h5>Envio de relatórios mensais de frequências dos estagiários</h5>
+          <h5>Aumento da Produtividade</h5>
             <div className="progressContainer">
               <div className="progressBar">
                 <div
                   className="progressBarFill"
-                  style={{ width: `${Assert}%` }}
+                  style={{ width: `${Produtividade}%` }}
                 />
               </div>
-              <div className="progressBox" style={{ left: `${Assert}%` }}>
-                <span>{`${Assert}%`}</span>
+              <div className="progressBox" style={{ left: `${Produtividade}%` }}>
+                <span>{`${Produtividade}%`}</span>
               </div>
             </div>
 
@@ -315,16 +345,16 @@ export function About() {
           {/* ASSERT 4*/}
           <div className="assertiveness">
           
-            <h5>Visitas presenciais na unidade</h5>
+            <h5>Economia</h5>
             <div className="progressContainer">
               <div className="progressBar">
                 <div
                   className="progressBarFill"
-                  style={{ width: `${Assert}%` }}
+                  style={{ width: `${Economia}%` }}
                 />
               </div>
-              <div className="progressBox" style={{ left: `${Assert}%` }}>
-                <span>{`${Assert}%`}</span>
+              <div className="progressBox" style={{ left: `${Economia}%` }}>
+                <span>{`${Economia}%`}</span>
               </div>
             </div>
 

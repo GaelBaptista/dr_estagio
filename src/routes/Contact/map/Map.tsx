@@ -28,8 +28,8 @@ export function Map () {
           <li>Capistrano</li>
           <li>Cascavel</li>
           <li>Caucaia</li>
-          <li>CRATEUS</li>
-          <li>EUSEBIO</li>
+          <li>Crateus</li>
+          <li>Eusébio</li>
           <li>Fortaleza</li>
           <li>Guaiúba</li>
           <li>Guaraciaba do Norte</li>
@@ -40,7 +40,6 @@ export function Map () {
           <li>Itarema</li>
           <li>Jaguaruana</li>
           <li>Limoeiro do Norte</li>
-          <li>Macau</li>
           <li>Maracanaú</li>
           <li>Maranguape</li>
           <li>Morada Nova</li>
@@ -53,7 +52,7 @@ export function Map () {
           <li>Pindoretama</li>
           <li>Quixadá</li>
           <li>Quixeramobim</li>
-          <li>QUIXERÉ</li>
+          <li>Quixeré</li>
           <li>Redenção</li>
           <li>Russas</li>
           <li>São Gonçalo do Amarante</li>
@@ -103,13 +102,7 @@ export function Map () {
           <h4><span>Nosso Alcance </span>Geográfico</h4>
           <p className='gestaodh'>
           Operante desde 2015 e com marca registrada no INPI, a Dr. Estágio estende sua atuação por todo o território nacional, atualmente 
-          prestando serviços nos estados do Ceará e Rio Grande do Norte. Como especialistas em programas de estágio voltados para o varejo, 
-          desempenhamos um papel fundamental no desenvolvimento de profissionais de destaque no setor supermercadista.
-
-Ao nos tornarmos parceiros de empresas conveniadas, proporcionamos a oportunidade de lapidar jovens talentos por meio do estágio, contribuindo 
-para a formação de futuros profissionais qualificados. Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os benefícios 
-que nosso programa de estágio tem a oferecer para aprimorar os quadros da sua empresa. Estamos empenhados em fortalecer sua equipe e impulsionar 
-o crescimento por meio de uma parceria que valoriza o desenvolvimento profissional e o sucesso mútuo.
+          prestando serviços nos estados do Ceará e Rio Grande do Norte. 
           </p>
         </div>
     <div className="map-container">

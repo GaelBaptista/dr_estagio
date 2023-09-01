@@ -37,25 +37,30 @@ export function Video () {
         <div className="container-video">
       <div className="video-container">
       <YoutubeEmbed
+          videoId="KrSUQ5qS_Qk"
+          title="Janaina Rodrigues"
+          videoLink="https://youtu.be/KrSUQ5qS_Qk?si=m0WUX4A7m2APanEt"
+        />
+      <YoutubeEmbed
           videoId="Qm3hpfwab2A"
           title="Supermercado Redenção"
-          videoLink="https://www.youtube.com/watch?v=Qm3hpfwab2A"
+          videoLink="https://youtu.be/Qm3hpfwab2A?si=DXh_zBPp2RerE-n_"
         />
       
          <YoutubeEmbed
           videoId="zLmcyDmMKmo"
           title="Aconhe Max"
-          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+          videoLink="https://youtu.be/zLmcyDmMKmo?si=HUWVZlYHokgkb2cA"
         />
          <YoutubeEmbed
           videoId="W7WYhvKXiUg"
           title="Queiroz Supermercado - RN"
-          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+          videoLink="https://youtu.be/W7WYhvKXiUg?si=Y0d3lrtLQ1Ye7E7M"
         />
           <YoutubeEmbed
           videoId="UfcOU-QJAT0"
           title="Anali "
-          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+          videoLink="https://youtu.be/UfcOU-QJAT0?si=NIPGx5LhiBwmB7GS"
         />
           
 

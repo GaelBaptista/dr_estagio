@@ -119,7 +119,7 @@ A Dr. Estágio pode ajudar sua empresa a reduzir custos e oferecer oportunidades
     <div className="links">
       <ul className="grid">
         <li><i className="icon-phone"><BsFillTelephoneFill/></i> 85 99247-7241</li>
-        <li><i className="icon-map-pin"><ImLocation2/></i> R. Amauri Souza, 346</li>
+        <li><i className="icon-map-pin"><ImLocation2/></i> Av chanceler edson queiroz, R. Rio Novo, 3405, Cascavel - CE</li>
         <li><i className="icon-mail"><MdEmail/></i>comercial@drestagio.com.br</li>
       </ul>
     </div>

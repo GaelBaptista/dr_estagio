@@ -122,7 +122,7 @@ export function Home () {
         <div className="quadrado">
             <Link to='/projects/contact'>
             <div className="icone"><MdPermContactCalendar/></div>
-            <div>Nossos <br/>Contatos</div>
+            <div>Nossos Contatos</div>
             </Link>
         </div>
         <div className="quadrado">
@@ -132,10 +132,10 @@ export function Home () {
             </Link>
         </div>
         <div className="quadrado">
-        <Link to='/projects/eventos'>
+        <Link to='/programa-estagio'>
 
             <div className="icone"><BsPersonBadgeFill/></div>
-            <div>Responsabilidade Social</div>
+            <div>Programa de Estágio</div>
             </Link>
 
         </div>

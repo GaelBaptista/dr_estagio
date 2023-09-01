@@ -32,22 +32,22 @@ const CarouselComponent = () => {
     {
       icon: <HiDocumentText />,
       title: 'Gestão de Contratos',
-      description: 'Cuidamos dos aspectos burocráticos da contratação de estagiários, incluindo Termos de Compromisso, Desligamento e Aditivos, com assinatura eletrônica para eficiência.',
+      description: 'Cuidamos de todos os aspectos burocráticos da contratação de estagiários, incluindo Termos de Compromisso, Desligamento e Aditivos, com assinatura eletrônica para eficiência.',
     },
     {
       icon: <BsFillHeartPulseFill />,
       title: 'Seguro de Vida',
-      description: 'O Seguro de Vida é obrigatório por lei no Estágio e com a Dr. Estágio seus estagiários estarão  protegidos e assegurados em caso de acidentes ocorridos no ambiente de trabalho.',
+      description: 'O Seguro de Vida é obrigatório por lei no Estágio e com a Dr. Estágio seus estagiários estarão  protegidos e assegurados.',
     },
     {
       icon: <BsBuildingFillGear />,
       title: 'Suporte a Empresa',
-      description: 'Nossa equipe de especialistas em RH, psicologia e consultoria administra-financeira está sempre à disposição para assistência abrangente em todas as áreas do programa de estágio.',
+      description: 'Contamos com uma equipe de analistas especializados para atender as demandas das empresas dando assitência em todas as áreas do programa de estágio.',
     },
     {
       icon: <BsPersonFillGear />,
       title: 'Suporte ao Estagiário',
-      description: 'Disponibilizamos um canal exclusivo no qual os seus estagiários têm a possibilidade de receber atendimento, esclarecer dúvidas e formalizar a assinatura dos termos de estágio.',
+      description: ' Os estagiários podem receber atendimento, esclarecer dúvidas e formalizar a assinatura dos termos de estágio por meio de um canal exclusivo.',
     },
   ];
 
@@ -80,13 +80,17 @@ const CarouselComponent = () => {
       <div className="container">
         <header>
           <h2 className="title">Nossos serviços incluem</h2>
-          <p className="subtitle">Operante desde 2015 e com marca registrada no INPI, a <strong>Dr. Estágio </strong> estende sua atuação por todo o território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.</p>
+          <p className="subtitle">A Dr.Estágio é um facilitador na contratação de estagiários realizando todo o processo burocrático, desde a divulgação das vagas, emissão dos termos, seguro de vida, suporte e acompanhamento. Auxiliamos sua equipe de RH em todo processo, garantindo assim mais produtividade e gestão de tempo.</p>
         </header>
+        <div className='info-card-serv'>
+          
         <Slider {...slickSettings}>
           {cardData.map((card, index) => (
             <Card key={index} {...card} />
           ))}
         </Slider>
+        
+        </div>
       </div>
     </section>
   );

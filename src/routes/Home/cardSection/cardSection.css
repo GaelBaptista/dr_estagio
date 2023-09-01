@@ -5,7 +5,7 @@ ul {
     list-style: none;
 }
 .cardHome{
-  margin-top: 10rem; margin-bottom: 10rem;
+  margin-top: 5rem; margin-bottom: 5rem;
 }
 
 
@@ -36,6 +36,7 @@ color: inherit;
 }
 .section-head {
 margin-bottom: 60px;
+text-align: justify;
 
 
 }
@@ -79,7 +80,9 @@ text-align:center;
 color:#818181;
 font-size:16px;
 line-height:28px;
-text-align:center;  
+
+text-align: justify;
+
 }
 
 .extra-text {

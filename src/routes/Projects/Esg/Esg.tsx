@@ -443,19 +443,19 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
             <section className="contact section container" id="contact">
                 <div className="contact__container grid">
                     <div className="contact__content">
-                        <h2 className="section__title-center">Contacte-nos <br/> agora</h2>
+                        <h2 className="section__title-center">Fale conosco <br/> agora mesmo.</h2>
                         <p className="contact__description">Dr.Estágio Formando Talentos Sustentáveis: Estágio e ESG, uma parceria promissora 
                         para um futuro responsável e inovador</p>
                     </div>
 
                     <ul className="contact__content grid">
-                        <li className="contact__address">Telephone: <br/> <span className="contact__information">(85) 99247-7241</span></li>
+                        <li className="contact__address">Telefone: <br/> <span className="contact__information">(85) 99247-7241</span></li>
                         <li className="contact__address">Email:<br/>   <span className="contact__information">comercial@drestagio.com.br</span></li>
-                        <li className="contact__address">Location:<br/>  <span className="contact__information">Pacajus- Ceará</span></li>
+                        <li className="contact__address">Localização:<br/>  <span className="contact__information">Cascavel - CE</span></li>
                     </ul>
 
                     <div className="contact__content">
-                        <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}} className="buttonESG">Contacte-nos</a>
+                        <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}} className="buttonESG">Fale conosco</a>
                     </div>
                 </div>
             </section>

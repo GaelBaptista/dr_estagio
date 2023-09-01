@@ -9,8 +9,10 @@ export function CardSection () {
       <div className="rowCard">
         <div className="section-head ">
           <h4><span>Programa de </span> Estágio</h4>
-          <p>O estágio é um ato educativo, onde serão ofertados aos candidatos oportunidades para estagiar nas empresas 
-            e colocar em prática os conhecimentos teóricos adquiridos no decorrer do curso a qual estuda.  </p>
+          <p>
+A Dr. Estágio simplifica o processo de contratação de estagiários, permitindo que sua equipe de 
+DHO possam focar em outras atividades estratégicas dentro da organização e asseguramos todas as exigências 
+da Lei 11.788/2008.  </p>
         </div>
         <div className='cardrow'>
 

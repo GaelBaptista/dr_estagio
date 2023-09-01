@@ -37,7 +37,7 @@ export function Navbar() {
                   <AiFillFacebook style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
                 {/* Resto dos ícones de redes sociais */}
-                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/company/drestagio/" target="_blank" rel="noopener noreferrer">
                   <AiFillLinkedin style={{ color: '#ff7417'}} className="social-icon " />
                 </a>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
