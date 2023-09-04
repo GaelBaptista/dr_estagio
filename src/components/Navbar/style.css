@@ -239,7 +239,7 @@ nav ul li a.activated {
   }
 
   .nav-links:hover {
-    color: #ff7417;
+    color: #fff;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }

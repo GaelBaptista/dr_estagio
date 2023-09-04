@@ -211,8 +211,13 @@ border-radius: 5px;
   .section-map--info-item-img {
     width: 36px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
     height: 36px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
-   
-   
+  }
+  .section-map--info {
+  
+    box-shadow: none;
+  
+  border-radius: none;
+    
   }
   
     .section-map--area {
@@ -240,6 +245,7 @@ border-radius: 5px;
  
  
 }
+
 
   .section-map--area {
     background-color: #ff7417;

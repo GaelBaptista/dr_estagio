@@ -100,23 +100,23 @@ export function Navbar() {
 
               <li className="nav-item">
           <div className="nav-dropdown">
-            <div className="nav-links subDrop-link  " onClick={toggleSubmenu}>
+            <div className="nav-links subDrop-link  "  onClick={toggleSubmenu}>
               Sobre Estágio <IoIosArrowDown className="aroow-drop" />
             </div>
             {submenuOpen && (
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink to="/programa-estagio" className="nav-links">
+                  <NavLink to="/programa-estagio" className="nav-links"  onClick={closeMobileMenu} >
                    Programa de Estágio
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/varejo" className="nav-links">
+                  <NavLink to="/varejo" className="nav-links"  onClick={closeMobileMenu}>
                   Estágio para Varejo
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/farmacia" className="nav-links ">
+                  <NavLink to="/farmacia" className="nav-links "  onClick={closeMobileMenu}>
                     Estágio para Farmácia
                   </NavLink>
                 </li>
