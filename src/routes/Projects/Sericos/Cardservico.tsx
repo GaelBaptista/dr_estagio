@@ -80,7 +80,7 @@ const CarouselComponent = () => {
       <div className="container">
         <header>
           <h2 className="title">Nossos serviços incluem</h2>
-          <p className="subtitle">A Dr.Estágio é um facilitador na contratação de estagiários realizando todo o processo burocrático, desde a divulgação das vagas, emissão dos termos, seguro de vida, suporte e acompanhamento. Auxiliamos sua equipe de RH em todo processo, garantindo assim mais produtividade e gestão de tempo.</p>
+          <p className="subtitle">A <strong>Dr.Estágio</strong> é um facilitador na contratação de estagiários realizando todo o processo burocrático, desde a divulgação das vagas, emissão dos termos, seguro de vida, suporte e acompanhamento. Auxiliamos sua equipe de RH em todo processo, garantindo assim mais produtividade e gestão de tempo.</p>
         </header>
         <div className='info-card-serv'>
           

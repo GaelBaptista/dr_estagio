@@ -10,7 +10,7 @@ export function CardSection () {
         <div className="section-head ">
           <h4><span>Programa de </span> Estágio</h4>
           <p>
-A Dr. Estágio simplifica o processo de contratação de estagiários, permitindo que sua equipe de 
+A <strong>Dr.Estágio</strong> simplifica o processo de contratação de estagiários, permitindo que sua equipe de 
 DHO possam focar em outras atividades estratégicas dentro da organização e asseguramos todas as exigências 
 da Lei 11.788/2008.  </p>
         </div>

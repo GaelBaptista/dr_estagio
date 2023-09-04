@@ -255,7 +255,10 @@
   .prEst p{
     width: 90%;
   }
- 
+  .faq-faq div {
+    margin:8px
+  }
+
   
 }
 
@@ -266,8 +269,5 @@
   .prEst p{
     width: 90%;
   }
-  .faq-faq div {
-    margin:8px
-  }
-
+  
 }

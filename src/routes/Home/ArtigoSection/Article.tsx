@@ -29,7 +29,7 @@ export function ArticleSection() {
       description: "O estágio visa ao aprendizado de competências próprias da atividade profissional…",
      date: "",
       image: imgCard3,
-      link: "https://drive.google.com/file/d/1zYwsh31MX3gQUnWXWGM6zOgQiGeguqT_/view?usp=sharing",
+      link: "https://drive.google.com/file/d/176xvHWerdsA2GiqvWuBV-JUXFbbXSuZv/view?usp=sharing",
     },
     
   ]);

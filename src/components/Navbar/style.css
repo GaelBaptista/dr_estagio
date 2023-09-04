@@ -313,6 +313,16 @@ nav ul li a.activated {
   .social-icons {
     display: none; /* Esconde os ícones de redes sociais na responsividade */
   }
+  nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    transition: width 0.2s;
+  }
 }
 
 

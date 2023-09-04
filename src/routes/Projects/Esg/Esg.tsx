@@ -444,7 +444,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                 <div className="contact__container grid">
                     <div className="contact__content">
                         <h2 className="section__title-center">Fale conosco <br/> agora mesmo.</h2>
-                        <p className="contact__description">Dr.Estágio Formando Talentos Sustentáveis: Estágio e ESG, uma parceria promissora 
+                        <p className="contact__description"><strong>Dr.Estágio</strong> Formando Talentos Sustentáveis: Estágio e ESG, uma parceria promissora 
                         para um futuro responsável e inovador</p>
                     </div>
 

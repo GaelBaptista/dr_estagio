@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   gap: 100px 50px; 
-  padding: 100px 50px;
+  padding: 80px 50px;
 }
 
 .containerContact .cardCont {
@@ -154,8 +154,6 @@ border-radius:5px;
 
   background-size: cover;
   background-position: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
   text-align: center; /* Para centralizar o conteúdo */
 }
 
@@ -164,18 +162,21 @@ border-radius:5px;
   max-width: 1140px;
   margin: 0 auto;
   height: 50vh;
-  border-radius: 50%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .section-map--info {
-  width: 70%;
+  width: 90%;
   padding: 30px;
   background-color: var(--laranja);
   color: #ffffff;
-  border-radius: 15px;
+  box-shadow: 0 0 5em -1em black;
+
+border-radius: 5px;
+  
 }
 
 .section-map--info h2 {
@@ -199,7 +200,6 @@ border-radius:5px;
   justify-content: center;
   align-items: center;
   padding: 5px;
- 
   border-radius: 50%; /* Transformando em um círculo */
   margin-right: 15px;
 }
@@ -207,12 +207,21 @@ border-radius:5px;
 /* Media queries para ajustar o layout em diferentes tamanhos de tela */
 /* Media queries para ajustar o layout em dispositivos móveis */
 @media (max-width: 768px) {
-  .section-map--area {
-    height: 80vh;
+  
+  .section-map--info-item-img {
+    width: 36px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
+    height: 36px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
+   
+   
   }
+  
+    .section-map--area {
+      background-color: #ff7417;
+    }
+   
 
   .section-map--info {
-    width: 90%;
+    width: 100%;
     padding: 20px;
     font-size: 16px;
   }
@@ -224,17 +233,20 @@ border-radius:5px;
 
 /* Telas pequenas (até 576px) */
 @media (max-width: 320px) {
-  .section-map--area {
-    height: 60vh;
-  }
+ 
 .section-map--info-item-img {
-  width: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
-  height: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
+  width: 30px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
+  height: 30px; /* Reduzir o tamanho do ícone para melhorar a adaptação */
  
  
 }
 
-  .section-map--info {
-    font-size: 14px;
+  .section-map--area {
+    background-color: #ff7417;
   }
+  .section-map--info{
+    font-size: 12px;
+   
+  }
+  
 }

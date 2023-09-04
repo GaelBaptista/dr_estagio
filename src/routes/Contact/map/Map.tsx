@@ -75,6 +75,7 @@ export function Map () {
           <li>Currais Novos</li>
           <li>João Câmara</li>
           <li>Jucurutu</li>
+          <li>Macau</li>
           <li>Mossoró</li>
           <li>Natal</li>
           <li>Nova Cruz</li>
@@ -101,7 +102,7 @@ export function Map () {
       <div className="section-head ">
           <h4><span>Nosso Alcance </span>Geográfico</h4>
           <p className='gestaodh'>
-          Operante desde 2015 e com marca registrada no INPI, a Dr. Estágio estende sua atuação por todo o território nacional, atualmente 
+          Operante desde 2015 e com marca registrada no INPI, a <strong>Dr.Estágio</strong> estende sua atuação por todo o território nacional, atualmente 
           prestando serviços nos estados do Ceará e Rio Grande do Norte. 
           </p>
         </div>

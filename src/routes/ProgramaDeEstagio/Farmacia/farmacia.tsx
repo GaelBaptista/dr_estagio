@@ -27,7 +27,7 @@ export function Farmacia () {
   </section>
   
   <section>
-    <div className="parallax-two-far">
+    <div rel="preload" className="parallax-two-far">
       <h2>Fortalecendo a Equipe Farmacêutica  </h2>
     </div>
   </section>

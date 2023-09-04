@@ -148,13 +148,12 @@ export function Home () {
         </div> */}
     </div>
     </section>
-  
+  {/* COMPONENTES */}
   <CardSection/>
-   
-    <ContactHome/>
-    <ArticleSection/>
-
-    <Video/>
+  <ContactHome/>
+  <Video/>
+  <ArticleSection/>
+  
 
     </>
   );
