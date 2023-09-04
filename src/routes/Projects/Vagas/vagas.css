@@ -69,23 +69,25 @@
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #717171;
+  color: #ffff;
   font-weight: 500;
-  background: #fff;
+  background: #FF6609;
   border-radius: 3.125rem;
   transition: 0.3s ease-in-out;
 }
 
 .sectionVaga > div > a {
-  border: 2px solid #c2c2c2;
+
   margin-top: 2.188rem;
   padding: 0.625rem 1.875rem;
 }
 
 .sectionVaga > div > a:hover {
-  border: 0.125rem solid #FF6609;
-  color: #FF6609;
+background-color: #c2410a;
+  color: #fff;
 }
+
+
 
 .sectionVaga .slider-container {
   width: 100%;
