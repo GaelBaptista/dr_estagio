@@ -128,7 +128,7 @@ export function About() {
   {/* quem somos */}
   <div className="section-head about-TITLE ">
           <h4>Quem  <strong>Somos</strong></h4>
-          <p>Atuando no mercado desde 2015 e com marca registrada no INPI, a <strong> Dr. Estágio </strong> estende sua atuação por todo o
+          <p>Atuando no mercado desde 2015 e com marca registrada no INPI, a <strong> Dr.Estágio </strong> estende sua atuação por todo o
              território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.
              Como especialistas em programas de estágio voltados para o varejo, desempenhamos um papel fundamental no 
              desenvolvimento de profissionais de destaque no setor supermercadista. Ao nos tornarmos parceiros de 

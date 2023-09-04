@@ -143,6 +143,7 @@ img {
 /*=============== HOME ===============*/
 .home__container {
   row-gap: 3rem;
+  padding: 20px;
 }
 
 .home__title {
@@ -153,6 +154,7 @@ img {
 
 .home__description {
   margin-bottom: var(--mb-2);
+  
 }
 
 /*=============== BUTTONS ===============*/
@@ -340,6 +342,10 @@ img {
   }
   .app__buttons {
     grid-template-columns: max-content;
+  }
+  .home__container {
+   
+    padding: 20px;
   }
 }
 

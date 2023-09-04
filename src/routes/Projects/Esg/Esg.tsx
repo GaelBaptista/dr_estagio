@@ -76,7 +76,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                 <h2 className="section__title">Os Benefícios do Estágio  <br/> na Abordagem ESG</h2>
                 <div className="services__container grid">
                     <div className="services__data">
-                        <h3 className="services__subtitle">Flexibilidade para se adaptar</h3>
+                        <h3 className="services__subtitle">Começo Profissional</h3>
                         {/* svg img  */}
                         <svg className="svg__color services__img" viewBox="0 0 135 94" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0)">
@@ -389,7 +389,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                             </clipPath>
                             </defs>
                         </svg>
-                        <p className="services__description">Primeira experiência remunerada para estudantes, 
+                        <p className="services__description">Primeira experiência remunerada para jovens, 
                         proporcionando inserção na vida adulta pelo trabalho.</p>
                         <div>
                            

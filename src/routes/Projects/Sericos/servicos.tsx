@@ -54,7 +54,7 @@ export function Servicos () {
           </div>
           <div className="text">
             <h2 className="title">Nossos Serviços</h2>
-            <p>A <strong> Dr. Estágio </strong>simplifica o processo de contratação de estagiários, permitindo que sua equipe de RH possa focar em outras atividades estratégicas dentro da organização. Nosso programa de estágio visa primordialmente proporcionar aprendizado, assegurando que nossos estagiários alcancem um desempenho profissional notável
+            <p>A <strong> Dr.Estágio </strong>simplifica o processo de contratação de estagiários, permitindo que sua equipe de RH possa focar em outras atividades estratégicas dentro da organização. Nosso programa de estágio visa primordialmente proporcionar aprendizado, assegurando que nossos estagiários alcancem um desempenho profissional notável
                enquanto a empresa contratante colhe os benefícios da legislação de incentivo ao estágio sem lidar com complicações burocráticas.</p>
             <a className="button" target="_blank" href="https://wa.me/message/SUGMGVU6UMJOD1">Fale Conosco</a>
           </div>
@@ -113,7 +113,7 @@ export function Servicos () {
     <div className="text">
       <h2 className="title">Entre em contato com a gente!</h2>
       <p>
-A <strong>Dr. Estágio</strong> pode ajudar sua empresa a reduzir custos e oferecer oportunidades de carreira para os talentos em ascensão.</p>
+A <strong>Dr.Estágio</strong> pode ajudar sua empresa a reduzir custos e oferecer oportunidades de carreira para os talentos em ascensão.</p>
       <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" className="button"><i className="icon-whatsapp"></i> Entrar em contato</a>
     </div>
     <div className="links">
