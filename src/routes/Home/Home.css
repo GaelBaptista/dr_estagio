@@ -276,9 +276,10 @@ background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, 
 .icone {
   font-size: 40px;
   margin-bottom: 10px;
+  color: #e97305;
 }
 
-.quadrado-quinto {
+/* .quadrado-quinto {
   width: 58%;
   background-color: #e97305;
   color: #fff;
@@ -291,7 +292,7 @@ background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, 
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .icone-quinto {
   font-size: 60px;

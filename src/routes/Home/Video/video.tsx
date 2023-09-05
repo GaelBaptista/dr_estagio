@@ -36,12 +36,18 @@ export function Video () {
 
         <div className="container-video">
       <div className="video-container">
+
       <YoutubeEmbed
           videoId="KrSUQ5qS_Qk"
           title="Janaina Rodrigues"
           videoLink="https://youtu.be/KrSUQ5qS_Qk?si=m0WUX4A7m2APanEt"
         />
       <YoutubeEmbed
+          videoId="3ReKefEAqwg"
+          title="LM Consultoria"
+          videoLink="https://youtu.be/3ReKefEAqwg"
+        />
+        <YoutubeEmbed
           videoId="Qm3hpfwab2A"
           title="Supermercado Redenção"
           videoLink="https://youtu.be/Qm3hpfwab2A?si=DXh_zBPp2RerE-n_"
