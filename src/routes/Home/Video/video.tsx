@@ -40,9 +40,9 @@ export function Video () {
       
 
       <YoutubeEmbed
-          videoId="KrSUQ5qS_Qk"
+          videoId="Xxg5EZKT-gY?si=Fr0LwSuFoGXnPEG"
           title="Diretor - Moranguinho Supermercado"
-          videoLink="https://youtu.be/Xxg5EZKT-gY?si=DSKpQTp4BHXQEV9o"
+          videoLink="https://youtu.be/Xxg5EZKT-gY?si=HMrrO7_uK3n1pxFI"
         />
 
       <YoutubeEmbed
