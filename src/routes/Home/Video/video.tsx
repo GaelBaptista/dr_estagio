@@ -37,6 +37,14 @@ export function Video () {
         <div className="container-video">
       <div className="video-container">
 
+      
+
+      <YoutubeEmbed
+          videoId="KrSUQ5qS_Qk"
+          title="Diretor - Moranguinho Supermercado"
+          videoLink="https://youtu.be/Xxg5EZKT-gY?si=DSKpQTp4BHXQEV9o"
+        />
+
       <YoutubeEmbed
           videoId="KrSUQ5qS_Qk"
           title="Janaina Rodrigues"
