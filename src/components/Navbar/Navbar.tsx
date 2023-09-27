@@ -19,8 +19,11 @@ export function Navbar() {
 
 
   const toggleMenu = () => {
-    console.log('toggleMenu is called');
+   
     setShowMenu(!showMenu);
+  };
+  const closeMenu = () => {
+    setShowMenu(false);
   };
   const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
 
@@ -70,19 +73,19 @@ export function Navbar() {
       <div className={navMenuClass} id="nav-menu">
         <ul className="nav__list">
           <li>
-            <Link to="/" className="nav__link" >
+            <Link to="/" className="nav__link"  onClick={closeMenu} >
              Início
             </Link>
           </li>
 
           <li>
-            <Link to="/about" className="nav__link" >
+            <Link to="/about" className="nav__link"  onClick={closeMenu}>
               Sobre nós
             </Link>
           </li>
          
           <li>
-            <Link to="/mais" className="nav__link" >
+            <Link to="/mais" className="nav__link" onClick={closeMenu} >
               Empresas Conveniadas
             </Link>
           </li>
@@ -94,20 +97,20 @@ export function Navbar() {
 
             <ul className="dropdown__menu">
               <li>
-                <Link to="/programa-estagio" className="dropdown__link">
+                <Link to="/programa-estagio" className="dropdown__link" onClick={closeMenu}>
                   <FaUser style={{ fontSize: '25px' }} /> Programa de estágio
                 </Link>
               </li>
               
 
               <li>
-                <Link to="/varejo" className="dropdown__link">
+                <Link to="/varejo" className="dropdown__link" onClick={closeMenu}>
                   <BsFillCartFill style={{ fontSize: '30px' }} /> Estágio para varejo
                 </Link>
               </li>
               
               <li>
-                <Link to="/farmacia" className="dropdown__link">
+                <Link to="/farmacia" className="dropdown__link" onClick={closeMenu}>
                   <MdHealthAndSafety style={{ fontSize: '32px' }} /> Estágio para Farmácia
                 </Link>
               </li>
@@ -149,24 +152,24 @@ export function Navbar() {
 
             <ul className="dropdown__menu">
               <li>
-                <Link to="/projects/contact" className="dropdown__link">
+                <Link to="/projects/contact" className="dropdown__link" onClick={closeMenu}>
                   <BiSolidContact style={{ fontSize: '25px' }} /> Contatos
                 </Link>
               </li>
 
               <li>
-                <Link to="/projects/vagas" className="dropdown__link">
+                <Link to="/projects/vagas" className="dropdown__link" onClick={closeMenu}>
                   <RiMegaphoneFill style={{ fontSize: '30px' }} /> Vagas de  Estágio
                 </Link>
               </li>
 
               <li>
-                <Link to="/projects/servicos" className="dropdown__link">
+                <Link to="/projects/servicos" className="dropdown__link" onClick={closeMenu}>
                   <MdOutlineMiscellaneousServices style={{ fontSize: '30px' }} /> Nossos Serviços
                 </Link>
               </li>
               <li>
-                <Link to="/projects/esg" className="dropdown__link">
+                <Link to="/projects/esg" className="dropdown__link" onClick={closeMenu}>
                   <MdRecycling style={{ fontSize: '30px' }} /> ESG no Estágio
                 </Link>
               </li>
@@ -175,7 +178,7 @@ export function Navbar() {
 
 
           <li>
-            <Link to="/about" className="nav__link" >
+            <Link to="/about" className="nav__link"  onClick={closeMenu}>
             Blog
             </Link>
           </li>
