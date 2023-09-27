@@ -71,11 +71,7 @@ export function Video () {
           title="Queiroz Supermercado - RN"
           videoLink="https://youtu.be/W7WYhvKXiUg?si=Y0d3lrtLQ1Ye7E7M"
         />
-          <YoutubeEmbed
-          videoId="UfcOU-QJAT0"
-          title="Anali "
-          videoLink="https://youtu.be/UfcOU-QJAT0?si=NIPGx5LhiBwmB7GS"
-        />
+        
           
 
           
