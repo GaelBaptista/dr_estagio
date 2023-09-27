@@ -4,7 +4,7 @@ import { Link,   } from "react-router-dom";
 import { IconContext } from "react-icons/lib";
 import {AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiOutlineClose} from "react-icons/ai"
 import { RiMenuLine,  RiArrowDownSLine, RiWhatsappFill, RiMegaphoneFill } from "react-icons/ri";
-import { FaArrowUp,  FaMoneyBillWave, FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+import {  FaUser } from "react-icons/fa";
 import {BiSolidContact } from "react-icons/bi"
 
 import "./style.css";
