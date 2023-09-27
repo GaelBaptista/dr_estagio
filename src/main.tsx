@@ -24,6 +24,7 @@ import { NossoMapa } from "./routes/Localizacao/NossoMapa";
 import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
 import { Servicos } from "./routes/Projects/Sericos/servicos";
+import { Blog } from "./routes/Blog/blogprops";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
           },
          
         ],
+      },
+      {
+        path: "blog",
+        element: <Blog/>,
       },
     ],
   },

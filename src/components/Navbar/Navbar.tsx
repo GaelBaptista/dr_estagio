@@ -178,7 +178,7 @@ export function Navbar() {
 
 
           <li>
-            <Link to="/about" className="nav__link"  onClick={closeMenu}>
+            <Link to="/blog" className="nav__link"  onClick={closeMenu}>
             Blog
             </Link>
           </li>
