@@ -1,33 +1,42 @@
+
 import  { useState } from "react";
-import {  NavLink } from "react-router-dom";
-import "./style.css";
-import {  FaBars, FaTimes } from "react-icons/fa";
-import { IoIosArrowDown } from "react-icons/io";
+import { Link,   } from "react-router-dom";
 import { IconContext } from "react-icons/lib";
-import { AiFillFacebook, AiFillLinkedin, AiFillInstagram,AiFillYoutube } from 'react-icons/ai';
-import {RiWhatsappFill} from 'react-icons/ri'
+import {AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiOutlineClose} from "react-icons/ai"
+import { RiMenuLine,  RiArrowDownSLine, RiWhatsappFill, RiMegaphoneFill } from "react-icons/ri";
+import { FaArrowUp,  FaMoneyBillWave, FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+import {BiSolidContact } from "react-icons/bi"
+
+import "./style.css";
+import { BsFillCartFill } from "react-icons/bs";
+import { MdHealthAndSafety, MdOutlineMiscellaneousServices, MdRecycling } from "react-icons/md";
+
 
 export function Navbar() {
-  const [click, setClick] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-  const toggleDropdown = () => setShowDropdown(!showDropdown);
 
-  const [submenuOpen, setSubmenuOpen] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
-  const toggleSubmenu = () => {
-    setSubmenuOpen(!submenuOpen);
+
+  const toggleMenu = () => {
+    console.log('toggleMenu is called');
+    setShowMenu(!showMenu);
   };
+  const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
 
   return (
-    <>
+ 
       <IconContext.Provider value={{ color: "#fff" }}>
-        <nav className="navbar">
-          <div className="navbar-container containerNav">
-            {/* icones menu */}
-            <div  className="navbar-logo" onClick={closeMobileMenu}>
+   <header className="header__nav">
+    <div className="container__nav">
+
+  
+    <nav className={`nav ${showMenu ? "show-menu" : ""}`}>
+      <div className="nav__data">
+        {/* <Link to="/" className="nav__logo">
+          <i className="ri-planet-line"></i> Company
+        </Link> */}
+        <div  className="navbar-logo">
               {/* Quadrado branco */}
               <div className="logo-square"></div>
               <div className="logo-text">Dr.Estágio</div>
@@ -53,132 +62,129 @@ export function Navbar() {
               </div>
             </div>
 
+        <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
+          {showMenu ? <AiOutlineClose className="nav__close" /> : <RiMenuLine className="nav__burger" />}
+        </div>
+      </div>
 
+      <div className={navMenuClass} id="nav-menu">
+        <ul className="nav__list">
+          <li>
+            <Link to="/" className="nav__link" >
+             Início
+            </Link>
+          </li>
 
-            {/* menu */}
-            <div className="menu-icon" onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+          <li>
+            <Link to="/about" className="nav__link" >
+              Sobre nós
+            </Link>
+          </li>
+         
+          <li>
+            <Link to="/mais" className="nav__link" >
+              Empresas Conveniadas
+            </Link>
+          </li>
+         
+          <li className="dropdown__item">
+            <div className="nav__link">
+             Sobre Estágio <RiArrowDownSLine className="dropdown__arrow" />
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Início
-                </NavLink>
-              </li>
-               <li className="nav-item">
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Sobre Nós
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  
-                  to="/mais"
 
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Empresas Conveniadas
-                </NavLink>
+            <ul className="dropdown__menu">
+              <li>
+                <Link to="/programa-estagio" className="dropdown__link">
+                  <FaUser style={{ fontSize: '25px' }} /> Programa de estágio
+                </Link>
+              </li>
+              
+
+              <li>
+                <Link to="/varejo" className="dropdown__link">
+                  <BsFillCartFill style={{ fontSize: '30px' }} /> Estágio para varejo
+                </Link>
+              </li>
+              
+              <li>
+                <Link to="/farmacia" className="dropdown__link">
+                  <MdHealthAndSafety style={{ fontSize: '32px' }} /> Estágio para Farmácia
+                </Link>
               </li>
 
-
-
-              <li className="nav-item">
-          <div className="nav-dropdown">
-            <div className="nav-links subDrop-link  "  onClick={toggleSubmenu}>
-              Sobre Estágio <IoIosArrowDown className="aroow-drop" />
-            </div>
-            {submenuOpen && (
-              <ul className="dropdown-menu">
-                <li>
-                  <NavLink to="/programa-estagio" className="nav-links"  onClick={closeMobileMenu} >
-                   Programa de Estágio
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/varejo" className="nav-links"  onClick={closeMobileMenu}>
-                  Estágio para Varejo
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/farmacia" className="nav-links "  onClick={closeMobileMenu}>
-                    Estágio para Farmácia
-                  </NavLink>
-                </li>
-              </ul>
-            )}
-          </div>
-        </li>
-             
-             
-              <li className="nav-item">
-                <div className="nav-links subDrop-link" onClick={toggleDropdown}>
-                  Mais <IoIosArrowDown />
+              {/* <li className="dropdown__subitem">
+                <div className="dropdown__link">
+                  <FaMoneyBillWave /> Reports <i className="ri-add-line dropdown__add"></i>
                 </div>
-                {showDropdown && (
-                  <ul className={click ? "dropdown-menu active" : "dropdown-menu"}>
-                    <li>
-                      <NavLink
-                        to="/projects/contact"
 
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                      >
-                       Contatos
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/projects/vagas"
+                <ul className="dropdown__submenu">
+                  <li>
+                    <Link to="/analytics/reports/documents" className="dropdown__sublink">
+                      <FaMoneyBillWave /> Documents
+                    </Link>
+                  </li>
 
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                      >
-                     Vagas Estágio
-                      </NavLink>
-                    </li>
-                  
-                    <li>
-                      <NavLink
-                        to="/projects/servicos"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                      >
-                      Nossos Serviços
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/projects/eventos"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                      >
-                        ESG no Estágio
-                      </NavLink>
-                    </li>
-                    
-                  </ul>
-                )}
+                  <li>
+                    <Link to="/analytics/reports/payments" className="dropdown__sublink">
+                      <FaMoneyBillWave /> Payments
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/analytics/reports/refunds" className="dropdown__sublink">
+                      <FaMoneyBillWave /> Refunds
+                    </Link>
+                  </li>
+                </ul>
+              </li> */}
+            </ul>
+          </li>
+
+          
+
+          <li className="dropdown__item">
+            <div className="nav__link">
+              Mais <RiArrowDownSLine  className="dropdown__arrow" />
+            </div>
+
+            <ul className="dropdown__menu">
+              <li>
+                <Link to="/projects/contact" className="dropdown__link">
+                  <BiSolidContact style={{ fontSize: '25px' }} /> Contatos
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/projects/vagas" className="dropdown__link">
+                  <RiMegaphoneFill style={{ fontSize: '30px' }} /> Vagas de  Estágio
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/projects/servicos" className="dropdown__link">
+                  <MdOutlineMiscellaneousServices style={{ fontSize: '30px' }} /> Nossos Serviços
+                </Link>
+              </li>
+              <li>
+                <Link to="/projects/esg" className="dropdown__link">
+                  <MdRecycling style={{ fontSize: '30px' }} /> ESG no Estágio
+                </Link>
               </li>
             </ul>
-          </div>
-        </nav>
-      </IconContext.Provider>
-    </>
+          </li>
+
+
+          <li>
+            <Link to="/about" className="nav__link" >
+            Blog
+            </Link>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+    </div>
+    </header>
+ </IconContext.Provider>
   );
 }

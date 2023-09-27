@@ -45,21 +45,13 @@ export function Video () {
           videoLink="https://youtu.be/Xxg5EZKT-gY?si=HMrrO7_uK3n1pxFI"
         />
 
-      <YoutubeEmbed
-          videoId="KrSUQ5qS_Qk"
-          title="Janaina Rodrigues"
-          videoLink="https://youtu.be/KrSUQ5qS_Qk?si=m0WUX4A7m2APanEt"
-        />
-      <YoutubeEmbed
-          videoId="3ReKefEAqwg"
-          title="LM Consultoria"
-          videoLink="https://youtu.be/3ReKefEAqwg"
-        />
         <YoutubeEmbed
           videoId="Qm3hpfwab2A"
-          title="Supermercado Redenção"
+          title="Diretora - Supermercado Redenção"
           videoLink="https://youtu.be/Qm3hpfwab2A?si=DXh_zBPp2RerE-n_"
         />
+    
+      
       
          <YoutubeEmbed
           videoId="zLmcyDmMKmo"
@@ -74,6 +66,16 @@ export function Video () {
         
           
 
+        <YoutubeEmbed
+          videoId="KrSUQ5qS_Qk"
+          title="Janaina Rodrigues"
+          videoLink="https://youtu.be/KrSUQ5qS_Qk?si=m0WUX4A7m2APanEt"
+        />
+      <YoutubeEmbed
+          videoId="3ReKefEAqwg"
+          title="LM Consultoria"
+          videoLink="https://youtu.be/3ReKefEAqwg"
+        />
           
        
        

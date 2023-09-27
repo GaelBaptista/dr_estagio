@@ -395,16 +395,16 @@ img {
   .section {
     padding: 6rem 0 2rem;
   }
-  .nav {
+  /* .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
   .nav__list {
     flex-direction: row;
     column-gap: 2.5rem;
-  }
-  .nav__toggle {
+  } */
+  /* .nav__toggle {
     display: none;
-  }
+  } */
   .change-theme {
     position: initial;
   }

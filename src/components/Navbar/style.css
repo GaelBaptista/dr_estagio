@@ -1,51 +1,82 @@
 :root {
-  --laranja: #ff7417;
+  --header-height: 3.5rem;
 
+  /* Colors */
+  --black-color: #ff7417;
+  --black-color-light: #F4913C;
+  --black-color-lighten: hsl(220, 20%, 18%);
+  --white-color: #fff;
+  --body-color: hsl(220, 100%, 97%);
+
+  /* Font and typography */
+  --body-font: "Montserrat", sans-serif;
+  --normal-font-size: .938rem;
+
+  /* Font weight */
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  /* z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
 
+/* Responsive typography */
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+/* Base */
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-.navbar {
-  background: var(--laranja);
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+ 
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+ul {
+  list-style: none;
 }
 
-.containerNav {
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
+a {
+  text-decoration: none;
+}
+
+/* Reusable CSS Classes */
+.container__nav {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
 }
 
-
-
+/* Header */
+.header__nav {
+position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  background-color: var(--black-color);
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  z-index: var(--z-fixed);
+}
 
 .social-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 20px; /*  espaçamento entre os ícones e o texto */
-  height: 80px;
+ 
   font-size: 2.3rem;
 }
 
@@ -79,232 +110,175 @@
   margin-right: 0.5rem;
 }
 
-.nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  text-align: center;
-  justify-content: flex-end;
 
+/* Nav */
+.nav {
+  height: var(--header-height);
 }
 
-.nav-item {
-  /* height: 80px;  */    /* esta fazendo o menu subir */
-  border-bottom: 2px solid transparent;
-
+.nav__logo,
+.nav__burger,
+.nav__close {
+  color: var(--white-color);
 }
 
-
-nav ul li a {
-  transition: color 0.2s;
-  position: relative;
-  top: 0;
-}
-
-
-/* Linha em baixo do menu */
-nav ul li a::after {
-  content: "";
-  width: 0%;
-  height: 3px;
-  background: #fff;
-  position: absolute;
-  left: 0;
-  bottom: -0.5rem;
-  transition: width 0.2s;
-}
-
-
-
-nav ul li a:hover::after,
-nav ul li a.activated::after {
-  width: 100%;
-}
-
-nav ul li a:hover,
-nav ul li a.activated {
-  color: #fff;
-}
-
-
-.nav-links {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+.nav__data {
   height: 100%;
-  margin-right: 10px;
-}
-
-
-.nav-links svg {
-  vertical-align: middle;
-}
-
-.subDrop-link{
-
-  cursor: pointer;
-  padding: 1rem;
-}
-/* .subDrop-link:hover{
-
-  color: #121242;
-}  */
-
-
-
-
-.fa-bars {
-  color: #fff;
-}
-
-.menu-icon {
-  display: none;
-}
-/* classe para ocultar o drop menu */
-.dropdown-menu {
-  display: none;
-}
-
-/* exibir o drop menu quando o item "Projetos" é clicado */
-.nav-item:hover .dropdown-menu {
-  display: block;
-  
-}
-
-/* Outras regras de estilo para o drop menu */
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  background: var(--laranja); /*  cor de fundo do menu principal */
-  padding: 10px;
-  list-style: none;
-  /* width: 200px;      /*SE QUISER AUMENTAR A LARGURA DO DROPMENU =============================================================================== */
 }
 
-.dropdown-link {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-  font-size: 14px;
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font-semi-bold);
 }
 
+.nav__logo i {
+  font-weight: initial;
+  font-size: 1.25rem;
+}
 
-
-/*  regra para ajustar a posição do drop menu */
-.nav-item {
+.nav__toggle {
   position: relative;
+  width: 32px;
+  height: 32px;
 }
 
-@media screen and (max-width: 1024px) {
-  .social-icons {
-    
-    margin-right: 20px; /*  espaçamento entre os ícones e o texto */
-    height: 45px;
-    font-size: 2.3rem;
-  }
-  .NavbarItems {
-    position: relative;
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    background: #19191a;
-    left: 0;
-    opacity: 1;
-    transition: all 0.6s ease;
-    z-index: 1;
-  }
-
-  .nav-links {
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    display: table;
-  }
-
-  .nav-links:hover {
-    color: #fff;
-    transform: scale(1.2);
-    transition: all 0.3s ease;
-  }
-
-  .nav-item:hover {
-    border: none;
-  }
-
-  .nav-item {
-    width: 100%;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+.nav__burger,
+.nav__close {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  inset: 0;
+  margin: auto;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: opacity .1s, transform .4s;
 }
-@media screen and (max-width: 1024px) {
+
+.nav__close {
+  opacity: 1;
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1118px) {
+  .nav__menu {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+    pointer-events: none;
+    opacity: 0;
+    transition: top .4s, opacity .3s;
+  }
+  .nav__menu::-webkit-scrollbar {
+    width: 0;
+  }
+  .nav__list {
+    background-color: var(--black-color);
+    padding-top: 1rem;
   
-
-  /*  classe para ocultar o drop menu no modo responsivo */
-  .dropdown-menu {
-    display: none;
-  }
-
-  /*  regra para exibir o drop menu no modo responsivo quando o item "Projetos" é clicado */
-  .nav-item.active .dropdown-menu {
-    display: block;
-  }
-
-  /* Outras regras de estilo para o drop menu no modo responsivo */
-  .dropdown-menu {
-    position: static;
-    background: var(--laranja); /* cor de fundo do menu principal */
-    padding: 10px;
-    list-style: none;
-    width: 100%; /* Defir a largura completa do drop menu */
-  }
-
-  .dropdown-link {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-  }
-
-  .dropdown-link:hover {
-    background-color: #241178;
   }
 }
 
+.nav__link {
+  color: var(--white-color);
+ 
+  font-weight: var(--font-semi-bold);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color .3s;
+}
 
-/* Novos estilos para a responsividade */
+.nav__link:hover {
+  background-color: var(--black-color-light);
+}
+
+.show-menu {
+  opacity: 1;
+  top: 3.5rem;
+  pointer-events: initial;
+}
+
+.show-icon .nav__burger {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+.show-icon .nav__close {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+/* Dropdown */
+.dropdown__item {
+  cursor: pointer;
+}
+
+.dropdown__arrow {
+  font-size: 1.25rem;
+  font-weight: initial;
+  transition: transform .4s;
+}
+
+.dropdown__link,
+.dropdown__sublink {
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  color: var(--white-color);
+  background: #121242;;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-semi-bold);
+  transition: background-color .3s;
+  width: 110%;
+  
+}
+
+.dropdown__link i,
+.dropdown__sublink i {
+  font-size: 2rem;
+  font-weight: initial;
+}
+
+.dropdown__link:hover,
+.dropdown__sublink:hover {
+  background-color: var(--black-color);
+}
+
+.dropdown__menu,
+.dropdown__submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+}
+
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover > .dropdown__submenu {
+  max-height: 1000px;
+ 
+
+  transition: max-height .4s ease-in;
+}
+
+.dropdown__item:hover .dropdown__arrow {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Submenu */
+.dropdown__add {
+  margin-left: auto;
+}
+
+.dropdown__sublink {
+  background-color: var(--black-color-lighten);
+}
 @media screen and (max-width: 768px) {
   .logo-text {
     display: block; /* Mostra o texto "Dr.Estágio" na responsividade */
@@ -312,27 +286,92 @@ nav ul li a.activated {
 
   .social-icons {
     display: none; /* Esconde os ícones de redes sociais na responsividade */
+  }}
+/* Breakpoints */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem;
   }
-  nav ul li a::after {
-    height: 1px;
-  
+
+  .nav__link {
+    padding-inline: 1rem;
   }
-  .nav-links {
-  
+}
+
+@media screen and (min-width: 1118px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .nav__list {
     height: 100%;
- 
+    display: flex;
+    column-gap: 2rem;
   }
-  
-  /* nav ul li a::after {
-    content: "";
-    width: 0%;
-    height: 1px;
-    background: #fff;
+  .nav__link {
+    height: 100%;
+    padding: 0;
+    justify-content: initial;
+    column-gap: .25rem;
+  }
+  .nav__link:hover {
+    background-color: transparent;
+  }
+
+  .dropdown__item,
+  .dropdown__subitem {
+    position: relative;
+  }
+
+  .dropdown__menu,
+  .dropdown__submenu {
+    max-height: initial;
+    overflow: initial;
     position: absolute;
     left: 0;
-    bottom: 2rem;
-    transition: width 0.2s;
-  } */
+    top: 6rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s, top .3s;
+  }
+
+  .dropdown__link,
+  .dropdown__sublink {
+    padding-inline: 1rem 3.5rem;
+  }
+
+  .dropdown__subitem .dropdown__link {
+    padding-inline: 1rem;
+  }
+
+  .dropdown__submenu {
+    position: absolute;
+    left: 100%;
+    top: .5rem;
+  }
+
+  .dropdown__item:hover .dropdown__menu {
+    opacity: 1;
+    top: 5.5rem;
+    pointer-events: initial;
+    transition: top .3s;
+  }
+
+  .dropdown__subitem:hover > .dropdown__submenu {
+    opacity: 1;
+    top: 0;
+    pointer-events: initial;
+    transition: top .3s;
+  }
 }
+
 
 

@@ -87,7 +87,7 @@ const router = createBrowserRouter([
           },
          
           {
-            path: "eventos",
+            path: "esg",
             element: <Esg />,
           },
           {
