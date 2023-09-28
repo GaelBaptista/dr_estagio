@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './teste.css'
 export function Teste() {
     return (
