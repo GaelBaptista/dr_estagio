@@ -9,7 +9,7 @@ import {BiSolidContact } from "react-icons/bi"
 
 import "./style.css";
 import { BsFillCartFill } from "react-icons/bs";
-import { MdHealthAndSafety, MdOutlineMiscellaneousServices, MdRecycling } from "react-icons/md";
+import { MdHealthAndSafety, MdOutlineMiscellaneousServices } from "react-icons/md";
 
 
 export function Navbar() {
