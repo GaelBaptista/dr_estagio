@@ -89,10 +89,7 @@ const router = createBrowserRouter([
             element: <Contact />,
           },
          
-          {
-            path: "esg",
-            element: <Esg />,
-          },
+         
           {
             path: "vagas",
             element: <Vagas />,
@@ -111,6 +108,10 @@ const router = createBrowserRouter([
       {
         path: "teste",
         element: <Teste/>,
+      },
+      {
+        path: "esg",
+        element: <Esg />,
       },
     ],
   },
