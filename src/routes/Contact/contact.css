@@ -168,7 +168,7 @@ border-radius:5px;
   align-items: center;
 }
 
-.section-map--info {
+.section-map--info  {
   width: 90%;
   padding: 30px;
   background-color: var(--laranja);

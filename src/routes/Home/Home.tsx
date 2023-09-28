@@ -12,7 +12,7 @@ import './Home.css';
 import { CardSection } from './cardSection/CardSection'
 
 import { ContactHome } from './ContactHome/ContactHome'
-import { ArticleSection } from './ArtigoSection/Article'
+
 import { Link } from 'react-router-dom'
 import { Video } from './Video/video'
 
@@ -152,7 +152,7 @@ export function Home () {
   <CardSection/>
   <ContactHome/>
   <Video/>
-  <ArticleSection/>
+ 
   
 
     </>

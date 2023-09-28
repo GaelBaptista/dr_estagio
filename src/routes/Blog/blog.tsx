@@ -1,53 +1,43 @@
-// BlogCard.js
+
+import { Link } from 'react-router-dom';
 import './blog.css'
 
+import  { useState } from 'react';
+import { IconType } from 'react-icons/lib';
 
-interface BlogCardProps {
-  imageUrl: string; // Especificando o tipo como string
-  author: string;
-  date: string;
-  tags: string[];
+interface CardProps {
+  imgSrc: string;
+  date: { day: string; month: string };
   title: string;
-  subTitle: string;
-  content: string;
+  text: string;
+  icon: IconType; // Adicione a propriedade 'icon' à interface
+  saibaMaisLink: string; // Adicione a propriedade 'saibaMaisLink' à interface
 }
-export function BlogCard({
-  imageUrl,
-  author,
-  date,
-  tags,
-  title,
-  subTitle,
-  content,
-}: BlogCardProps)  {
+
+function Card({ imgSrc, date, title, text, icon: Icon, saibaMaisLink }: CardProps) {
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <section className='bodyBlog'>
-    <div className="blog-card">
-      <div className="meta">
-        <div className="photo" style={{ backgroundImage: `url(${imageUrl})` }}></div>
-        <ul className="details">
-          <li className="author"><a href="#">{author}</a></li>
-          <li className="date">{date}</li>
-          <li className="tags">
-            <ul>
-              {tags.map((tag, index) => (
-                <li key={index}><a href="#">{tag}</a></li>
-              ))}
-            </ul>
-          </li>
-        </ul>
+  
+    <figure className={`snip1208${hovered ? ' hover' : ''}`} onMouseLeave={() => setHovered(false)}>
+      <img src={imgSrc} alt="sample" />
+      <div className="date">
+        <span className="day">{date.day}</span>
+        <span className="month">{date.month}</span>
       </div>
-      <div className="description">
-        <h1>{title}</h1>
-        <h2>{subTitle}</h2>
-        <p>{content}</p>
-        <p className="read-more">
-          <a href="#">Read More</a>
-        </p>
-      </div>
-    </div>
-    </section>
+      <i className="ion-film-marker"><Icon/></i>
+      <figcaption>
+        <h3>{title}</h3>
+        <p>{text}</p>
+        <button>Saiba Mais</button>
+      </figcaption>
+     <Link to={saibaMaisLink} target="_blank" rel="noopener noreferrer"></Link>
+    </figure>
+   
   );
 }
+
+export default Card;
+
 
 

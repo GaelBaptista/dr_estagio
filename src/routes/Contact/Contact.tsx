@@ -72,7 +72,7 @@ function Contact() {
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}  >
           <BsFillTelephoneFill style={{color:'white', fontSize:'24px'}} />
         </div>
-        <h3><a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer"> +55 85 9247-7241</a></h3>
+        <h3><a   href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer"> +55 85 9247-7241</a></h3>
       </div>
       <div className="section-map--info-item">
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>

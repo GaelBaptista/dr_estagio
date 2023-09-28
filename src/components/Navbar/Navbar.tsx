@@ -168,11 +168,11 @@ export function Navbar() {
                   <MdOutlineMiscellaneousServices style={{ fontSize: '30px' }} /> Nossos Serviços
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/projects/esg" className="dropdown__link" onClick={closeMenu}>
                   <MdRecycling style={{ fontSize: '30px' }} /> ESG no Estágio
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </li>
 
