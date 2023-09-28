@@ -44,7 +44,7 @@ const cardsData = [
     title: 'ESG no Estágio',
     text: "Recentemente, o termo ESG ganhou destaque devido à crescente preocupação do mercado financeiro com a sustentabilidade.",
     icon: MdRecycling, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
-    saibaMaisLink: '/projects/esg', // Substitua '/link1' pelo link desejado
+    saibaMaisLink: 'https://drestagio.netlify.app/projects/esg', // Substitua '/link1' pelo link desejado
   },
   
 ];
