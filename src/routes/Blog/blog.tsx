@@ -8,10 +8,10 @@ import { IconType } from 'react-icons/lib';
 interface CardProps {
   imgSrc: string;
   date: { day: string; month: string };
-  title: string;
+  title: string ;
   text: string;
   icon: IconType; // Adicione a propriedade 'icon' à interface
-  saibaMaisLink: string; // Adicione a propriedade 'saibaMaisLink' à interface
+  saibaMaisLink: string ; // Adicione a propriedade 'saibaMaisLink' à interface
 }
 
 function Card({ imgSrc, date, title, text, icon: Icon, saibaMaisLink }: CardProps) {
@@ -31,7 +31,7 @@ function Card({ imgSrc, date, title, text, icon: Icon, saibaMaisLink }: CardProp
         <p>{text}</p>
         <button>Saiba Mais</button>
       </figcaption>
-     <Link to={saibaMaisLink} target="_blank" rel="noopener noreferrer"></Link>
+     <Link to={saibaMaisLink}  rel="noopener noreferrer"></Link>
     </figure>
    
   );
