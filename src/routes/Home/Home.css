@@ -89,6 +89,7 @@
 
 }
 
+
 @media screen and (max-width: 768px) {
   .banner .banner-title h1 span {
     color: #fff;
@@ -333,6 +334,14 @@ background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, 
 
  
 }
+
+@media screen and (max-width: 320px) {
+  .banner {
+    height: 60vh;
+    
+  }
+}
+
 
 
 

@@ -4,10 +4,12 @@ import rh from './assetsBlog/rh.jpg'
 import cartilha from './assetsBlog/cart.png'
 import lei from './assetsBlog/lei.png'
 import esg from './assetsBlog/esg.jpg'
+import concet from './assetsBlog/blogconect.png'
+
 
 import { IoMdCube, IoMdSchool, IoIosCopy} from 'react-icons/io';
 import { MdRecycling } from 'react-icons/md';
-
+import { GiNewspaper } from 'react-icons/gi'
 
 
 
@@ -46,12 +48,12 @@ const cardsData = [
     icon: MdRecycling, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
     saibaMaisLink: '/esg', // Substitua '/link1' pelo link desejado
   }, {
-    imgSrc: esg ,
-    date: { day: '30', month: 'Ago' },
-    title: 'ESG no Estágio',
-    text: "Recentemente, o termo ESG ganhou destaque devido à crescente preocupação do mercado financeiro com a sustentabilidade.",
-    icon: MdRecycling, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
-    saibaMaisLink: '/teste', // Substitua '/link1' pelo link desejado
+    imgSrc: concet ,
+    date: { day: '25', month: 'jul' },
+    title: 'Dr.Estágio Connect',
+    text: "Estágio: impulsionando o desenvolvimento das empresas.",
+    icon: GiNewspaper, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
+    saibaMaisLink: '/DrConect', // Substitua '/link1' pelo link desejado
   },
   
 ];

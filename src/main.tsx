@@ -25,7 +25,8 @@ import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
 import { Servicos } from "./routes/Projects/Sericos/servicos";
 import { Blog } from "./routes/Blog/blogprops";
-import { Teste } from "./routes/Blog/PagesBlog/test";
+
+import { DrConect } from "./routes/Blog/PagesBlog/DrConect";
 
 
 const ScrollToTop = () => {
@@ -106,8 +107,8 @@ const router = createBrowserRouter([
         element: <Blog/>,
       },
       {
-        path: "teste",
-        element: <Teste/>,
+        path: "DrConect",
+        element: <DrConect/>,
       },
       {
         path: "esg",

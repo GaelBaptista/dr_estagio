@@ -16,11 +16,11 @@
 }
 
 .header__blog h1 {
-    background-color: rgba(18,72,120, 0.8);
+    background-color: #121242;
     color: #fff;
     padding: 0 1rem;
     position: absolute;
-  margin-top: 10px;
+    margin-top: 10px;
     left: 2rem;
 }
 
