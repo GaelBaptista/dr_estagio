@@ -8,7 +8,7 @@ export function CardSection () {
     <div className="containerCard">
       <div className="rowCard">
         <div className="section-head ">
-          <h4><span>Programa de </span> Estágio</h4>
+          <h4><span>Programa de</span>  Estágio</h4>
           <p>
 A <strong>Dr.Estágio</strong> simplifica o processo de contratação de estagiários, permitindo que sua equipe de 
 DHO possam focar em outras atividades estratégicas dentro da organização e asseguramos todas as exigências 

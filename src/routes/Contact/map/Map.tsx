@@ -100,7 +100,7 @@ export function Map () {
   return (
     <section className="sectionMapSVG">
       <div className="section-head ">
-          <h4><span>Nosso Alcance </span>Geográfico</h4>
+          <h4><span>Nosso Alcance</span>Geográfico</h4>
           <p className='gestaodh'>
           Atuando no mercado desde 2015 e com marca registrada no INPI, a <strong>Dr.Estágio</strong> estende sua atuação por todo o território nacional, atualmente 
           prestando serviços nos estados do Ceará e Rio Grande do Norte. 

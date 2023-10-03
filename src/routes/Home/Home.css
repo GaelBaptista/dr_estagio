@@ -335,11 +335,16 @@ background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, 
  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .banner {
     height: 60vh;
     
   }
+  .banner .slidearea {
+   
+    width: 100%;
+    
+}
 }
 
 

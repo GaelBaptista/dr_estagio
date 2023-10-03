@@ -195,10 +195,12 @@ position: sticky;
   justify-content: space-between;
   align-items: center;
   transition: background-color .3s;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
 }
 
-.nav__link:hover {
-  background-color: var(--black-color-light);
+.nav__link__effect:hover {
+  transform: translateY(-3px);
 }
 
 .show-menu {

@@ -73,19 +73,19 @@ export function Navbar() {
       <div className={navMenuClass} id="nav-menu">
         <ul className="nav__list">
           <li>
-            <Link to="/" className="nav__link"  onClick={closeMenu} >
+            <Link to="/" className="nav__link  nav__link__effect"  onClick={closeMenu} >
              Início
             </Link>
           </li>
 
           <li>
-            <Link to="/about" className="nav__link"  onClick={closeMenu}>
+            <Link to="/about" className="nav__link nav__link__effect"  onClick={closeMenu}>
               Sobre nós
             </Link>
           </li>
          
           <li>
-            <Link to="/mais" className="nav__link" onClick={closeMenu} >
+            <Link to="/mais" className="nav__link nav__link__effect" onClick={closeMenu} >
               Empresas Conveniadas
             </Link>
           </li>
@@ -178,7 +178,7 @@ export function Navbar() {
 
 
           <li>
-            <Link to="/blog" className="nav__link"  onClick={closeMenu}>
+            <Link to="/blog" className="nav__link nav__link__effect"  onClick={closeMenu}>
             Blog
             </Link>
           </li>
