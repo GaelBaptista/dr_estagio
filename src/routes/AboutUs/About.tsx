@@ -363,7 +363,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="image">
+        <div className="image about-img-5">
           <img className='img_img' src={TimelineBG} alt="Foguete impulsionando para cima" />
         
         </div>
