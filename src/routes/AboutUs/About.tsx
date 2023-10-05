@@ -127,7 +127,12 @@ export function About() {
   <>
   {/* quem somos */}
   <div className="section-head about-TITLE ">
-          <h4>Quem  <strong>Somos</strong></h4>
+          <h4>Quem <strong>Somos</strong></h4>
+          <div className='divider__title'>
+            
+          <span className="hr-line"><span><span></span></span></span>
+          
+          </div>
           <p>Atuando no mercado desde 2015 e com marca registrada no INPI, a <strong> Dr.Estágio </strong> estende sua atuação por todo o
              território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.
              Como especialistas em programas de estágio voltados para o varejo, desempenhamos um papel fundamental no 
@@ -188,7 +193,12 @@ export function About() {
 {/* =======================================================GESTAO DE DH TITULO ================================================================ */}
  
       <div className="section-head ">
-          <h4><span>Gestão de </span> DH</h4>
+          <h4><span>Gestão de</span>DH</h4>
+          <div className='divider__title'>
+            
+          <span className="hr-line"><span><span></span></span></span>
+          
+          </div>
           <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa impulsionar o 
           desenvolvimento e aprimoramento dos jovens profissionais 
           dentro das organizações capacitando-os a crescer, aprender e contribuir de forma significativa.

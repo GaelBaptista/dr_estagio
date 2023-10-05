@@ -160,6 +160,11 @@ import { FAQItem } from './FAQ';
     <section className="ContainerProgramadeEstagio">
       <div className="section-head prEst">
         <h4><span>Oque é o</span>Programa de Estágio</h4>
+        <div className='divider__title'>
+            
+          <span className="hr-line"><span><span></span></span></span>
+          
+          </div>
         <p className="gestaodh">
         O programa de estágio é um projeto que desenvolve estudantes por meio de estágio para atuar em diversas áreas do mercado de trabalho, visa primordialmente proporcionar aprendizado assegurando que os estagiários alcancem um desempenho profisisonal notável, enquanto a empresa contrante colhe os benefícios da legislação de incentivo ao estágio sem lidar com as complicações burocráticas.
         </p>

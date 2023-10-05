@@ -48,13 +48,16 @@ color:#FF6609;
 line-height: 1;
 letter-spacing:0.3px;
 font-size: 34px;
-font-weight: 700;  
+font-weight:700;  
 text-align:center;
 text-transform:none;
 margin-bottom:30px;
 }
 .divider__title{
   margin-bottom: 20px;
+  margin-top: -15px;
+
+
  
 }
 

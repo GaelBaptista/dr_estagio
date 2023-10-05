@@ -27,6 +27,11 @@ export function Video () {
     <section>
       <div className="section-head VideoSection ">
           <h4><span>Depoimentos de</span>Nossos Clientes</h4>
+          <div className='divider__title'>
+            
+          <span className="hr-line"><span><span></span></span></span>
+          
+          </div>
           {/* <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
             cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
 
