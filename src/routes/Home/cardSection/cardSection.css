@@ -53,7 +53,102 @@ text-align:center;
 text-transform:none;
 margin-bottom:30px;
 }
-.section-head h4:before {
+.divider__title{
+  margin-bottom: 20px;
+ 
+}
+
+.hr-line {
+    display: inline-block;
+    clear: both;
+  
+   
+   
+}
+
+.section-head .hr-line {
+    width: 100%;
+    max-width: 192px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    height: 21px;
+   margin: 0 auto;
+    
+}
+
+.section-head .hr-line span {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+   
+}
+
+.section-head .hr-line:after,
+.section-head .hr-line:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    height: 1px;
+    display: inline-block;
+    background-color: #FF6609;
+    transform: translate(0, -50%);
+}
+
+.section-head .hr-line:before {
+    left: 0;
+}
+
+.section-head .hr-line:after {
+    right: 0;
+}
+
+.section-head .hr-line > span:after,
+.section-head .hr-line > span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    background-color: #2f2f2f;
+    transform: translate(0, -50%);
+}
+
+.section-head .hr-line > span:before {
+    right: 26.5px;
+}
+
+.section-head .hr-line > span:after {
+    left: 26.5px;
+}
+
+.section-head .hr-line > span > span {
+    width: 11px;
+    height: 11px;
+    
+    background-color: #FF6609;
+    transform:rotate(45deg);
+      -ms-transform:rotate(45deg); /* IE 9 */
+      -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+}
+
+.section-head .hr-line > span > span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    width: 19px;
+    height: 19px;
+    border: 1px solid #FF6609;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+/* .section-head h4:before {
 content: '';
 width: 60px;
 height: 3px;
@@ -63,7 +158,7 @@ left: 0px;
 bottom: -10px;
 right:0;  
 margin:0 auto;
-}
+} */
 .section-head h4 span {
 font-weight: 700;
 padding-bottom: 5px;
