@@ -1,8 +1,8 @@
 
 import './DrConect.css'
-import AbresBLog from '../assetsBlog/1.png'
-import logoGupy from '../assetsBlog/lgu.jpg'
-import logoAbres from '../assetsBlog/lab.png'
+import AbresBLog from './assetsBlog/1.png'
+import logoGupy from './assetsBlog/lgu.jpg'
+import logoAbres from './assetsBlog/lab.png'
 
 
 export function DrConect() {

@@ -1,16 +1,17 @@
 
 import Card from './blog.tsx';
-import rh from './assetsBlog/rh.jpg'
-import cartilha from './assetsBlog/cart.png'
-import lei from './assetsBlog/lei.png'
-import esg from './assetsBlog/esg.jpg'
-import concet from './assetsBlog/blogconect.png'
-
+import rh from './PagesBlog/DrConect/assetsBlog/rh.jpg'
+import cartilha from './PagesBlog/DrConect/assetsBlog/cart.png'
+import lei from './PagesBlog/DrConect/assetsBlog/lei.png'
+import esg from './PagesBlog/DrConect/assetsBlog/esg.jpg'
+import concet from './PagesBlog/DrConect/assetsBlog/blogconect.png'
+import Guia from './asset_Blog/BlogCapaSite_Guia.png'
+import Cs from './PagesBlog/EmpresaInovadora/Asset_3cs/BlogCapaSite_3Cs.png'
 
 import { IoMdCube, IoMdSchool, IoIosCopy} from 'react-icons/io';
 import { MdRecycling } from 'react-icons/md';
 import { GiNewspaper } from 'react-icons/gi'
-
+import {RiGuideFill} from 'react-icons/ri'
 
 
 
@@ -54,6 +55,22 @@ const cardsData = [
     text: "Estágio: impulsionando o desenvolvimento das empresas.",
     icon: GiNewspaper, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
     saibaMaisLink: '/DrConect', // Substitua '/link1' pelo link desejado
+  },
+  {
+    imgSrc:Guia ,
+    date: { day: '24', month: 'Out' },
+    title: 'Guia Rápido para Estagiários ',
+    text: "Navegando com Sucesso no Mundo Profissional. O estágio é um passo crucial para iniciar sua jornada profissional.",
+    icon: RiGuideFill, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
+    saibaMaisLink: '/GuiadoEstagiario', // Substitua '/link1' pelo link desejado
+  },
+  {
+    imgSrc:Cs,
+    date: { day: '24', month: 'Out' },
+    title: "Os 3 C's de uma Empresa Inovadora",
+    text: "Cultura, Colaboração e Criatividade. No mundo empresarial dinâmico e competitivo de hoje, a inovação não é apenas uma vantagem, é uma necessidade.",
+    icon: RiGuideFill, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
+    saibaMaisLink: '/3csEmpresaInovadora', // Substitua '/link1' pelo link desejado
   },
   
 ];

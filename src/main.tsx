@@ -25,8 +25,11 @@ import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
 import { Servicos } from "./routes/Projects/Sericos/servicos";
 import { Blog } from "./routes/Blog/blogprops";
+import { DrConect } from "./routes/Blog/PagesBlog/DrConect/DrConect";
+import { GuiaBlog } from "./routes/Blog/PagesBlog/Guia/Guia";
+import { CsEmpresaInovadora } from "./routes/Blog/PagesBlog/EmpresaInovadora/Cs";
 
-import { DrConect } from "./routes/Blog/PagesBlog/DrConect";
+
 
 
 const ScrollToTop = () => {
@@ -110,6 +113,15 @@ const router = createBrowserRouter([
         path: "DrConect",
         element: <DrConect/>,
       },
+      {
+        path: "GuiadoEstagiario",
+        element: <GuiaBlog/>,
+      },
+      {
+        path: "3csEmpresaInovadora",
+        element: <CsEmpresaInovadora/>,
+      },
+
       {
         path: "esg",
         element: <Esg />,
