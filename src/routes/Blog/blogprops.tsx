@@ -12,7 +12,7 @@ import { IoMdCube, IoMdSchool, IoIosCopy} from 'react-icons/io';
 import { MdRecycling } from 'react-icons/md';
 import { GiNewspaper } from 'react-icons/gi'
 import {RiGuideFill} from 'react-icons/ri'
-
+import {PiDotsThreeOutlineVerticalFill} from 'react-icons/pi'
 
 
 const cardsData = [
@@ -69,7 +69,7 @@ const cardsData = [
     date: { day: '24', month: 'Out' },
     title: "Os 3 C's de uma Empresa Inovadora",
     text: "Cultura, Colaboração e Criatividade. No mundo empresarial dinâmico e competitivo de hoje, a inovação não é apenas uma vantagem, é uma necessidade.",
-    icon: RiGuideFill, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
+    icon: PiDotsThreeOutlineVerticalFill, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
     saibaMaisLink: '/3csEmpresaInovadora', // Substitua '/link1' pelo link desejado
   },
   
