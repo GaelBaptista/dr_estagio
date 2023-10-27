@@ -73,6 +73,11 @@ export function Video () {
           title="Anali Supermercado"
           videoLink="https://www.youtube.com/embed/JZxful-UQUk?si=pPe3nLacnmgjtXS1" 
         />
+         <YoutubeEmbed
+          videoId="tOUtZYrvslI"
+          title="Supermercado Ana Risorlange"
+          videoLink="https://www.youtube.com/embed/tOUtZYrvslI?si=GWpvJHt_Gxw-EHXD" 
+        />
         
         
         
