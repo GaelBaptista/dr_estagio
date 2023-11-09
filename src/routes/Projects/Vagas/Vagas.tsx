@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./vagas.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import OpsImg from "./assetsvagas/ops.png";
 
@@ -102,6 +102,13 @@ export function Vagas() {
       link: "https://drestagio.gupy.io/",
     },
   ]);
+  useEffect(() => {
+    // Faça uma chamada à API ou carregue os dados de onde quer que venham
+    // Exemplo de API fictícia:
+    fetch("https://api.exemplo.com/vagas")
+      .then((response) => response.json())
+      .then((data) => setVagasData(data));
+  }, []);
   const handleFiltrarVagas = () => {
     if (filtroCidade === "") {
       // Se o campo de entrada estiver vazio, mostrar mensagem de erro e impedir a exibição das vagas
