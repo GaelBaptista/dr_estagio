@@ -2,7 +2,7 @@
 
 .sectionVaga {
   position: relative;
- 
+
   width: calc(min(90rem, 90%));
   margin: 0 auto;
   min-height: 100vh;
@@ -26,7 +26,7 @@
   width: 9.375rem;
   opacity: 0;
 }
-.sectionVaga > div{
+.sectionVaga > div {
   width: 80%;
 }
 .sectionVaga > div span {
@@ -42,8 +42,8 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
-  background-color: #FF6609;
-  background-image: linear-gradient(45deg, #FF6609, #c2410a);
+  background-color: #ff6609;
+  background-image: linear-gradient(45deg, #ff6609, #c2410a);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -54,7 +54,7 @@
 
 .sectionVaga > div hr {
   display: block;
-  background: #FF6609;
+  background: #ff6609;
   height: 0.25rem;
   width: 6.25rem;
   border: none;
@@ -71,23 +71,20 @@
   text-transform: uppercase;
   color: #ffff;
   font-weight: 500;
-  background: #FF6609;
+  background: #ff6609;
   border-radius: 3.125rem;
   transition: 0.3s ease-in-out;
 }
 
 .sectionVaga > div > a {
-
   margin-top: 2.188rem;
   padding: 0.625rem 1.875rem;
 }
 
 .sectionVaga > div > a:hover {
-background-color: #c2410a;
+  background-color: #c2410a;
   color: #fff;
 }
-
-
 
 .sectionVaga .slider-container {
   width: 100%;
@@ -134,7 +131,7 @@ background-color: #c2410a;
 }
 
 .sectionVaga .swiper-slide a:hover {
-  color: #FF6609;
+  color: #ff6609;
 }
 
 .sectionVaga .swiper-slide div {
@@ -199,37 +196,35 @@ background-color: #c2410a;
 }
 
 @media screen and (max-width: 320px) {
-
-  
   /* Mobile-first styles */
   .sectionVaga {
     position: relative;
-    width: 100%; 
+    width: 100%;
     margin: 0;
-    padding: 3rem 1rem; 
+    padding: 3rem 1rem;
     column-gap: 0;
   }
-  
+
   .sectionVaga > div {
-    width: 100%; 
+    width: 100%;
     text-align: center;
   }
-  
+
   .sectionVaga > div h1 {
     font-size: 2rem;
   }
-  
+
   .sectionVaga hr {
-    margin: 1rem auto; 
+    margin: 1rem auto;
   }
-  
+
   .sectionVaga .slider-container {
     /* width: 100%; 
     padding-top: 2rem;  */
     display: none;
   }
-  
-/*  
+
+  /*  
   .sectionVaga .swiper-slide {
     width: 100%; 
     height: auto; 
@@ -238,25 +233,322 @@ background-color: #c2410a;
     background-size: cover; 
     background-position: center;
   } */
-  
+
   .sectionVaga .swiper-slide h2 {
     font-size: 1.5rem; /* Reduce font size for mobile */
   }
-  
+
   .sectionVaga .swiper-slide p {
     font-size: 1rem; /* Reduce font size for mobile */
     line-height: 1.5;
   }
-  
+
   .sectionVaga .swiper-slide a {
     margin: 1rem 0;
     padding: 0.5rem 1.5rem;
     font-size: 1rem; /* Reduce font size for mobile */
   }
-  
+
   /* Hide background images on mobile */
   .sectionVaga .bg,
   .sectionVaga .bg2 {
     display: none;
   }
+}
+.sectionVagasFiltradas {
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+}
+
+.input-container {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+
+  background: #121242;
+  box-shadow: inset 50px 50px 100px #0f0f38, inset -50px -50px 100px #15154c;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-container h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  margin-right: 10px; /* Espaço entre o campo de entrada e o botão */
+}
+
+.botao-filtrar {
+  margin-top: 10px; /* Espaço acima do botão */
+}
+
+.input-cidade {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  width: 200px; /* ou ajuste a largura conforme necessário */
+}
+.sectionVagasFiltradas .input-container input {
+  display: block;
+  /* padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  width: 80%;
+   */
+  width: 80%;
+
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.sectionVagasFiltradas .input-container input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.sectionVagasFiltradas .input-container input:active {
+  transform: scale(0.95);
+}
+
+.sectionVagasFiltradas .input-container input:focus {
+  border: 2px solid grey;
+}
+
+.botao-filtrar {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+.botao-filtrar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao-filtrar:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao-filtrar::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.botao-filtrar::after {
+  background-color: #fff;
+}
+
+.botao-filtrar:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/* .botao-filtrar:hover {
+  background-color: #0056b3;
+} */
+
+/* Estilos para os elementos de lista */
+
+/* Grid de vagas */
+.styles__GridVacancies-sc-uz5dep-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 18px;
+  overflow: hidden auto;
+  transition: all 0.6s ease 0s;
+}
+
+.input-error {
+  animation: shake 0.2s ease-in-out;
+  border-color: red;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mensagem-erro {
+  color: red;
+  margin-top: 10px;
+}
+
+.lnUPSZ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background: rgb(255, 255, 255);
+  padding: 26px 24px;
+}
+.kPeMTd {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 18px;
+  overflow: hidden auto;
+}
+.eDqasW {
+  width: 100%;
+  max-width: 980px;
+  text-decoration: none;
+  border-radius: 6px;
+  border-left: 6px solid rgb(17, 17, 17);
+}
+/* Estilo para cada card de vaga */
+.styles__Main-sc-12gs3xe-0 {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container do card de vaga */
+.styles__Container-sc-12gs3xe-1 {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; /* Largura do card */
+  height: 50%; /* Altura do card */
+}
+
+/* Título da vaga */
+.styles__Title-sc-12gs3xe-2 {
+  display: flex;
+  gap: 8px;
+}
+
+/* Tag de emprego (CLT, etc.) */
+.styles__Tag-sc-12gs3xe-5 h3 {
+  font-size: 14px;
+  background-color: #ff6609;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Localização da vaga */
+.styles__TitleLocation-sc-12gs3xe-3 svg {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .styles__GridVacancies-sc-uz5dep-1 {
+    grid-template-columns: 1fr; /* Alterando para uma coluna em telas menores */
+  }
+
+  .styles__Container-sc-12gs3xe-1 {
+    width: 100%; /* Largura do card ocupando 100% do contêiner pai */
+  }
+}
+
+.euoTqgDR {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 32px;
+  background: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.euoTqgDR h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 121px;
+  color: rgb(71, 84, 103);
+}
+
+.euoTqgDR h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(102, 112, 133);
+}
+.euoTqgDR p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(102, 112, 133);
+}
+.euoTqgDR a {
+  background: #ff6609;
+  width: 280px;
+  height: 44px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
