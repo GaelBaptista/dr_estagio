@@ -6,8 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./vagas.css";
 import { useEffect, useState } from "react";
 
-import OpsImg from "./assetsvagas/ops.png";
-
 interface Vaga {
   id: number;
   titulo: string;
@@ -311,9 +309,8 @@ export function Vagas() {
                 que melhor se encaixa no seu perfil.
               </p>
               <a href="https://drestagio.gupy.io/jobs/5131534?jobBoardSource=gupy_public_page">
-                Quero entrar no Banco de Talentos
+                Quero entrar no Banco de Talentos!
               </a>
-              <img src={OpsImg} />
             </div>
           </div>
         )}
