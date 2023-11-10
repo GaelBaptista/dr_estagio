@@ -165,7 +165,7 @@ export function Vagas() {
             recolocarem profissionalmente.
           </p>
           <a
-            href="encontrevagas"
+            href="#encontrevagas"
             // href="https://drestagio.gupy.io/"
             // target="_blank"
             // rel="noopener noreferrer"
