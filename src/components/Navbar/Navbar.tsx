@@ -30,6 +30,16 @@ export function Navbar() {
   };
   const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
 
+  const [showMessageBox, setShowMessageBox] = useState(false);
+
+  const showMessageBoxHandler = () => {
+    setShowMessageBox(true);
+  };
+
+  const closeMessageBoxHandler = () => {
+    setShowMessageBox(false);
+  };
+
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
       <header className="header__nav">
@@ -256,21 +266,50 @@ export function Navbar() {
                   </Link>
                 </li>
                 <div className="nav__buttons">
-                  <Link
-                    to="/estagiario"
-                    className="nav__button"
-                    onClick={closeMenu}
-                  >
+                  <a href="" className="nav__button" onClick={closeMenu}>
                     Sou Estagiário
-                  </Link>
-                  <Link
-                    to="/empresa"
+                  </a>
+                  <a
+                    href="#"
                     className="nav__button"
-                    onClick={closeMenu}
+                    onClick={() => {
+                      showMessageBoxHandler();
+                    }}
                   >
                     Sou Empresa
-                  </Link>
+                  </a>
                 </div>
+                {showMessageBox && (
+                  <div className="message-box">
+                    <div className="message-box__top">
+                      <button
+                        className="message-box__close"
+                        onClick={closeMessageBoxHandler}
+                      >
+                        X
+                      </button>
+                    </div>
+                    <div className="message-box__content">
+                      <h5 className="message-box__title">Sua mensagem aqui</h5>
+                      <p className="message-box__paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc felis ligula.
+                      </p>
+                    </div>
+                    <div className="message-box__bottom">
+                      <button
+                        type="button"
+                        className="message-box__button"
+                        onClick={() => {
+                          setShowMessageBox(false);
+                          window.open("https://www.google.com", "_blank");
+                        }}
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                )}
               </ul>
             </div>
           </nav>
