@@ -431,6 +431,10 @@
   color: red;
   margin-top: 10px;
 }
+.eDqasW:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
 
 .lnUPSZ {
   display: flex;
@@ -440,6 +444,7 @@
   background: rgb(255, 255, 255);
   padding: 26px 24px;
 }
+
 .kPeMTd {
   display: flex;
   width: 100%;
@@ -468,7 +473,7 @@
   background-color: #ffffff;
   border: 1px solid #e1e1e1;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 6px;
   width: 100%; /* Largura do card */
   height: 50%; /* Altura do card */
 }
