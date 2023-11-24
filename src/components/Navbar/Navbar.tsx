@@ -265,7 +265,7 @@ export function Navbar() {
                     Blog
                   </Link>
                 </li>
-                <div className="nav__buttons">
+                {/* <div className="nav__buttons">
                   <a href="" className="nav__button" onClick={closeMenu}>
                     Sou Estagiário
                   </a>
@@ -309,7 +309,7 @@ export function Navbar() {
                       </button>
                     </div>
                   </div>
-                )}
+                )} */}
               </ul>
             </div>
           </nav>
