@@ -30,15 +30,15 @@ export function Navbar() {
   };
   const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
 
-  const [showMessageBox, setShowMessageBox] = useState(false);
+  // const [showMessageBox, setShowMessageBox] = useState(false);
 
-  const showMessageBoxHandler = () => {
-    setShowMessageBox(true);
-  };
+  // const showMessageBoxHandler = () => {
+  //   setShowMessageBox(true);
+  // };
 
-  const closeMessageBoxHandler = () => {
-    setShowMessageBox(false);
-  };
+  // const closeMessageBoxHandler = () => {
+  //   setShowMessageBox(false);
+  // };
 
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
