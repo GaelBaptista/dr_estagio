@@ -71,6 +71,14 @@ a {
 }
 /* BOX SOU EMPRESA MENSAGEM ============================================== */
 
+/* RETIRAR QUANDO ESTIVER PRONTO */
+
+.Btn_Emp {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 .message-box {
   position: fixed;
   top: 50%;
