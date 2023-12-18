@@ -266,22 +266,23 @@ export function Navbar() {
                   </Link>
                 </li>
                 <div className="nav__buttons">
-                  <a
-                    href="https://igtcursos.com.br/account/"
+                  <Link
+                  to='/Login_aluno'
+                    // href="https://igtcursos.com.br/account/"
                     className="nav__button"
                     onClick={closeMenu}
                   >
                     Sou Estagiário
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    to=''
                     className="nav__button Btn_Emp"
                     onClick={() => {
                       showMessageBoxHandler();
                     }}
                   >
                     Sou Empresa
-                  </a>
+                  </Link>
                 </div>
                 {showMessageBox && (
                   <div className="message-box">
@@ -302,17 +303,17 @@ export function Navbar() {
                       </p>
                     </div>
                     <div className="message-box__bottom">
-                      <button
+                      <Link
                         type="button"
-                        disabled
+                     to='/Login_aluno'
                         className="message-box__button"
                         onClick={() => {
                           setShowMessageBox(false);
-                          window.open("#", "_blank");
+                          // window.open("/Login_aluno", "_blank");
                         }}
                       >
                         ok
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 )}

@@ -73,11 +73,11 @@ a {
 
 /* RETIRAR QUANDO ESTIVER PRONTO */
 
-.Btn_Emp {
+/* .Btn_Emp {
   opacity: 0.5;
   pointer-events: none;
   cursor: not-allowed;
-}
+} */
 
 .message-box {
   position: fixed;

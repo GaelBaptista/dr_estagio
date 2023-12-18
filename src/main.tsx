@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import {Navbar} from "./components/Navbar/Navbar";
 import "./App.css";
+import { Login_aluno } from "./routes/Login/login";
 import {Home} from "./routes/Home/Home";
 import {About} from "./routes//AboutUs/About";
 import Contact from "./routes//Contact/Contact";
@@ -47,7 +48,7 @@ const AppLayout = () => {
     <>
       <Header />
       <Navbar />
-      <ScrollToTop /> {/*  controlar a rolagem */}
+      <ScrollToTop /> {/* isso vai controlar a rolagem */}
       <Outlet />
       <Footer />
     </>
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "login_aluno",
+        element: <Login_aluno />,
       },
       {
         path: "programa-estagio",
