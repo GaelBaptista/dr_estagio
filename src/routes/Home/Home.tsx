@@ -4,10 +4,10 @@ import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
 
 import { MdPermContactCalendar } from 'react-icons/md'
+import {  GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
 
-
-import  { useEffect, useState, ChangeEvent } from 'react';
+import  { useEffect,  useRef } from 'react';
 import './Home.css';
 import { CardSection } from './cardSection/CardSection'
 
@@ -15,33 +15,72 @@ import { ContactHome } from './ContactHome/ContactHome'
 
 import { Link } from 'react-router-dom'
 import { Video } from './Video/video'
+import img1 from '../../assests/banner1.jpg'
+import img2 from '../../assests/banner2.jpg'
+import img3 from '../../assests/banner3.jpg'
+import img4 from '../../assests/banner4.jpg'
+import img5 from '../../assests/banner5.jpg'
+import img6 from '../../assests/banner6.jpg'
 
 
 export function Home () {
 
-  const [currentSlide, setCurrentSlide] = useState(1);
+  // const [currentSlide, setCurrentSlide] = useState(1);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentSlide((prevSlide) => {
+  //       if (prevSlide >= 3) {
+  //         return 1;
+  //       } else {
+  //         return prevSlide + 1;
+  //       }
+  //     });
+  //   }, 6000);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
+  // const handleRadioChange = (event: ChangeEvent<HTMLInputElement>) => {
+  //   setCurrentSlide(parseInt(event.target.value));
+  // };
+
+  const sliderRef = useRef<HTMLUListElement | null>(null);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => {
-        if (prevSlide >= 3) {
-          return 1;
-        } else {
-          return prevSlide + 1;
-        }
-      });
-    }, 6000);
+    const slider = sliderRef.current!; // Use ! para indicar que slider não é null
+    
 
-    return () => clearInterval(interval);
-  }, []);
+    // Restante do código permanece o mesmo
+    function activate(e: MouseEvent) {
+      const target = e.target as HTMLElement;
 
-  const handleRadioChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setCurrentSlide(parseInt(event.target.value));
-  };
+      if (!target.matches || typeof target.matches !== "function") {
+        console.error("Element doesn't support matches function");
+        return;
+      }
+
+      const items = slider.querySelectorAll(".item_slider_home_page");
+
+      if (!items.length) {
+        console.error("No items found in the slider");
+        return;
+      }
+
+      target.matches(".next") && slider.append(items[0]);
+      target.matches(".prev") && slider.prepend(items[items.length - 1]);
+    }
+
+    document.addEventListener("click", activate, false);
+
+    return () => {
+      document.removeEventListener("click", activate, false);
+    };
+  }, [sliderRef]);
   
   return (
     <>
-    <section id="home" className="banner">
+    {/* <section id="home" className="banner">
       <div className="sliders">
       <input
           type="radio"
@@ -107,6 +146,84 @@ export function Home () {
         <label htmlFor="radio1" className="manual-btn"></label>
         <label htmlFor="radio2" className="manual-btn"></label>
         <label htmlFor="radio3" className="manual-btn"></label>
+      </div>
+    </section> */}
+
+<section className="slider_home_page">
+      <div className="div_slider_home_page">
+    <ul ref={sliderRef} className="slider">
+  {/* Slides go here */}
+  {[
+    {
+      // imageUrl: 'https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg',
+      imageUrl: img1,
+
+      title: 'Mais assertividades em novas contratções',
+      description:
+        'Programa de Estágio',
+    },
+    {
+      // imageUrl: 'https://i.redd.it/tc0aqpv92pn21.jpg',
+      imageUrl: img2,
+      title: 'Aumente o potencial da sua empresa com nosso ',
+      description:
+        'Programa de Estágio',
+    },
+    {
+      // imageUrl: 'https://wharferj.files.wordpress.com/2015/11/bio_north.jpg',
+      imageUrl: img3,
+      title: 'Capacitamos profissionais por meio do estágio para atuar em diversas áreas',
+      description:
+        'Programa de Estágio',
+    },
+    {
+      // imageUrl: 'https://images7.alphacoders.com/878/878663.jpg',
+      imageUrl: img4,
+      title: 'Descubra caminhos para o seu sucesso com nosso',
+      description:
+        'Programa de Estágio',
+    },
+    {
+      imageUrl: img5,
+      title: 'Em Busca de Oportunidades Profissionais? Conheça nosso ',
+      description:
+        'Programa de Estágio',
+    },
+    {
+      imageUrl: img6,
+      title: 'Estagiários a inovação em MOVIMENTO',
+      description:
+        'Programa de Estágio',
+    },
+    // Adicione os slides adicionais aqui conforme necessário
+  ].map((slide, index) => (
+    <li
+      key={index}
+      className="item_slider_home_page "
+      style={{ backgroundImage: `url('${slide.imageUrl}')` }}
+    >
+      <div className="content_slider_home_page">
+        <h2 className="title_slider_home_page">{slide.title}</h2>
+        <p className="description_slider_home_page">  {slide.description.includes('Estágio') ? (
+                <>
+                  {slide.description.split('Estágio')[0]}{' '}
+                  <span style={{ color: '#fb670a ' }}>Estágio</span>{' '}
+                  {slide.description.split('Estágio')[1]}
+                </>
+              ) : (
+                slide.description
+              )}</p>
+        {/* <button>Read More</button> */}
+      </div>
+    </li>
+  ))}
+</ul>
+
+
+      <div className="nav_slider_home_page">
+        <div className="btn_slider_home_page prev" ><GrLinkPrevious /></div>
+        <div className="btn_slider_home_page next"><GrLinkNext /></div>
+      </div>
       </div>
     </section>
 
