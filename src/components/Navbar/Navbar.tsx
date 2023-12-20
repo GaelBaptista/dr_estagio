@@ -11,6 +11,8 @@ import {
 import { RiMenuLine, RiArrowDownSLine, RiMegaphoneFill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
+import { SlLogin } from "react-icons/sl";
+import { IoClose } from "react-icons/io5";
 
 import "./style.css";
 import { BsFillCartFill } from "react-icons/bs";
@@ -266,22 +268,24 @@ export function Navbar() {
                   </Link>
                 </li>
                 <div className="nav__buttons">
-                  <Link
+                  {/* <Link
                   to='/Login_aluno'
-                    // href="https://igtcursos.com.br/account/"
+                    href="https://igtcursos.com.br/account/"
                     className="nav__button"
                     onClick={closeMenu}
                   >
                     Sou Estagiário
-                  </Link>
+                  </Link> */}
                   <Link
                     to=''
-                    className="nav__button Btn_Emp"
+                    className="nav__button Btn_Emp "
                     onClick={() => {
                       showMessageBoxHandler();
                     }}
-                  >
-                    Sou Empresa
+                  ><SlLogin
+                  style={{ fontSize: "18px", color: "#ff7417" }}
+                />
+                  Login
                   </Link>
                 </div>
                 {showMessageBox && (
@@ -291,15 +295,15 @@ export function Navbar() {
                         className="message-box__close"
                         onClick={closeMessageBoxHandler}
                       >
-                        X
+                       <IoClose   style={{ fontSize: "30px", color: "#ff7417" }}/>
                       </button>
                     </div>
                     <div className="message-box__content">
                       <h5 className="message-box__title">
-                        Ainda em desenvolvimento
+                        Bem Vindo(a) a Dr.Estágio
                       </h5>
                       <p className="message-box__paragraph">
-                        Ainda em desenvolvimento
+                       Faça seu Login , entre em empresa ou estagiário
                       </p>
                     </div>
                     <div className="message-box__bottom">
@@ -312,7 +316,18 @@ export function Navbar() {
                           // window.open("/Login_aluno", "_blank");
                         }}
                       >
-                        ok
+                      Estagiário
+                      </Link>
+                      <Link
+                        type="button"
+                     to='/Login_aluno'
+                        className="message-box__button"
+                        onClick={() => {
+                          setShowMessageBox(false);
+                          // window.open("/Login_aluno", "_blank");
+                        }}
+                      >
+                       Empresa
                       </Link>
                     </div>
                   </div>
