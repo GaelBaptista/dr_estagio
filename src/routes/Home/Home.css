@@ -330,7 +330,7 @@ input{
     font-weight: bold;
   }
 
-  & button {
+  /* & button {
     width: fit-content;
     background-color: rgba(0,0,0,0.1);
     color: white;
@@ -338,7 +338,7 @@ input{
     border-radius: 0.25rem;
     padding: 0.75rem;
     cursor: pointer;
-  }
+  } */
 }
 
 .item_slider_home_page:nth-of-type(2) .content_slider_home_page {
@@ -368,13 +368,16 @@ input{
   
 
   & .btn_slider_home_page {
-    background-color: rgba(255,255,255,0.5);
     color: white;
-    border: 2px solid rgba(0,0,0,0.6);
+    background-color: #fb670a;
+  
     margin: 0 0.25rem;
-    padding: 0.75rem;
-    border-radius: 50%;
+    padding: 0.5rem;
+    border-radius: 5px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
     &:hover {
       background-color: rgba(255,255,255,0.3);

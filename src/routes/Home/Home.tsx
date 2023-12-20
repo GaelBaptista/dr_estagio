@@ -4,7 +4,10 @@ import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
 
 import { MdPermContactCalendar } from 'react-icons/md'
-import {  GrLinkNext, GrLinkPrevious } from "react-icons/gr";
+import {  GrFormNext, GrFormPrevious, GrPrevious } from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
+
+
 
 
 import  { useEffect,  useRef } from 'react';
@@ -21,6 +24,7 @@ import img3 from '../../assests/banner3.jpg'
 import img4 from '../../assests/banner4.jpg'
 import img5 from '../../assests/banner5.jpg'
 import img6 from '../../assests/banner6.jpg'
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 
 export function Home () {
@@ -221,8 +225,8 @@ export function Home () {
 
 
       <div className="nav_slider_home_page">
-        <div className="btn_slider_home_page prev" ><GrLinkPrevious /></div>
-        <div className="btn_slider_home_page next"><GrLinkNext /></div>
+        <div className="btn_slider_home_page prev" ><AiOutlineLeft size={30} /></div>
+        <div className="btn_slider_home_page next"><AiOutlineRight size={30}  /></div>
       </div>
       </div>
     </section>
