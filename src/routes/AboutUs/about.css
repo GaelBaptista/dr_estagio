@@ -48,7 +48,7 @@
   justify-content: space-between;
   gap: 80px;
   min-height: calc(100vh - 80px);
-  /* diminuir o espaçamento embaxio na seção de sobre nós , colocar o gap e o min-height no comentario */
+  /* diminui o espaçamento embaxio na seção de sobre nós , colocar o gap e o min-height no comentario */
 }
 
 .landing-page .contentAbout .infoAbout h1 {

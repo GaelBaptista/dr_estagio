@@ -320,7 +320,7 @@ export function Navbar() {
                       </Link>
                       <Link
                         type="button"
-                     to='/Login_aluno'
+                     to='/Login_empresa'
                         className="message-box__button"
                         onClick={() => {
                           setShowMessageBox(false);

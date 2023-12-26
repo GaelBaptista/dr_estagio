@@ -3,7 +3,7 @@ import React, { useEffect, useState }  from 'react';
 import ImgAbout from '../../assests/AboutusIMG.png'
 import TimelineBG from '../../assests/Timeline_BG.png'
 
-
+import rocket from '../../assests/svg_login/to-the-stars-animate.svg'
 
 // Timeline
 import {

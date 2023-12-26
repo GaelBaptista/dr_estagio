@@ -2,8 +2,8 @@
 
 
 .main-login{
-  width: 100vw;/*width=largura e 100vw=100% da tela*/
-  height: 100vh;/*height=altura*/
+  width: 100%;/*width=largura e 100vw=100% da tela*/
+  height: 100%;/*height=altura*/
   background: #201b2c;
   display: flex; /*faz com que as coisas fiquem lado a lado*/
   justify-content: center; /*centraliza  as coisas no eixo X*/

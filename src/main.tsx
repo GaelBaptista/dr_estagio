@@ -11,6 +11,7 @@ import {
 import {Navbar} from "./components/Navbar/Navbar";
 import "./App.css";
 import { Login_aluno } from "./routes/Login/login";
+
 import {Home} from "./routes/Home/Home";
 import {About} from "./routes//AboutUs/About";
 import Contact from "./routes//Contact/Contact";
@@ -29,6 +30,7 @@ import { Blog } from "./routes/Blog/blogprops";
 import { DrConect } from "./routes/Blog/PagesBlog/DrConect/DrConect";
 import { GuiaBlog } from "./routes/Blog/PagesBlog/Guia/Guia";
 import { CsEmpresaInovadora } from "./routes/Blog/PagesBlog/EmpresaInovadora/Cs";
+import { Login_empresa } from "./routes/Login/Login_Empresa/loginEmpresa";
 
 
 
@@ -70,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: "login_aluno",
         element: <Login_aluno />,
+      },
+      {
+        path: "login_empresa",
+        element: <Login_empresa />,
       },
       {
         path: "programa-estagio",

@@ -182,15 +182,15 @@ export function Home () {
     {
       // imageUrl: 'https://images7.alphacoders.com/878/878663.jpg',
       imageUrl: img4,
-      title: 'Descubra caminhos para o seu sucesso com nosso',
+      title: 'Descubra caminhos para o seu sucesso com nossas',
       description:
-        'Programa de Estágio',
+        'Vagas de Estágio',
     },
     {
       imageUrl: img5,
-      title: 'Em Busca de Oportunidades Profissionais? Conheça nosso ',
+      title: 'Em Busca de Oportunidades Profissionais? Conheça nossas ',
       description:
-        'Programa de Estágio',
+        'Vagas de Estágio',
     },
     {
       imageUrl: img6,
