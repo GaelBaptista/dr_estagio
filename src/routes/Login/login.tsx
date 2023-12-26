@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './login.css';
 import MyIcon from '../../assests/svg_login/cat-astronaut-animate.svg';
 
