@@ -23,7 +23,7 @@ export function Login_empresa() {
   };
 
   const handleChange = () => {
-    if (password.length >= 5) {
+    if (password.length >= 4) {
       setIsButtonDisabled(false);
     } else {
       setIsButtonDisabled(true);
