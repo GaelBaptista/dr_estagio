@@ -31,7 +31,7 @@ export function Login_empresa() {
   };
 
   const handleSubmit = () => {
-    if (username === 'drestagio' && password === '12345') {
+    if (username === 'drestagio' && password === '123456') {
       window.location.href = 'https://www.google.com.br';
     } else {
       setErrorMessage('Credenciais inválidas D: Tente novamente.');
