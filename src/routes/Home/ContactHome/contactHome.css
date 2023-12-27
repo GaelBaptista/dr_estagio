@@ -338,6 +338,12 @@ button a {
     flex-direction: column; /* Alinha os itens verticalmente na versão mobile */
     height: auto; /* Remove a altura fixa para se adaptar ao conteúdo */
   }
+  .body__contactHome{
+
+  
+    padding: 0px 0px;
+ 
+  }
 
   .infos,
   .contact-info {
@@ -351,5 +357,10 @@ button a {
 
   .contact-info {
     display: none; /* Exibe a div contact-info na versão mobile */
+  }
+}
+@media (max-width:500px) {
+  .infos h2{
+    font-size: 22px;
   }
 }

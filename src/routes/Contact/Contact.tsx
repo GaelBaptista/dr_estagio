@@ -55,7 +55,7 @@ function Contact() {
             </div>
 
      <div className="content">
-      <h2>Envie Seu currículo   !</h2>
+      <h2>Envie Seu currículo!</h2>
       <span>Entre para nosso Banco de Dados!  </span>
       <a href="https://drestagio.gupy.io/"  target="_blank" rel="noopener noreferrer">Enviar Currículo</a>
      </div>

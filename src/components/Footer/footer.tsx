@@ -12,6 +12,8 @@ import LogoFooter from '../../assests/Logo1.png'
 
 
 export function Footer() {
+  const recipientEmail = "comercial@drestagio.com.br";
+  const mailtoLink = `mailto:${recipientEmail}`;
   return (
     <footer className="footer-section">
     <div className="container">
@@ -22,7 +24,7 @@ export function Footer() {
             <i className="far fa-envelope-open"><FaClock className="icon" /></i>
               <div className="cta-text">
                 <h4>Atendimentos</h4>
-                <span>Seg-Sex 9:00-17:00</span>
+                <span><a href="">Seg-Sex 9:00-17:00</a></span>
               </div>
             </div>
           </div>
@@ -31,7 +33,7 @@ export function Footer() {
             <i className="far fa-envelope-open"> <FaPhone className="icon" /></i>
               <div className="cta-text">
                 <h4>Fale Conosco</h4>
-                <span>(85) 99247-7241</span>
+                <span><a href="https://wa.me/message/SUGMGVU6UMJOD1">(85) 99247-7241</a></span>
               </div>
             </div>
           </div>
@@ -40,7 +42,7 @@ export function Footer() {
             <i className="far fa-envelope-open"><FaEnvelopeOpen className="icon" /></i>
               <div className="cta-text">
                 <h4>E-Mail</h4>
-                <span>comercial@drestagio.com.br</span>
+                <span> <a href={mailtoLink}>comercial@drestagio.com.br</a></span>
               </div>
             </div>
           </div>

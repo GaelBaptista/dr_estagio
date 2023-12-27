@@ -53,10 +53,14 @@
   color: #888;
 }
 
-.info-details {
+.info-details a {
   font-size: 1.1rem;
   color: #333;
+  cursor: pointer;
 }
+.info-details a:hover{
+  color : #FF6609
+  }
 @media (max-width: 1024px) {
   .Header {
     font-size: 12px;
