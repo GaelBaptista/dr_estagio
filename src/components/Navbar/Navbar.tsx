@@ -313,6 +313,7 @@ export function Navbar() {
                         className="message-box__button"
                         onClick={() => {
                           setShowMessageBox(false);
+                          closeMenu();
                           // window.open("/Login_aluno", "_blank");
                         }}
                       >
@@ -324,6 +325,7 @@ export function Navbar() {
                         className="message-box__button"
                         onClick={() => {
                           setShowMessageBox(false);
+                          closeMenu();
                           // window.open("/Login_aluno", "_blank");
                         }}
                       >
