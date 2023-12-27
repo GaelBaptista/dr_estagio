@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import './login.css';
-import MyIcon from '../../assests/svg_login/cat-astronaut-animate.svg';
+import MyIcon from '../../assests/svg_login/to-the-stars-animate (1).svg';
 
 export function Login_aluno() {
   const [username, setUsername] = useState('');
@@ -22,7 +22,7 @@ export function Login_aluno() {
     }
 
     if (username === 'drestagio' && password === '12345') {
-      window.location.href = 'https://www.google.com.br';
+      window.location.href = 'https://www.igtcursos.com.br/account';
     } else {
       setErrorMessage('Usuário ou senha incorretos. Tente novamente.');
     }
@@ -32,7 +32,7 @@ export function Login_aluno() {
     <>
       <div className="main-login">
         <div className="left-login">
-          <h1>Faça login <br /> E entre nessa jornada!</h1>
+          <h1>Faça seu login, <br /> e entre nessa jornada!</h1>
           <img className='animated' src={MyIcon} alt="Ícone SVG" />
         </div>
         <div className="right-login">

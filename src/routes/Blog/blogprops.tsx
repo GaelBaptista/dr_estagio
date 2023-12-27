@@ -19,7 +19,7 @@ const cardsData = [
   {
     imgSrc: rh,
     date: { day: '01', month: 'Jan' },
-    title: 'Legislação para o RH em 2023',
+    title: 'Planner para o RH em 2024',
     text: "Mudanças que impactam su rotina.",
     icon: IoMdCube, // Substitua 'FaIconName1' pelo nome do ícone que você deseja usar
     saibaMaisLink: 'https://drive.google.com/file/d/1j0YsaYOoO_e6Xt1DszoVM0cjoiZFlZkE/view?usp=sharing', // Substitua '/link1' pelo link desejado

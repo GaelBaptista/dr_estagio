@@ -5,6 +5,7 @@
   width: 100%;/*width=largura e 100vw=100% da tela*/
   height: 100%;/*height=altura*/
   background: #201b2c;
+
   display: flex; /*faz com que as coisas fiquem lado a lado*/
   justify-content: center; /*centraliza  as coisas no eixo X*/
   align-items: center; /*centraliza as coisas no eixo Y*/
@@ -42,6 +43,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 1rem;
   padding: 30px 35px;/*espaço entre a borda e o conteudo do site*/
   background: #2f2841;
   border-radius: 20px; /*para a borda*/
