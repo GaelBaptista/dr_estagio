@@ -224,8 +224,8 @@ export function Home () {
 
 
       <div className="nav_slider_home_page">
-        <div className="btn_slider_home_page prev" ><AiOutlineLeft size={30} /></div>
-        <div className="btn_slider_home_page next"><AiOutlineRight size={30}  /></div>
+        <AiOutlineLeft className="btn_slider_home_page prev " size={40} />
+        <AiOutlineRight  className="btn_slider_home_page next" size={40} />
       </div>
       </div>
     </section>
