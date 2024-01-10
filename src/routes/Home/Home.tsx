@@ -23,7 +23,6 @@ import img3 from '../../assests/banner3.jpg'
 import img4 from '../../assests/banner4.jpg'
 import img5 from '../../assests/banner5.jpg'
 import img6 from '../../assests/banner6.jpg'
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 
 export function Home () {
@@ -48,21 +47,54 @@ export function Home () {
   //   setCurrentSlide(parseInt(event.target.value));
   // };
 
+
+  // ========================================================== LOGICA COM BOTOES ============================================================================
+
+
+
+  // const sliderRef = useRef<HTMLUListElement | null>(null);
+
+  // useEffect(() => {
+  //   const slider = sliderRef.current!; // Use ! para indicar que slider não é null
+    
+
+  //   // Restante do código permanece o mesmo
+  //   function activate(e: MouseEvent) {
+  //     const target = e.target as HTMLElement;
+
+  //     if (!target.matches || typeof target.matches !== "function") {
+  //       console.error("Element doesn't support matches function");
+  //       return;
+  //     }
+
+  //     const items = slider.querySelectorAll(".item_slider_home_page");
+
+  //     if (!items.length) {
+  //       console.error("No items found in the slider");
+  //       return;
+  //     }
+
+  //     target.matches(".next") && slider.append(items[0]);
+  //     target.matches(".prev") && slider.prepend(items[items.length - 1]);
+  //   }
+
+  //   document.addEventListener("click", activate, false);
+
+  //   return () => {
+  //     document.removeEventListener("click", activate, false);
+  //   };
+  // }, [sliderRef]);
+  
+
+
   const sliderRef = useRef<HTMLUListElement | null>(null);
 
   useEffect(() => {
-    const slider = sliderRef.current!; // Use ! para indicar que slider não é null
-    
+    const slider = sliderRef.current!;
 
-    // Restante do código permanece o mesmo
-    function activate(e: MouseEvent) {
-      const target = e.target as HTMLElement;
+    let intervalId: NodeJS.Timeout;
 
-      if (!target.matches || typeof target.matches !== "function") {
-        console.error("Element doesn't support matches function");
-        return;
-      }
-
+    function activate() {
       const items = slider.querySelectorAll(".item_slider_home_page");
 
       if (!items.length) {
@@ -70,17 +102,20 @@ export function Home () {
         return;
       }
 
-      target.matches(".next") && slider.append(items[0]);
-      target.matches(".prev") && slider.prepend(items[items.length - 1]);
+      // isso faz mover o primerio card o  item para o final 
+      slider.append(items[0]);
     }
 
-    document.addEventListener("click", activate, false);
+   
+    intervalId = setInterval(() => {
+      activate();
+    }, 5000);
 
+    // limp o interevalo 
     return () => {
-      document.removeEventListener("click", activate, false);
+      clearInterval(intervalId);
     };
   }, [sliderRef]);
-  
   return (
     <>
     {/* <section id="home" className="banner">
@@ -223,10 +258,10 @@ export function Home () {
 </ul>
 
 
-      <div className="nav_slider_home_page">
+      {/* <div className="nav_slider_home_page">
         <AiOutlineLeft className="btn_slider_home_page prev " size={40} />
         <AiOutlineRight  className="btn_slider_home_page next" size={40} />
-      </div>
+      </div> */}
       </div>
     </section>
 
