@@ -277,6 +277,7 @@ export function Navbar() {
                     Sou Estagiário
                   </Link> */}
                   <Link
+                 style={{ pointerEvents: 'none', opacity:'0.6', textDecoration: 'none' }}
                     to=''
                     className="nav__button Btn_Emp "
                     onClick={() => {
