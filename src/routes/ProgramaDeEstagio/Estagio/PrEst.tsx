@@ -4,6 +4,8 @@ import "./PrEst.css";
 
 import {FAQ} from "./FAQ";
 import { FAQItem } from './FAQ';
+import CarouselComponent from "../servicos_pr/Cardservico";
+import { Testimonials_ } from "../servicos_pr/testimonials";
 
 
 
@@ -157,6 +159,7 @@ import { FAQItem } from './FAQ';
       });
     };
   return (
+    <>
     <section className="ContainerProgramadeEstagio">
       <div className="section-head prEst">
         <h4><span>Oque é o</span>Programa de Estágio</h4>
@@ -198,5 +201,8 @@ import { FAQItem } from './FAQ';
         ))}
       </div>
     </section>
+  <CarouselComponent/>
+  <Testimonials_/>
+    </>
   );
 }

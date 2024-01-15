@@ -20,8 +20,13 @@
 }
 .map-title {
   font-weight: bold;
+  
 }
+.map-title h1 {
+  margin-top: 0;
+  margin-bottom: 0;
 
+}
 .map-container svg {
   /* Estilos do seu SVG */
   flex: 1;

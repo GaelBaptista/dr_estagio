@@ -20,12 +20,12 @@ import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/footer";
 import { Vagas } from "./routes/Projects/Vagas/Vagas";
 import { Projects } from "./routes/Projects/projects";
-import { PrEst } from "./routes/ProgramaDeEstagio/PrEst";
+import { PrEst } from "./routes/ProgramaDeEstagio/Estagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
 import { NossoMapa } from "./routes/Localizacao/NossoMapa";
 import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
-import { Servicos } from "./routes/Projects/Sericos/servicos";
+// import { Servicos } from "./routes/Projects/Sericos/servicos";
 import { Blog } from "./routes/Blog/blogprops";
 import { DrConect } from "./routes/Blog/PagesBlog/DrConect/DrConect";
 import { GuiaBlog } from "./routes/Blog/PagesBlog/Guia/Guia";
@@ -109,10 +109,7 @@ const router = createBrowserRouter([
             path: "vagas",
             element: <Vagas />,
           },
-          {
-            path: "servicos",
-            element: <Servicos />,
-          },
+        
          
         ],
       },

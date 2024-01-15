@@ -1,7 +1,10 @@
+import CarouselComponent from '../servicos_pr/Cardservico'
+import { Testimonials_ } from '../servicos_pr/testimonials'
 import './farmacia.css'
 
 export function Farmacia () {
   return (
+    <>
     <div id="parallax-world-of-ugg">
      
   
@@ -57,6 +60,8 @@ export function Farmacia () {
   
     
   </div>
-   
+  <CarouselComponent/>
+  <Testimonials_/>
+  </>
   )
 }

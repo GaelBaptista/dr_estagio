@@ -9,13 +9,14 @@ import {
   AiOutlineClose,
 } from "react-icons/ai";
 import { RiMenuLine, RiArrowDownSLine, RiMegaphoneFill } from "react-icons/ri";
-import { FaUser } from "react-icons/fa";
+import { FaMoneyBillWave, FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
 import { SlLogin } from "react-icons/sl";
 import { IoClose } from "react-icons/io5";
-
+import { MdMiscellaneousServices, MdRocketLaunch } from "react-icons/md";
 import "./style.css";
 import { BsFillCartFill } from "react-icons/bs";
+import { GiMagnifyingGlass } from "react-icons/gi";
 import {
   MdHealthAndSafety,
   MdOutlineMiscellaneousServices,
@@ -145,7 +146,7 @@ export function Navbar() {
 
                 <li className="dropdown__item">
                   <div className="nav__link">
-                    Sobre Estágio{" "}
+                    Nossos Serviços{" "}
                     <RiArrowDownSLine className="dropdown__arrow" />
                   </div>
 
@@ -183,31 +184,31 @@ export function Navbar() {
                       </Link>
                     </li>
 
-                    {/* <li className="dropdown__subitem">
+                    <li className="dropdown__subitem">
                 <div className="dropdown__link">
-                  <FaMoneyBillWave /> Reports <i className="ri-add-line dropdown__add"></i>
+                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/> Soluções RH<i className="ri-add-line dropdown__add"></i>
                 </div>
 
                 <ul className="dropdown__submenu">
                   <li>
                     <Link to="/analytics/reports/documents" className="dropdown__sublink">
-                      <FaMoneyBillWave /> Documents
+                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Recrutamento e Seleção
                     </Link>
                   </li>
 
                   <li>
                     <Link to="/analytics/reports/payments" className="dropdown__sublink">
-                      <FaMoneyBillWave /> Payments
+                      <MdRocketLaunch style={{ fontSize: "32px" }} />Palestras e Treinamento
                     </Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link to="/analytics/reports/refunds" className="dropdown__sublink">
                       <FaMoneyBillWave /> Refunds
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
-              </li> */}
+              </li>
                   </ul>
                 </li>
 
@@ -238,7 +239,7 @@ export function Navbar() {
                       </Link>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <Link
                         to="/projects/servicos"
                         className="dropdown__link"
@@ -249,7 +250,7 @@ export function Navbar() {
                         />{" "}
                         Nossos Serviços
                       </Link>
-                    </li>
+                    </li> */}
                     {/* <li>
                 <Link to="/projects/esg" className="dropdown__link" onClick={closeMenu}>
                   <MdRecycling style={{ fontSize: '30px' }} /> ESG no Estágio

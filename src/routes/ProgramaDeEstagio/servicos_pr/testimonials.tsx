@@ -1,19 +1,16 @@
-import ServicosHome from './assetsServicos/ServicosHome.png'
+
 import './servicos.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import CarouselComponent from './Cardservico';
 
 
 
-import {BsFillTelephoneFill} from 'react-icons/bs'
-import {ImLocation2} from 'react-icons/im'
-import {MdEmail} from "react-icons/md"
+
 import moranguinho from './assetsServicos/moranguinho.png'
 import anali from './assetsServicos/anali.png'
 
-export function Servicos () {
+export function Testimonials_ () {
 
   const testimonialSlides = [
     {
@@ -48,38 +45,9 @@ export function Servicos () {
 
 
   return (
-    <main>
-      {/* Home */}
-      <section className="section" id="home">
-        <div className="container grid">
-          <div className="image">
-            <img src={ServicosHome} rel="preload" alt="Mulher sorrindo penteando outra mulher" />
-          </div>
-          <div className="text">
-            <h2 className="title">Nossos Serviços</h2>
-            <p>A <strong> Dr.Estágio </strong>simplifica o processo de contratação de estagiários, permitindo que sua equipe de RH possa focar em outras atividades estratégicas dentro da organização. Nosso programa de estágio visa primordialmente proporcionar aprendizado, assegurando que nossos estagiários alcancem um desempenho profissional notável
-               enquanto a empresa contratante colhe os benefícios da legislação de incentivo ao estágio sem lidar com complicações burocráticas.</p>
-            <a className="button" target="_blank" href="https://wa.me/message/SUGMGVU6UMJOD1">Fale Conosco</a>
-          </div>
-        </div>
-      </section>
-
-      {/* Divisor */}
-      <div className="divider-1"></div>
-
-
-
-      {/* Divisor */}
-      <div className="divider-2"></div>
-
-      {/* Services */}
-    <CarouselComponent/>
-   
+  
     
-    
-       {/* Divisor */}
-       <div className="divider-1"></div>
-
+<>
    {/* Testimonials */}
    <section className="section" id="testimonials">
         <div className="container">
@@ -106,31 +74,6 @@ export function Servicos () {
         </div>
       </section>
 
-
-{/* Divisor */}
-<div className="divider-2"></div>
-
-{/* Contact */}
-<section className="section" id="contact">
-  <div className="container grid">
-    <div className="text">
-      <h2 className="title">Entre em contato com a gente!</h2>
-      <p>
-A <strong>Dr.Estágio</strong> pode ajudar sua empresa a reduzir custos e oferecer oportunidades de carreira para os talentos em ascensão.</p>
-      <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" className="button"><i className="icon-whatsapp"></i> Entrar em contato</a>
-    </div>
-    <div className="links">
-      <ul className="grid">
-        <li><i className="icon-phone"><BsFillTelephoneFill/></i> 85 99247-7241</li>
-        <li><i className="icon-map-pin"><ImLocation2/></i> Av chanceler edson queiroz, R. Rio Novo, 3405, Cascavel - CE</li>
-        <li><i className="icon-mail"><MdEmail/></i>comercial@drestagio.com.br</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-{/* Divisor */}
-<div className="divider-1"></div>
-      </main>
+      </>
   )
 }

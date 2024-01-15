@@ -1,3 +1,5 @@
+import CarouselComponent from '../servicos_pr/Cardservico'
+import { Testimonials_ } from '../servicos_pr/testimonials'
 import './varejo.css'
 
 
@@ -5,6 +7,7 @@ import './varejo.css'
 
 export function Varejo () {
   return (
+    <>
     <div id="parallax-world-of-ugg">
   
 <section>
@@ -59,5 +62,8 @@ export function Varejo () {
 
   
 </div>
+<CarouselComponent/>
+  <Testimonials_/>
+    </>
   )
 }

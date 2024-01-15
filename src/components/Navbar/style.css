@@ -21,6 +21,8 @@
   --z-fixed: 100;
 }
 
+
+
 /* Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
@@ -244,7 +246,7 @@ a {
 
 /* Nav */
 .nav {
-  height: var(--header-height);
+  height:4.5rem;
 }
 
 .nav__logo,
@@ -408,7 +410,8 @@ a {
 }
 
 .dropdown__sublink {
-  background-color: var(--black-color-lighten);
+  /* background-color: var(--black-color-lighten); */
+  background: #121242;
 }
 @media screen and (max-width: 768px) {
   .logo-text {
@@ -436,7 +439,7 @@ a {
   }
 
   .nav {
-    height: calc(var(--header-height) + 2rem);
+    height: calc(4.5rem + 2rem);
     display: flex;
     justify-content: space-between;
   }

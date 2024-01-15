@@ -3,7 +3,7 @@ import {HiDocumentText} from 'react-icons/hi'
 import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
 
-import { MdPermContactCalendar } from 'react-icons/md'
+import { MdPermContactCalendar, MdRocketLaunch } from 'react-icons/md'
 
 
 
@@ -23,6 +23,7 @@ import img3 from '../../assests/banner3.jpg'
 import img4 from '../../assests/banner4.jpg'
 import img5 from '../../assests/banner5.jpg'
 import img6 from '../../assests/banner6.jpg'
+import { GiMagnifyingGlass } from 'react-icons/gi';
 
 
 export function Home () {
@@ -210,16 +211,16 @@ export function Home () {
     {
       // imageUrl: 'https://wharferj.files.wordpress.com/2015/11/bio_north.jpg',
       imageUrl: img3,
-      title: 'Capacitamos profissionais por meio do estágio para atuar em diversas áreas',
+      title: 'Trilhas Estratégicas para o Sucesso Empresarial',
       description:
-        'Programa de Estágio',
+        'Recrutamento e Seleção',
     },
     {
       // imageUrl: 'https://images7.alphacoders.com/878/878663.jpg',
       imageUrl: img4,
-      title: 'Descubra caminhos para o seu sucesso com nossas',
+      title: 'Gestão de Talentos e Crescimento Organizacional',
       description:
-        'Vagas de Estágio',
+        'Palestras e Treinamentos',
     },
     {
       imageUrl: img5,
@@ -242,15 +243,29 @@ export function Home () {
     >
       <div className="content_slider_home_page">
         <h2 className="title_slider_home_page">{slide.title}</h2>
-        <p className="description_slider_home_page">  {slide.description.includes('Estágio') ? (
-                <>
-                  {slide.description.split('Estágio')[0]}{' '}
-                  <span style={{ color: '#fb670a ' }}>Estágio</span>{' '}
-                  {slide.description.split('Estágio')[1]}
-                </>
-              ) : (
-                slide.description
-              )}</p>
+        <p className="description_slider_home_page">
+  {slide.description.includes('Estágio') ? (
+    <>
+      {slide.description.split('Estágio')[0]}{' '}
+      <span style={{ color: '#fffff' }}>Estágio</span>{' '}
+      {slide.description.split('Estágio')[1]}
+    </>
+  ) : slide.description.includes('Seleção') ? (
+    <>
+      {slide.description.split('Seleção')[0]}{' '}
+      <span style={{ color: '#fffff' }}>Seleção</span>{' '}
+      {slide.description.split('Seleção')[1]}
+    </>
+  ) : slide.description.includes('Treinamentos') ? (
+    <>
+      {slide.description.split('Treinamentos')[0]}{' '}
+      <span style={{ color: '#fffff' }}>Treinamentos</span>{' '}
+      {slide.description.split('Treinamentos')[1]}
+    </>
+  ) : (
+    slide.description
+  )}
+</p>
         {/* <button>Read More</button> */}
       </div>
     </li>
@@ -276,14 +291,14 @@ export function Home () {
         </div>
         <div className="quadrado">
             <Link to='/projects/contact'>
-            <div className="icone"><MdPermContactCalendar/></div>
-            <div>Nossos Contatos</div>
+            <div className="icone"><GiMagnifyingGlass/></div>
+            <div>Recrutamento e Seleção</div>
             </Link>
         </div>
         <div className="quadrado">
           <Link to='/projects/servicos'>
-            <div className="icone"><FaCube/></div>
-            <div>Nossos Serviços </div>
+            <div className="icone"><MdRocketLaunch/></div>
+            <div>Palestras e Treinamentos</div>
             </Link>
         </div>
         <div className="quadrado">
