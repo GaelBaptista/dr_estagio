@@ -291,13 +291,13 @@ export function Home () {
             </Link>
         </div>
         <div className="quadrado">
-            <Link to='/projects/contact'>
+            <Link to='/recrutamento-selecao'>
             <div className="icone"><GiMagnifyingGlass/></div>
             <div>Recrutamento e Seleção</div>
             </Link>
         </div>
         <div className="quadrado">
-          <Link to='/projects/servicos'>
+          <Link to='/palestra-treinamento'>
             <div className="icone"><MdRocketLaunch/></div>
             <div>Palestras e Treinamentos</div>
             </Link>

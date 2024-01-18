@@ -31,6 +31,8 @@ import { DrConect } from "./routes/Blog/PagesBlog/DrConect/DrConect";
 import { GuiaBlog } from "./routes/Blog/PagesBlog/Guia/Guia";
 import { CsEmpresaInovadora } from "./routes/Blog/PagesBlog/EmpresaInovadora/Cs";
 import { Login_empresa } from "./routes/Login/Login_Empresa/loginEmpresa";
+import { Recrutamento_Selecao } from "./routes/Solucoes_RH/Recru_Sele/recru_sele";
+import { Palestra_Treinamento } from "./routes/Solucoes_RH/Pales_Trein/pales_trein";
 
 
 
@@ -89,6 +91,14 @@ const router = createBrowserRouter([
       {
         path: "farmacia",
         element: <Farmacia />, 
+      },
+      {
+        path: "recrutamento-selecao",
+        element: <Recrutamento_Selecao/>, 
+      },
+      {
+        path: "palestra-treinamento",
+        element: <Palestra_Treinamento/>, 
       },
     
       {

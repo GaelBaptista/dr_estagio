@@ -191,13 +191,13 @@ export function Navbar() {
 
                 <ul className="dropdown__submenu">
                   <li>
-                    <Link to="/analytics/reports/documents" className="dropdown__sublink">
+                    <Link to="/recrutamento-selecao" className="dropdown__sublink">
                     <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Recrutamento e Seleção
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/analytics/reports/payments" className="dropdown__sublink">
+                    <Link to="/palestra-treinamento" className="dropdown__sublink">
                       <MdRocketLaunch style={{ fontSize: "32px" }} />Palestras e Treinamento
                     </Link>
                   </li>
