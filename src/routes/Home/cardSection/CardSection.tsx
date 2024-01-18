@@ -3,6 +3,7 @@ import { MdGroups2, MdAttachMoney, } from 'react-icons/md'
 
 export function CardSection () {
   return (
+    <>
    <section className='cardHome'>
 
     <div className="containerCard">
@@ -81,7 +82,9 @@ da Lei 11.788/2008.  </p>
  
 
   </section>
+  
 
+    </>
   )
 
 }
