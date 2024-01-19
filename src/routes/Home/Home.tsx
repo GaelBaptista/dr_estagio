@@ -1,9 +1,9 @@
 
 import {HiDocumentText} from 'react-icons/hi'
-import {FaCube} from 'react-icons/fa'
+
 import {BsPersonBadgeFill} from 'react-icons/bs'
 
-import { MdPermContactCalendar, MdRocketLaunch } from 'react-icons/md'
+import {  MdRocketLaunch } from 'react-icons/md'
 
 
 
