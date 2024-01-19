@@ -32,10 +32,7 @@ export function Video () {
           <span className="hr-line"><span><span></span></span></span>
           
           </div>
-          {/* <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
-            cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
-
-          </p> */}
+          
         </div>
 
 
@@ -95,31 +92,13 @@ export function Video () {
           
        
        
-             {/* <div className="video"><video src={Video1} onClick={() => handleVideoClick(Video1)}></video></div> */}
-          {/* <div className="video"><video src={Video2} onClick={() => handleVideoClick(Video2)}> </video></div> */}
-          {/* <div className="video"><video src={Video3} onClick={() => handleVideoClick(Video3)} ></video></div> */}
-       
           </div>
 
 
-          {/* <div className={`popup-video ${popupVisible ? 'active' : ''}`}>
-  <span onClick={handleClosePopup}>&times;</span>
-  {clickedVideo && <video ref={videoRef} src={clickedVideo}  autoPlay controls></video>}
-</div> */}
         </div>
       
     </section>
   )
 }
 
-  {/* <script>
-          documet.querySelectorAll('.video-container video').forEach(vid=>{
-              vid.onClick =()=>{
-                documet.querySelector('.popup-video').style.display='block';
-                documet.querySelector('.popup-video video').src = vid.getAttribute('src')
-              }
-          });
-           documet.querySelector('.popup-video span').onClick =()=>{
-             documet.querySelector('.popup-video').style.display='block';
-           }
-        </script> */}
+ 

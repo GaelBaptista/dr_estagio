@@ -9,7 +9,7 @@ import {
   AiOutlineClose,
 } from "react-icons/ai";
 import { RiMenuLine, RiArrowDownSLine, RiMegaphoneFill } from "react-icons/ri";
-import { FaMoneyBillWave, FaUser } from "react-icons/fa";
+import {  FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
 import { SlLogin } from "react-icons/sl";
 import { IoClose } from "react-icons/io5";
@@ -19,7 +19,7 @@ import { BsFillCartFill } from "react-icons/bs";
 import { GiMagnifyingGlass } from "react-icons/gi";
 import {
   MdHealthAndSafety,
-  MdOutlineMiscellaneousServices,
+
 } from "react-icons/md";
 
 export function Navbar() {
@@ -186,19 +186,19 @@ export function Navbar() {
 
                     <li className="dropdown__subitem">
                 <div className="dropdown__link">
-                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/> Soluções RH<i className="ri-add-line dropdown__add"></i>
+                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/> Em Breve<i className="ri-add-line dropdown__add"></i>
                 </div>
 
                 <ul className="dropdown__submenu">
                   <li>
                     <Link to="/recrutamento-selecao" className="dropdown__sublink">
-                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Recrutamento e Seleção
+                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Em breve
                     </Link>
                   </li>
 
                   <li>
                     <Link to="/palestra-treinamento" className="dropdown__sublink">
-                      <MdRocketLaunch style={{ fontSize: "32px" }} />Palestras e Treinamento
+                      <MdRocketLaunch style={{ fontSize: "32px" }} />Em breve
                     </Link>
                   </li>
 

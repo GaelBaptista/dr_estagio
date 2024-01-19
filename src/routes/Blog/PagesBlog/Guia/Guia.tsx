@@ -18,7 +18,8 @@ export function GuiaBlog() {
         <article className='article_blog'>
           <p>O estágio é um passo crucial para iniciar sua jornada profissional. É uma oportunidade única para aprender, crescer e desenvolver habilidades essenciais para o seu futuro. Este guia rápido foi criado para ajudá-lo a aproveitar ao máximo sua experiência de estágio, proporcionando dicas valiosas para navegar com sucesso no mundo profissional.</p>
           <br />
-          <p><img src={img_body} alt="Placeholder"/></p>
+          <p><img src={img_body} alt="Placeholder"  loading="lazy"
+      decoding="async"/></p>
           <br />
           
           

@@ -180,7 +180,8 @@ export function About() {
         </div>
 
         <div className="image">
-          <img src={ImgAbout} alt="Imagem sobre o assunto" />
+          <img src={ImgAbout} alt="Imagem sobre o assunto" loading="lazy"
+      decoding="async" />
         </div>
       </div>
     </div>
@@ -374,7 +375,8 @@ export function About() {
         </div>
 
         <div className="image about-img-5">
-          <img className='img_img' src={TimelineBG} alt="Foguete impulsionando para cima" />
+          <img className='img_img' src={TimelineBG} alt="Foguete impulsionando para cima" loading="lazy"
+      decoding="async" />
         
         </div>
       </div>

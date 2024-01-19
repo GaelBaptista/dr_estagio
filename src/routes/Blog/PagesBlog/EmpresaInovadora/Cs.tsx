@@ -18,7 +18,8 @@ export function CsEmpresaInovadora() {
         <article className='article_blog'>
           <p>No mundo empresarial dinâmico e competitivo de hoje, a inovação não é apenas uma vantagem, é uma necessidade. Empresas que se destacam e prosperam entendem que a inovação vai além de simplesmente adotar novas tecnologias; ela está enraizada na cultura organizacional, na colaboração eficaz e na criatividade constante. Estas são as pedras angulares das empresas verdadeiramente inovadoras, o que chamamos de os 3 C's: Cultura, Colaboração e Criatividade. Neste artigo, vamos explorar como esses elementos essenciais se entrelaçam para criar o ambiente ideal para a inovação, permitindo que as empresas não apenas sobrevivam, mas também prosperem na era moderna dos negócios.</p>
           <br />
-          <p><img src={img_body} alt="Placeholder"/></p>
+          <p><img src={img_body} alt="Placeholder"  loading="lazy"
+      decoding="async"/></p>
           <br />
           
           

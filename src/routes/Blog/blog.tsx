@@ -20,7 +20,8 @@ function Card({ imgSrc, date, title, text, icon: Icon, saibaMaisLink }: CardProp
   return (
   
     <figure className={`snip1208${hovered ? ' hover' : ''}`} onMouseLeave={() => setHovered(false)}>
-      <img src={imgSrc} alt="sample" />
+      <img src={imgSrc} alt="sample"  loading="lazy"
+      decoding="async" />
       <div className="date">
         <span className="day">{date.day}</span>
         <span className="month">{date.month}</span>

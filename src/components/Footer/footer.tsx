@@ -53,14 +53,16 @@ export function Footer() {
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="footer-widget">
               <div className="footer-logo">
-                <a href="index.html"><img src={LogoFooter} className="img-fluid" alt="logo" /></a>
+                <a href="index.html"><img src={LogoFooter} className="img-fluid" alt="logo" loading="lazy"
+      decoding="async" /></a>
               </div>
               <div className="footer-text">
                 <p>Na missão de integração e desenvolvimento, a Dr. Estágio se dedica a aprimorar e nutrir habilidades excepcionais, trazendo uma contribuição significativa para o sucesso contínuo da sua organização.</p>
               </div>
               <div className="footer-social-icon">
                 <span>Empresa Associada à Associação Brasileira de Estágio</span>
-                <img className='Abres' src={Abres} width={'200px'} height={'100px'}  alt="" />
+                <img className='Abres' src={Abres} width={'200px'} height={'100px'}  alt=""  loading="lazy"
+      decoding="async"/>
                 
                {/* <a href="#"><FaFacebookF className="facebook-bg" /></a>
                 <a href="#"><FaTwitter className="twitter-bg" /></a>

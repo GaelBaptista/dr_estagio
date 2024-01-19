@@ -259,13 +259,13 @@
   }
 
   .landing-page .contentAbout .infoAbout {
-    margin-left: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
-    margin-right: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
-    text-align: center; /* Centralizamos o texto */
+    margin-left: 0; 
+    margin-right: 0; 
+    text-align: center; 
   }
 
   .landing-page .contentAbout .assertiveness {
-    margin-top: 40px; /* Ajustamos o espaçamento entre cada elemento assertiveness */
+    margin-top: 40px; 
     margin-bottom: 40px;
    
     
@@ -274,11 +274,13 @@
   .landing-page .contentAbout .progressContainer {
     width: 90%;
     border-bottom: 20px;
+    
   }
 
 
   .landing-page .contentAbout .progressBar {
-    height: 12px; /* Reduzimos a altura da barra de progresso para dispositivos móveis */
+    height: 12px;
+   
   }
 
   .landing-page .contentAbout .progressBox {

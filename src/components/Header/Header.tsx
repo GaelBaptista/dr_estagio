@@ -7,7 +7,8 @@ export function Header () {
   return (
     <div className="Header">
     <div className="logo">
-      <img src={Logo} alt="Logo" className="logoimg" />
+      <img src={Logo} alt="Logo" className="logoimg" loading="lazy"
+      decoding="async" />
     </div>
 
     <div className="menu">
