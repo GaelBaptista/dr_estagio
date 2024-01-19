@@ -304,7 +304,7 @@
 
 
 .landing-page-timeline{
-  background: url("../../assests/temilinebg2.png"  ) ;
+  /* background: url("../../assests/temilinebg2.png"  ) ; */
   object-fit: cover;
    background-repeat: no-repeat;
 }

@@ -260,7 +260,7 @@ export function Home () {
   ) : slide.description.includes('Treinamentos') ? (
     <>
       {slide.description.split('Treinamentos')[0]}{' '}
-      <span style={{ color: '#fffff' }}>Treinamentos</span>{' '}
+      <span style={{ color: '#fffff' }}>Treinamento</span>{' '}
       {slide.description.split('Treinamentos')[1]}
     </>
   ) : (
