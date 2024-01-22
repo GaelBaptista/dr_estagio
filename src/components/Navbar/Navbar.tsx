@@ -151,7 +151,7 @@ export function Navbar() {
                   </div>
 
                   <ul className="dropdown__menu">
-                    <li>
+                    {/* <li>
                       <Link
                         to="/programa-estagio"
                         className="dropdown__link"
@@ -182,11 +182,36 @@ export function Navbar() {
                         <MdHealthAndSafety style={{ fontSize: "32px" }} />{" "}
                         Estágio para Farmácia
                       </Link>
-                    </li>
+                    </li> */}
+                    <li className="dropdown__subitem">
+                <div className="dropdown__link">
+                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Programa de Estágio<i className="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul className="dropdown__submenu">
+                  <li>
+                    <Link to="/recrutamento-selecao" className="dropdown__sublink">
+                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Estágio varejo
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/palestra-treinamento" className="dropdown__sublink">
+                      <MdRocketLaunch style={{ fontSize: "32px" }} />Estágio Farmácia
+                    </Link>
+                  </li>
+
+                  {/* <li>
+                    <Link to="/analytics/reports/refunds" className="dropdown__sublink">
+                      <FaMoneyBillWave /> Refunds
+                    </Link>
+                  </li> */}
+                </ul>
+              </li>
 
                     <li className="dropdown__subitem">
                 <div className="dropdown__link">
-                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Solções RH<i className="ri-add-line dropdown__add"></i>
+                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Soluções RH<i className="ri-add-line dropdown__add"></i>
                 </div>
 
                 <ul className="dropdown__submenu">
@@ -214,7 +239,7 @@ export function Navbar() {
 
                 <li className="dropdown__item">
                   <div className="nav__link">
-                    Mais <RiArrowDownSLine className="dropdown__arrow" />
+                    Explorar <RiArrowDownSLine className="dropdown__arrow" />
                   </div>
 
                   <ul className="dropdown__menu">

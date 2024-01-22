@@ -16,11 +16,14 @@ export function VidSobreNos () {
        
         </div>
     <section className=' VideoSectionAbout '>
-        <div className="container-video">
-      <div className="video-container">
+        <div className="container-video-about">
+      <div className="video-container-about">
+        <div className="video----baner">
+
       <YoutubeEmbedDr
           videoId="qKi5pkFaT44?si=_dhUcA9Rh9JOXbEz"
           />
+          </div>
       </div>
       </div>
       
