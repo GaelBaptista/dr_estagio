@@ -3,6 +3,7 @@
 import { YoutubeEmbedDr } from './iframeDr';
 import './sobrenosvid.css'
 
+
 export function VidSobreNos () {
  return (
   <>
@@ -15,19 +16,24 @@ export function VidSobreNos () {
           </div>
        
         </div>
-    <section className=' VideoSectionAbout '>
+    <section className=' VideoSectionAbout video has-bg-image '>
         <div className="container-video-about">
-      <div className="video-container-about">
-        <div className="video----baner">
+      <div className="video-container-about ">
+        <div className="video-banner ">
 
       <YoutubeEmbedDr
+   
           videoId="qKi5pkFaT44?si=_dhUcA9Rh9JOXbEz"
           />
           </div>
+       
+
       </div>
       </div>
       
     </section>
+
+
           </>
   )
 }

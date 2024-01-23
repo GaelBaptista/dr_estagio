@@ -524,7 +524,7 @@ html {
   margin-bottom: 3rem;
   text-align: center;
 }
-.section-title::after {
+.main .section-title::after {
   position: absolute;
   content: "";
   width: 64px;
@@ -563,10 +563,6 @@ html {
 
 
 
-/*=== Show menu ===*/
-.show {
-  right: 0;
-}
 
 
 

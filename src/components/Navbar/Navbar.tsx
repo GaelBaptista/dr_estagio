@@ -151,7 +151,7 @@ export function Navbar() {
                   </div>
 
                   <ul className="dropdown__menu">
-                    {/* <li>
+                    <li>
                       <Link
                         to="/programa-estagio"
                         className="dropdown__link"
@@ -182,10 +182,12 @@ export function Navbar() {
                         <MdHealthAndSafety style={{ fontSize: "32px" }} />{" "}
                         Estágio para Farmácia
                       </Link>
-                    </li> */}
-                    <li className="dropdown__subitem">
+                    </li>
+                    {/* <li className="dropdown__subitem">
                 <div className="dropdown__link">
+                <Link to="/programa-estagio" className="dropdown__sublink">
                  <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Programa de Estágio<i className="ri-add-line dropdown__add"></i>
+                </Link>
                 </div>
 
                 <ul className="dropdown__submenu">
@@ -201,13 +203,13 @@ export function Navbar() {
                     </Link>
                   </li>
 
-                  {/* <li>
+                  <li>
                     <Link to="/analytics/reports/refunds" className="dropdown__sublink">
                       <FaMoneyBillWave /> Refunds
                     </Link>
-                  </li> */}
+                  </li>
                 </ul>
-              </li>
+              </li> */}
 
                     <li className="dropdown__subitem">
                 <div className="dropdown__link">

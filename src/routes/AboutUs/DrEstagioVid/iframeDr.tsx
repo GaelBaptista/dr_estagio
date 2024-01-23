@@ -2,17 +2,16 @@ import '../../Home/Video/video.css'
 
 interface YoutubeEmbedProps {
   videoId: string;
-  
 
 }
-
-export const YoutubeEmbedDr: React.FC<YoutubeEmbedProps> = ({ videoId}) => {
+export const YoutubeEmbedDr: React.FC<YoutubeEmbedProps> = ({ videoId, }) => {
   return (
-    <div className='Iframe' >
+    <div className='Iframe'  >
       <iframe
-        className="video"
+        className="video "
         width="560"
         height="315"
+     
         src={`https://www.youtube.com/embed/${videoId}`}
         title="YouTube video player"
         frameBorder="0"

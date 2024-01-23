@@ -6,8 +6,9 @@ import home_shape from './assets_pales_trein/hero-shape-2.png'
 import about from './assets_pales_trein/about-banner.jpg'
 import shapeAbout from './assets_pales_trein/Fale conosco.svg'
 import aboutshape4 from  './assets_pales_trein/about-shape-4.svg'
-import aboutshape3 from  './assets_pales_trein/about-shape-3.png'
+import aboutshape3 from  './assets_pales_trein/about-shape-3.jpg'
 import aboutshape1 from './assets_pales_trein/about-shape-1.svg'
+
 
 
 
@@ -21,15 +22,19 @@ import { IoCheckmarkDone } from 'react-icons/io5'
 
 
 
+
 export function Palestra_Treinamento(){
   return (
-    <main className='body_palest hmtl_pales'>
+    <main className='bodyy '>
+      <div className='hmtl'>
     {/* HERO */}
     <section className="section hero has-bg-image" id="home" aria-label="home" style={{ backgroundImage: `url(${home_svg})` }}>
       <div className="container">
         <div className="hero-content">
+        {/* <p className="section-subtitle">Soluções RH</p> */}
+
           <h1 className="h1 section-title">
-            The Best Program to <span className="span">Enroll</span> for Exchange
+           Palestras e<span className="span">Treinamento</span> 
           </h1>
           <p className="hero-text">
             Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
@@ -46,7 +51,7 @@ export function Palestra_Treinamento(){
           <div className="img-holder two" style={{ '--width': 240, '--height': 370 }}>
             <img src={home_pn2} width="240" height="370" alt="hero banner" className="img-cover" />
           </div>
-          <img src={shapeAbout} width="380" height="190" alt="" className="shape hero-shape-1" />
+          <img src={shapeAbout} width="380" height="190" alt="" className="shape hero-shape-1 about-shape-2 " />
           <img src={home_shape} width="622" height="551" alt="" className="shape hero-shape-2"/>
         </figure>
       </div>
@@ -57,14 +62,46 @@ export function Palestra_Treinamento(){
       <div className="container">
         <p className="section-subtitle">Categories</p>
         <h2 className="h2 section-title">
-          Online <span className="span">Classes</span> For Remote Learning.
+          Título <span className="span">a</span> definir
         </h2>
         <p className="section-text">
           Consectetur adipiscing elit sed do eiusmod tempor.
         </p>
-        <ul className="grid-list">
-          {/* Add category cards here */}
-        </ul>
+       
+      {/* <!--==================== STEPS ====================--> */}
+      <section className="steps section container ">
+                <div className="steps__bg " >
+                    <h2 className="section__title-center steps__title">
+                        Título <br/> indefinido
+                    </h2>
+
+                    <div className="steps__container grid">
+                        <div className="steps__card">
+                            <div className="steps__card-number">01</div>
+                            <h3 className="steps__card-title">Choose defined</h3>
+                            <p className="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div className="steps__card">
+                            <div className="steps__card-number">02</div>
+                            <h3 className="steps__card-title">Choose defined</h3>
+                            <p className="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div className="steps__card">
+                            <div className="steps__card-number">03</div>
+                            <h3 className="steps__card-title">Choose defined </h3>
+                            <p className="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
       </div>
     </section>
 
@@ -73,54 +110,93 @@ export function Palestra_Treinamento(){
       <div className="container">
       <figure className="about-banner">
   <div className="img-holder" style={{ '--width': 520, '--height': 370 }}>
-    <img src="./assets/images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner" className="img-cover" />
+    <img src={about} width="520" height="370" loading="lazy" alt="about banner" className="img-cover" />
   </div>
-  <img src="./assets/images/about-shape-1.svg" width="360" height="420" loading="lazy" alt="" className="shape about-shape-1" />
-  <img src="./assets/images/about-shape-2.svg" width="371" height="220" loading="lazy" alt="" className="shape about-shape-2" />
-  <img src="./assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt="" className="shape about-shape-3" />
+  <img src={aboutshape1} width="360" height="420" loading="lazy" alt="" className="shape about-shape-1" />
+  <img src={shapeAbout} width="371" height="220" loading="lazy" alt="" className="shape about-shape-2" />
+  <img src={aboutshape3} width="722" height="528" loading="lazy" alt="" className="shape about-shape-3" />
 </figure>
 
 <div className="about-content">
   <p className="section-subtitle">About Us</p>
   <h2 className="h2 section-title">
-    Over 10 Years in <span className="span">Distant learning</span> for Skill Development
+    Tíitulo <span className="span">a</span> definir
   </h2>
   <p className="section-text">
     Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.
   </p>
   <ul className="about-list">
     <li className="about-item">
-      {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+      
+      <IoCheckmarkDone color='#FF6609' />
       <span className="span">Expert Trainers</span>
     </li>
     <li className="about-item">
-      {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+    <IoCheckmarkDone color='#FF6609'/>
+     
       <span className="span">Online Remote Learning</span>
     </li>
     <li className="about-item">
-      {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+    <IoCheckmarkDone color='#FF6609' />
+
       <span className="span">Lifetime Access</span>
     </li>
   </ul>
-  <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt="" className="shape about-shape-4" />
+  <img src={aboutshape4} width="100" height="100" loading="lazy" alt="" className="shape about-shape-4" />
 </div>
       </div>
     </section>
 
-    {/* COURSE */}
-    <section className="section course" id="courses" aria-label="course">
-      <div className="container">
-        <p className="section-subtitle">Popular Courses</p>
-        <h2 className="h2 section-title">Pick A Course To Get Started</h2>
-        <ul className="grid-list">
-          {/* Add course cards here */}
-        </ul>
-        <a href="#" className="btn has-before">
-          <span className="span">Browse more courses</span>
-          {/* <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> */}
-        </a>
-      </div>
-    </section>
+
+    {/* <!-- 
+        - #STATE
+      --> */}
+
+      <section className="section stats" aria-label="stats">
+        <div className="container">
+
+          <ul className="grid-list">
+
+            <li>
+              <div className="stats-card" style={{'--color':'29.6, 110%, 41%'}}>
+                <h3 className="card-title">29.3k</h3>
+
+                <p className="card-text">indefinido</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="stats-card" style={{'--color': "29.6, 83%, 61%"}}>
+                <h3 className="card-title">32.4K</h3>
+
+                <p className="card-text">indefinido</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="stats-card" style={{'--color':" 29.6, 100%, 67%"}}>
+                <h3 className="card-title">100%</h3>
+
+                <p className="card-text">indefinido</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="stats-card" style={{'--color': "29.6, 94%, 55%"}}>
+                <h3 className="card-title">354+</h3>
+
+                <p className="card-text">indefinido</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    
+     
+ 
+    </div>
   </main>
   );
 }
