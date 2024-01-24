@@ -24,7 +24,7 @@ import img4 from '../../assests/banner4.jpg'
 import img5 from '../../assests/banner5.jpg'
 import img6 from '../../assests/banner6.jpg'
 import { GiMagnifyingGlass } from 'react-icons/gi';
-
+import { Solucoes_Section } from './SolucoesRH/Solucoes';
 
 
 export function Home () {
@@ -321,7 +321,7 @@ export function Home () {
     </section>
   {/* COMPONENTES */}
   <CardSection/>
-  {/* <Solucoes_Section/> */}
+  <Solucoes_Section/>
   <ContactHome/>
   <Video/>
  

@@ -213,19 +213,19 @@ export function Navbar() {
 
                     <li className="dropdown__subitem">
                 <div className="dropdown__link">
-                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Em breve<i className="ri-add-line dropdown__add"></i>
+                 <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Soluções RH<i className="ri-add-line dropdown__add"></i>
                 </div>
 
                 <ul className="dropdown__submenu">
                   <li>
                     <Link to="/recrutamento-selecao" className="dropdown__sublink">
-                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Em breve
+                    <GiMagnifyingGlass style={{ fontSize: "32px" }} /> Recrutamento e Seleção
                     </Link>
                   </li>
 
                   <li>
                     <Link to="/palestra-treinamento" className="dropdown__sublink">
-                      <MdRocketLaunch style={{ fontSize: "32px" }} />Em breve
+                      <MdRocketLaunch style={{ fontSize: "32px" }} />Palestra e Treinamento
                     </Link>
                   </li>
 
