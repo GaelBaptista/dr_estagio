@@ -7,6 +7,7 @@ import esg from './PagesBlog/DrConect/assetsBlog/esg.jpg'
 import Guia from './asset_Blog/BlogCapaSite_Guia.png'
 import Cs from './PagesBlog/EmpresaInovadora/Asset_3cs/BlogCapaSite_3Cs.png'
 import Jan_br from './asset_Blog/Jan_brnc.jpg'
+import faks from './asset_Blog/perguntas.jpg'
 import { IoMdCube, IoMdSchool, IoIosCopy} from 'react-icons/io';
 import { MdRecycling } from 'react-icons/md';
 import {GiBrain } from 'react-icons/gi'
@@ -27,7 +28,7 @@ const cardsData = [
     imgSrc: Jan_br,
     date: { day: '02', month: 'Jan' },
     title: 'Janeiro Branco',
-    text: "Janeiro Branco: um convite para refletirmos sobre a importância da saúde mental e emocional em nossas vidas",
+    text: "Janeiro Branco: um convite para refletirmos sobre a importância da saúde mental e emocional em nossas vidas.",
     icon: GiBrain, 
     saibaMaisLink: 'https://drive.google.com/file/d/1_K7D6npdZy2qqmbIWtLLwiihkwMva-Tz/view?usp=sharing', 
   },
@@ -35,9 +36,17 @@ const cardsData = [
     imgSrc: cartilha,
     date: { day: '28', month: 'Set' },
     title: 'Cartilha Lei do Estágio',
-    text: 'Esclarecendo a lei do estágio',
+    text: 'Esclarecendo a lei do estágio.',
     icon: IoMdSchool, 
     saibaMaisLink: 'https://drive.google.com/file/d/1hJqoBw--1dlYxmeUa4-IBMRParAbkhQC/view?usp=sharing', 
+  },
+  {
+    imgSrc: faks ,
+    date: { day: '30', month: 'Jan' },
+    title: 'Dúvidas mais frequentes ',
+    text: "O estágio é regulamentado?  Quem pode ser estagiário?  Clique em saiba mais para resposnder a essas dúvidas. ",
+    icon: IoIosCopy, // Substituir  elo nome do ícone que quero
+    saibaMaisLink: 'https://drive.google.com/file/d/1B_hNak18BPe-2bAxqFJwy7KAW_1zikIR/view?usp=sharing', 
   },
   {
     imgSrc: lei ,
