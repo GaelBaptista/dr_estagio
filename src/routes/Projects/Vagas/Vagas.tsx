@@ -352,7 +352,7 @@ export function Vagas() {
 
 
       </section>
-
+{/* 
       <section className="iDZyfD">
   <div className="styles__Card-sc-dtfyah-1 fJJWdB">
     <h2 className="styles__Title-sc-dtfyah-2 inFZap title-desktop">Encontre as vagas que combinam com você</h2>
@@ -372,7 +372,7 @@ export function Vagas() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
     </>
