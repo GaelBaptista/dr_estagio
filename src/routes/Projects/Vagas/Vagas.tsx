@@ -346,7 +346,35 @@ export function Vagas() {
             ))}
           </div>
         )}
+
+
+
+
+
       </section>
+
+      <section className="iDZyfD">
+  <div className="styles__Card-sc-dtfyah-1 fJJWdB">
+    <h2 className="styles__Title-sc-dtfyah-2 inFZap title-desktop">Encontre as vagas que combinam com você</h2>
+   
+    <div className="styles__Row-sc-dtfyah-3 gnunXt">
+      <div className="field">
+        <div className="css-1s0fs6f">
+          <input
+            id="searchfield"
+            placeholder="Buscar"
+            value=""
+            className="css-13hc3dd"
+            onChange={handleInputChange}
+          />
+        </div>
+        <button type="button">Buscar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     </>
   );
 }

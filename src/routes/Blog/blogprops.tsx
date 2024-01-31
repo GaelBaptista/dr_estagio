@@ -13,7 +13,7 @@ import { MdRecycling } from 'react-icons/md';
 import {GiBrain } from 'react-icons/gi'
 import {RiGuideFill} from 'react-icons/ri'
 import {PiDotsThreeOutlineVerticalFill} from 'react-icons/pi'
-
+import { LiaQuestionSolid } from "react-icons/lia";
 
 const cardsData = [
   {
@@ -45,7 +45,7 @@ const cardsData = [
     date: { day: '30', month: 'Jan' },
     title: 'Dúvidas mais frequentes ',
     text: "O estágio é regulamentado?  Quem pode ser estagiário?  Clique em saiba mais para resposnder a essas dúvidas. ",
-    icon: IoIosCopy, // Substituir  elo nome do ícone que quero
+    icon: LiaQuestionSolid, // Substituir  elo nome do ícone que quero
     saibaMaisLink: 'https://drive.google.com/file/d/1B_hNak18BPe-2bAxqFJwy7KAW_1zikIR/view?usp=sharing', 
   },
   {

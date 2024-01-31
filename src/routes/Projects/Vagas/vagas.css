@@ -557,3 +557,51 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+
+.iDZyfD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+.styles__Card-sc-dtfyah-1 {
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.styles__Title-sc-dtfyah-2 {
+  margin-bottom: 20px;
+  
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.field button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

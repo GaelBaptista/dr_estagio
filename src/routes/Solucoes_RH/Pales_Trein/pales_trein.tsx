@@ -18,9 +18,16 @@ import aboutshape1 from './assets_pales_trein/about-shape-1.svg'
 
 
 import { IoCheckmarkDone } from 'react-icons/io5'
+import { CSSProperties } from 'react'
 
 
-
+interface StatsCardProps {
+  style?: CSSProperties & {
+    '--color'?: string;
+    '--width'?: number;
+    '--height'?: number;
+  };
+}
 
 
 
@@ -46,10 +53,10 @@ export function Palestra_Treinamento(){
           </a> */}
         </div>
         <figure className="hero-banner">
-          <div className="img-holder one" style={{ '--width': 270, '--height': 300 }}>
+          <div className="img-holder one" style={{ '--width': 270, '--height': 300 }  as StatsCardProps['style']}>
             <img src={home_pn1} width="270" height="300" alt="hero banner" className="img-cover" />
           </div>
-          <div className="img-holder two" style={{ '--width': 240, '--height': 370 }}>
+          <div className="img-holder two" style={{ '--width': 240, '--height': 370 }  as StatsCardProps['style']}>
             <img src={home_pn2} width="240" height="370" alt="hero banner" className="img-cover" />
           </div>
          <a href=""><img src={shapeAbout} width="380" height="190" alt="" className="shape hero-shape-1 about-shape-2 " /></a> 
@@ -110,7 +117,7 @@ export function Palestra_Treinamento(){
     <section className="section about" id="about" aria-label="about">
       <div className="container">
       <figure className="about-banner">
-  <div className="img-holder" style={{ '--width': 520, '--height': 370 }}>
+  <div className="img-holder" style={{ '--width': 520, '--height': 370 }  as StatsCardProps['style']}>
     <img src={about} width="520" height="370" loading="lazy" alt="about banner" className="img-cover" />
   </div>
   <img src={aboutshape1} width="360" height="420" loading="lazy" alt="" className="shape about-shape-1" />
@@ -159,7 +166,7 @@ export function Palestra_Treinamento(){
           <ul className="grid-list">
 
             <li>
-              <div className="stats-card" style={{'--color':'29.6, 110%, 41%'}}>
+              <div className="stats-card" style={{'--color':'29.6, 110%, 41%'}  as StatsCardProps['style']}>
                 <h3 className="card-title">29.3k</h3>
 
                 <p className="card-text">indefinido</p>
@@ -167,7 +174,7 @@ export function Palestra_Treinamento(){
             </li>
 
             <li>
-              <div className="stats-card" style={{'--color': "29.6, 83%, 61%"}}>
+              <div className="stats-card" style={{'--color': "29.6, 83%, 61%"}  as StatsCardProps['style']}>
                 <h3 className="card-title">32.4K</h3>
 
                 <p className="card-text">indefinido</p>
@@ -175,7 +182,7 @@ export function Palestra_Treinamento(){
             </li>
 
             <li>
-              <div className="stats-card" style={{'--color':" 29.6, 100%, 67%"}}>
+              <div className="stats-card" style={{'--color':" 29.6, 100%, 67%"}   as StatsCardProps['style']}>
                 <h3 className="card-title">100%</h3>
 
                 <p className="card-text">indefinido</p>
@@ -183,7 +190,7 @@ export function Palestra_Treinamento(){
             </li>
 
             <li>
-              <div className="stats-card" style={{'--color': "29.6, 94%, 55%"}}>
+              <div className="stats-card" style={{'--color': "29.6, 94%, 55%"}  as StatsCardProps['style']}>
                 <h3 className="card-title">354+</h3>
 
                 <p className="card-text">indefinido</p>
