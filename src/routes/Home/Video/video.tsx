@@ -1,26 +1,12 @@
 import './video.css'
 
-// import  { useState, useRef } from 'react';
+
 import { YoutubeEmbed } from './iframe';
 
 
 export function Video () {
  
-  //   const [clickedVideo, setClickedVideo] = useState<string | null>(null); // Definindo o tipo como string
-  // const [popupVisible, setPopupVisible] = useState(false);
-
-  // const videoRef = useRef<HTMLVideoElement | null>(null); // Adicionando a referência
-  // const handleVideoClick = (videoSrc: string) => { // Definindo o tipo como string
-  //   setClickedVideo(videoSrc);
-  //   setPopupVisible(true);
-  // };
-  // const handleClosePopup = () => {
-  //   if (videoRef.current) {
-  //     videoRef.current.pause(); // Pausar o vídeo ao fechar o popup
-  //     videoRef.current.currentTime = 0; // Reiniciar o vídeo para o início
-  //   }
-  //   setPopupVisible(false);
-  // };
+  
 
 
   return (

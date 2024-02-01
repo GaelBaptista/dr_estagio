@@ -1,4 +1,4 @@
-// SectionVaga.jsx
+
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -13,7 +13,7 @@ interface Vaga {
   cidade: string;
   tipoContrato: string;
   link: string;
-  // outras propriedades da vaga, se houver
+  // outras propriedades da vaga, se tiver
 }
 
 export function Vagas() {
@@ -189,21 +189,20 @@ export function Vagas() {
     },
   ]);
   useEffect(() => {
-    // Faça uma chamada à API ou carregue os dados de onde quer que venham
-    // Exemplo de API fictícia:
+    
     fetch("https://api.exemplo.com/vagas")
       .then((response) => response.json())
       .then((data) => setVagasData(data));
   }, []);
   const handleFiltrarVagas = () => {
     if (filtroCidade === "") {
-      // Se o campo de entrada estiver vazio, mostrar mensagem de erro e impedir a exibição das vagas
+      // Se o campo de entrada estiver vazio, mostrar mensagem de erro e impedi a exibição das vagas
       setMostrarMensagem(true);
       setTimeout(() => {
         setMostrarMensagem(false);
       }, 1500); // Esconde a mensagem após 1,5 segundos
       setMostrarVagas(false); // Oculta as vagas
-      setMostrarMensagemSemVagas(false); // Oculta a mensagem "Não há vagas"
+      setMostrarMensagemSemVagas(false); // Oculta a mensagem não há vags
       return;
     }
 
@@ -211,11 +210,11 @@ export function Vagas() {
       vaga.cidade.toLowerCase().includes(filtroCidade.toLowerCase())
     );
     if (vagasFiltradas.length === 0) {
-      // Se não houver vagas correspondentes à cidade, mostrar mensagem "Não há vagas"
+      // Se não houver vagas correspondentes à cidade, mostrar mensagem não há vafgas
       setMostrarMensagemSemVagas(true);
       setMostrarVagas(false); // Oculta as vagas
     } else {
-      // Se houver vagas correspondentes, exibir as vagas e ocultar a mensagem "Não há vagas"
+      // Se houver vagas pro qe foi digitado, exibir as vagas e ocultar a mensagem nao há vagas
       setVagasFiltradas(vagasFiltradas);
       setMostrarVagas(true);
       setMostrarMensagemSemVagas(false);
@@ -228,7 +227,7 @@ export function Vagas() {
     const textoFiltrado = e.target.value;
     setFiltroCidade(textoFiltrado);
 
-    // Se o campo de entrada estiver vazio, oculte as vagas e a mensagem de erro
+    // Se o campo de entrada estiver vazio, oculta as vagas e a mensagem de erro
     if (textoFiltrado === "") {
       setMostrarVagas(false);
       setMostrarMensagem(false);

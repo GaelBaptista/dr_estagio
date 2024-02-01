@@ -13,24 +13,7 @@ import { Testimonials_ } from "../servicos_pr/testimonials";
 
 
   export function PrEst() {
-    // const [faqs, setFaqs] = useState<FAQItem[]>([
-    //   {
-    //     question: "Benefícios Trabalhistas",
-    //     answer:
-    //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
-    //     open: true,
-    //   },
-    //   {
-    //     question: "Who is the most awesome person?",
-    //     answer: "You! The viewer!",
-    //     open: false,
-    //   },
-    //   {
-    //     question: "How many questions does it take to make a successful FAQ Page?",
-    //     answer: "This many!",
-    //     open: false,
-    //   },
-    // ]);
+   
   
     const categories = [
       "Benefícios Programa de Estágio",
@@ -38,7 +21,7 @@ import { Testimonials_ } from "../servicos_pr/testimonials";
       "Benefícios Sociais",
       "Benefícios Trabalhistas",
       "Como Aderir ao programa de estágio"
-      // Adicionar mais categorias aqui, se necessário
+      // adicionar mais se precisar
     ];
   
     const initialCategoryFaqs: { [key: string]: FAQItem[] } = {
@@ -129,7 +112,7 @@ import { Testimonials_ } from "../servicos_pr/testimonials";
         },
       
       ],
-      // Adicione mais categorias aqui, se necessário
+      // adicionar mais se precisar
     };
   
     const [activeCategory, setActiveCategory] = useState<string>(categories[0]);

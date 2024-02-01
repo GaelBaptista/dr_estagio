@@ -176,7 +176,7 @@
   background-image: url("./assetsvagas/vag1.png");
 }
 
-/* Adicione mais estilos para outros slides conforme necessário */
+
 
 @media screen and (min-width: 768px) {
   .sectionVaga {
@@ -196,7 +196,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  /* Mobile-first styles */
+
   .sectionVaga {
     position: relative;
     width: 100%;
@@ -219,37 +219,28 @@
   }
 
   .sectionVaga .slider-container {
-    /* width: 100%; 
-    padding-top: 2rem;  */
+   
     display: none;
   }
 
-  /*  
-  .sectionVaga .swiper-slide {
-    width: 100%; 
-    height: auto; 
-    display: none; 
-    text-align: center;
-    background-size: cover; 
-    background-position: center;
-  } */
+  
 
   .sectionVaga .swiper-slide h2 {
-    font-size: 1.5rem; /* Reduce font size for mobile */
+    font-size: 1.5rem; 
   }
 
   .sectionVaga .swiper-slide p {
-    font-size: 1rem; /* Reduce font size for mobile */
+    font-size: 1rem; 
     line-height: 1.5;
   }
 
   .sectionVaga .swiper-slide a {
     margin: 1rem 0;
     padding: 0.5rem 1.5rem;
-    font-size: 1rem; /* Reduce font size for mobile */
+    font-size: 1rem; 
   }
 
-  /* Hide background images on mobile */
+  
   .sectionVaga .bg,
   .sectionVaga .bg2 {
     display: none;
@@ -288,11 +279,11 @@
 }
 
 .input-container input {
-  margin-right: 10px; /* Espaço entre o campo de entrada e o botão */
+  margin-right: 10px;
 }
 
 .botao-filtrar {
-  margin-top: 10px; /* Espaço acima do botão */
+  margin-top: 10px; 
 }
 
 .input-cidade {
@@ -301,17 +292,11 @@
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   margin-right: 1rem;
-  width: 200px; /* ou ajuste a largura conforme necessário */
+  width: 200px; 
 }
 .sectionVagasFiltradas .input-container input {
   display: block;
-  /* padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  margin-right: 1rem;
-  width: 80%;
-   */
+ 
   width: 80%;
 
   height: 45px;
@@ -386,13 +371,7 @@
   opacity: 0;
 }
 
-/* .botao-filtrar:hover {
-  background-color: #0056b3;
-} */
 
-/* Estilos para os elementos de lista */
-
-/* Grid de vagas */
 .styles__GridVacancies-sc-uz5dep-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -462,7 +441,7 @@
   border-radius: 6px;
   border-left: 6px solid rgb(17, 17, 17);
 }
-/* Estilo para cada card de vaga */
+
 .styles__Main-sc-12gs3xe-0 {
   text-decoration: none;
   color: inherit;
@@ -500,11 +479,11 @@
 
 @media (max-width: 768px) {
   .styles__GridVacancies-sc-uz5dep-1 {
-    grid-template-columns: 1fr; /* Alterando para uma coluna em telas menores */
+    grid-template-columns: 1fr;
   }
 
   .styles__Container-sc-12gs3xe-1 {
-    width: 100%; /* Largura do card ocupando 100% do contêiner pai */
+    width: 100%; 
   }
 }
 

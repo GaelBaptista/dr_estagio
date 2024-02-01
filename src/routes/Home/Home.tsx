@@ -31,63 +31,6 @@ import { Solucoes_Section } from './SolucoesRH/Solucoes';
 
 export function Home () {
 
-  // const [currentSlide, setCurrentSlide] = useState(1);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentSlide((prevSlide) => {
-  //       if (prevSlide >= 3) {
-  //         return 1;
-  //       } else {
-  //         return prevSlide + 1;
-  //       }
-  //     });
-  //   }, 6000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  // const handleRadioChange = (event: ChangeEvent<HTMLInputElement>) => {
-  //   setCurrentSlide(parseInt(event.target.value));
-  // };
-
-
-  // ========================================================== LOGICA COM BOTOES ============================================================================
-
-
-
-  // const sliderRef = useRef<HTMLUListElement | null>(null);
-
-  // useEffect(() => {
-  //   const slider = sliderRef.current!; // Use ! para indicar que slider não é null
-    
-
-  //   // Restante do código permanece o mesmo
-  //   function activate(e: MouseEvent) {
-  //     const target = e.target as HTMLElement;
-
-  //     if (!target.matches || typeof target.matches !== "function") {
-  //       console.error("Element doesn't support matches function");
-  //       return;
-  //     }
-
-  //     const items = slider.querySelectorAll(".item_slider_home_page");
-
-  //     if (!items.length) {
-  //       console.error("No items found in the slider");
-  //       return;
-  //     }
-
-  //     target.matches(".next") && slider.append(items[0]);
-  //     target.matches(".prev") && slider.prepend(items[items.length - 1]);
-  //   }
-
-  //   document.addEventListener("click", activate, false);
-
-  //   return () => {
-  //     document.removeEventListener("click", activate, false);
-  //   };
-  // }, [sliderRef]);
   
 
 
