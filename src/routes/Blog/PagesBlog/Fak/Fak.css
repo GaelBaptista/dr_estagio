@@ -1,0 +1,86 @@
+
+
+
+/* main */
+.header__blog_guia {
+  height: 360px;
+  background-image: url('./assets_fak/fak_body.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.header-banner {
+  background-color: #333; 
+}
+
+.header__blog_guia h1 {
+  background-color: #121242;
+  color: #fff;
+  padding: 0 1rem;
+  position: absolute;
+  margin-top: 10px;
+  left: 2rem;
+}
+
+
+
+/* demo content */
+
+.content_blog_article{ 
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 960px;
+  max-width: 100%;
+  display: flex;
+ 
+}
+.article_blog{
+  width: 920px;
+}
+.article_blog p:first-of-type {
+  margin-top: 0;
+}
+aside.aside_blog{
+float: right;
+  width: 120px;
+
+}
+.article_blog p img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+.content_blog_article{ 
+      padding: 2rem 0;
+   display: block;
+  }
+ .article_blog {
+      float: none;
+      margin: 0 auto;
+      width: 96%;
+  }
+  .article_blog:last-of-type {  
+      margin-bottom: 3rem;
+  }
+ aside.aside_blog{  
+      float: none;
+      text-align: center;
+      width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .header__blog_guia h1 {
+    background-color: #121242;
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    margin-top: 10px;
+    left: 2rem;
+    font-size: 18px;
+  }
+}

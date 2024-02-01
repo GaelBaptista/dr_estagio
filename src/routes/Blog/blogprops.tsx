@@ -46,7 +46,7 @@ const cardsData = [
     title: 'Dúvidas mais frequentes ',
     text: "O estágio é regulamentado?  Quem pode ser estagiário?  Clique em saiba mais para resposnder a essas dúvidas. ",
     icon: LiaQuestionSolid, // Substituir  elo nome do ícone que quero
-    saibaMaisLink: 'https://drive.google.com/file/d/1B_hNak18BPe-2bAxqFJwy7KAW_1zikIR/view?usp=sharing', 
+    saibaMaisLink: '/fak', 
   },
   {
     imgSrc: lei ,

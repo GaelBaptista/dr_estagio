@@ -33,6 +33,7 @@ import { CsEmpresaInovadora } from "./routes/Blog/PagesBlog/EmpresaInovadora/Cs"
 import { Login_empresa } from "./routes/Login/Login_Empresa/loginEmpresa";
 import { Recrutamento_Selecao } from "./routes/Solucoes_RH/Recru_Sele/recru_sele";
 import { Palestra_Treinamento } from "./routes/Solucoes_RH/Pales_Trein/pales_trein";
+import { Fak } from "./routes/Blog/PagesBlog/Fak/Fak";
 
 
 
@@ -143,6 +144,10 @@ const router = createBrowserRouter([
       {
         path: "esg",
         element: <Esg />,
+      },
+      {
+        path: "fak",
+        element: <Fak />,
       },
     ],
   },
