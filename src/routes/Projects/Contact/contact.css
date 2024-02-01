@@ -155,7 +155,7 @@ border-radius:5px;
   background-position: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: center; /* Para centralizar o conteúdo */
+  text-align: center; 
 }
 
 .section-map--area {
@@ -197,12 +197,11 @@ border-radius:5px;
   align-items: center;
   padding: 5px;
  
-  border-radius: 50%; /* Transformando em um círculo */
+  border-radius: 50%; 
   margin-right: 15px;
 }
 
-/* Media queries para ajustar o layout em diferentes tamanhos de tela */
-/* Media queries para ajustar o layout em dispositivos móveis */
+
 @media (max-width: 768px) {
   .section-map--area {
     height: 80vh;
@@ -225,8 +224,8 @@ border-radius:5px;
     height: 60vh;
   }
 .section-map--info-item-img {
-  width: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
-  height: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
+  width: 36px; 
+  height: 36px; 
  
  
 }
