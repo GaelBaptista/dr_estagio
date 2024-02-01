@@ -54,13 +54,16 @@ export function Palestra_Treinamento(){
         </div>
         <figure className="hero-banner">
           <div className="img-holder one" style={{ '--width': 270, '--height': 300 }  as StatsCardProps['style']}>
-            <img src={home_pn1} width="270" height="300" alt="hero banner" className="img-cover" />
+            <img src={home_pn1} width="270" height="300" alt="hero banner" className="img-cover" loading="lazy"
+      decoding="async"/>
           </div>
           <div className="img-holder two" style={{ '--width': 240, '--height': 370 }  as StatsCardProps['style']}>
-            <img src={home_pn2} width="240" height="370" alt="hero banner" className="img-cover" />
+            <img src={home_pn2} width="240" height="370" alt="hero banner" className="img-cover" loading="lazy"
+      decoding="async" />
           </div>
          <a href=""><img src={shapeAbout} width="380" height="190" alt="" className="shape hero-shape-1 about-shape-2 " /></a> 
-          <img src={home_shape} width="622" height="551" alt="" className="shape hero-shape-2"/>
+          <img src={home_shape} width="622" height="551" alt="" className="shape hero-shape-2" loading="lazy"
+      decoding="async"/>
         </figure>
       </div>
     </section>
@@ -118,9 +121,9 @@ export function Palestra_Treinamento(){
       <div className="container">
       <figure className="about-banner">
   <div className="img-holder" style={{ '--width': 520, '--height': 370 }  as StatsCardProps['style']}>
-    <img src={about} width="520" height="370" loading="lazy" alt="about banner" className="img-cover" />
+    <img src={about} width="520" height="370" loading="lazy" alt="about banner" className="img-cover"   />
   </div>
-  <img src={aboutshape1} width="360" height="420" loading="lazy" alt="" className="shape about-shape-1" />
+  <img src={aboutshape1} width="360" height="420" loading="lazy" alt="" className="shape about-shape-1"  />
   <img src={shapeAbout} width="371" height="220" loading="lazy" alt="" className="shape about-shape-2" />
   <img src={aboutshape3} width="722" height="528" loading="lazy" alt="" className="shape about-shape-3" />
 </figure>
@@ -150,7 +153,8 @@ export function Palestra_Treinamento(){
       <span className="span">Lifetime Access</span>
     </li>
   </ul>
-  <img src={aboutshape4} width="100" height="100" loading="lazy" alt="" className="shape about-shape-4" />
+  <img src={aboutshape4} width="100" height="100" loading="lazy" alt="" className="shape about-shape-4" 
+      decoding="async"/>
 </div>
       </div>
     </section>

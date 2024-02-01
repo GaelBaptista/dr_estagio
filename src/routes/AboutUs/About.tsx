@@ -107,16 +107,16 @@ export function About() {
     // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
     setTimeout(() => {
       setProdutividade(40);
-    }, 500); // Ajuste o valor do atraso conforme necessário
+    }, 500); // Ajustar o valor do atraso conforme necessário
   }, [])
 
   const [Economia, setEconomia] = useState(0);
 
   useEffect(() => {
-    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    // Ao montar o componente atualize o estado para 85 após um pequeno atraso (so se eu querer )
     setTimeout(() => {
       setEconomia(65);
-    }, 500); // Ajuste o valor do atraso conforme necessário
+    }, 500); // Ajustaer o valor do atraso conforme necessário
   }, [])
   
 // FUNÇÂO PARA O EMAIL

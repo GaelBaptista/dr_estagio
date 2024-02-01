@@ -33,8 +33,10 @@ export function DrConect() {
           
         </article>
         <aside className='aside_blog'>
-          <img src={logoGupy} alt="Placeholder"/>
-          <img src={logoAbres} alt="Placeholder"/>
+          <img src={logoGupy} alt="Placeholder" loading="lazy"
+      decoding="async"/>
+          <img src={logoAbres} alt="Placeholder" loading="lazy"
+      decoding="async"/>
         </aside>
       </section>
     </div>

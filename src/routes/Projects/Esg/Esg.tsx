@@ -15,7 +15,8 @@ export function Esg () {
             <section className="home section" id="home">
                 <div className="home__container container grid">
                   
-                    <img className="svg__img svg__color home__img" src={homeIlustraction} alt="" />
+                    <img className="svg__img svg__color home__img" src={homeIlustraction} alt=""loading="lazy"
+      decoding="async" />
 
                     <div className="home__data">
                         <h1 className="home__title">O Crescente Impacto do ESG </h1>
@@ -48,7 +49,8 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                        
                         </p>
                     </div>
-                    <img className="svg__img svg__color about__img"  src={aboutIlustraction} alt="" />
+                    <img className="svg__img svg__color about__img"  src={aboutIlustraction} alt="" loading="lazy"
+      decoding="async" />
 
                    
                 </div>
@@ -66,7 +68,8 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                         Brasil em busca de uma primeira experiência na dimensão corporativa e existem inúmeras vantagens de escolhê-los. Confira Abaixo:
                         </p>
                     </div>
-<img className="svg__img svg__color" src={securytIlustraction} alt="" />
+<img className="svg__img svg__color" src={securytIlustraction} alt=""  loading="lazy"
+      decoding="async" />
                    
                 </div>
             </section>
@@ -78,7 +81,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                     <div className="services__data">
                         <h3 className="services__subtitle">Começo Profissional</h3>
                         {/* svg img  */}
-                        <svg className="svg__color services__img" viewBox="0 0 135 94" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="svg__color services__img" viewBox="0 0 135 94" xmlns="http://www.w3.org/2000/svg" >
                             <g clip-path="url(#clip0)">
                             <path className="svg__blob" fill-rule="evenodd" clip-rule="evenodd" d="M5.59229 39.7131C11.0823 24.8477 36.0971 33.0466 49.1183 24.0699C55.5971 19.6035 52.0934 7.33904 58.7159 3.09023C65.5909 -1.3206 75.0664 -0.572162 82.5915 2.59438C89.8393 5.6442 92.1044 14.5362 98.0829 19.6556C106.994 27.2866 127.284 28.0347 125.939 39.7131C124.515 52.0743 103.171 48.4909 93.8199 56.6624C87.7775 61.9425 88.7221 72.0268 82.7832 77.4237C74.2223 85.2032 64.4046 96.0656 53.1071 93.6594C42.0017 91.294 40.8244 75.4218 33.3058 66.8855C24.538 56.9309 0.991432 52.1709 5.59229 39.7131Z"/>
                             <path d="M107.637 49.8901C107.637 49.8901 107.619 48.3335 107.553 48.3218L104.353 49.023C104.321 49.2263 103.916 51.7763 103.986 52.0264L107.583 53.0245C107.583 53.0245 107.637 49.9813 107.637 49.8901Z" fill="#FFBE9D"/>
@@ -398,7 +401,8 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
 
                     <div className="services__data">
                         <h3 className="services__subtitle">Proatividade e motivação</h3>
-                        <img className="svg__color services__img" src={beneficio2} alt="" />
+                        <img className="svg__color services__img" src={beneficio2} alt="" loading="lazy"
+      decoding="async" />
                       
                        
                         <p className="services__description">Estagiários são altamente motivados e impulsionados a "fazer acontecer", 
@@ -410,7 +414,8 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
 
                     <div className="services__data">
                         <h3 className="services__subtitle">Oportunidade de capacitar futuros profissionais</h3>
-                        <img className="svg__color services__img" src={beneficio3} alt="" />
+                        <img className="svg__color services__img" src={beneficio3} alt="" loading="lazy"
+      decoding="async" />
                        
                         <p className="services__description">Ao contar com esses discentes, a marca passa a ter um time de alto desempenho, 
                         trazendo pluralidade e inovação. </p>
@@ -434,7 +439,8 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                         e o futuro dos negócios, moldando uma realidade onde a aprendizagem e a mudança positiva caminham de mãos dadas.</p>
                        
                     </div>
-                          <img className="svg__img svg__color app__img" src={footerIlustraction} alt="" />
+                          <img className="svg__img svg__color app__img" src={footerIlustraction} alt="" loading="lazy"
+      decoding="async" />
                   
                 </div>
             </section>

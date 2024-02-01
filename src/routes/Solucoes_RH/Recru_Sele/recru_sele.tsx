@@ -12,7 +12,8 @@ export function Recrutamento_Selecao () {
     <main className="main">
     {/* ==================== HOME ==================== */}
     <section className="home" id="home">
-      <img src={home1} alt="" className="home__img" />
+      <img src={home1} alt="" className="home__img"  loading="lazy"
+      decoding="async"/>
 
       <div className="home__container container grid">
         <div className="home__data">
@@ -46,7 +47,8 @@ export function Recrutamento_Selecao () {
           </div>
 
           <div className="home__info-overlay">
-            <img src={home2}alt="" className="home__info-img" />
+            <img src={home2}alt="" className="home__info-img"  loading="lazy"
+      decoding="async"/>
           </div>
         </div>
       </div>
@@ -67,11 +69,13 @@ export function Recrutamento_Selecao () {
 
         <div className="about__img">
           <div className="about__img-overlay">
-            <img src={about1} alt="" className="about__img-one" />
+            <img src={about1} alt="" className="about__img-one" loading="lazy"
+      decoding="async" />
           </div>
 
           <div className="about__img-overlay">
-            <img src={about2} alt="" className="about__img-two" />
+            <img src={about2} alt="" className="about__img-two" loading="lazy"
+      decoding="async" />
           </div>
         </div>
       </div>
@@ -136,7 +140,8 @@ export function Recrutamento_Selecao () {
                     </div>
                     
                     <div>              
-                        <img src={experiencia1} alt="" className="skills__img"/>
+                        <img src={experiencia1} alt="" className="skills__img" loading="lazy"
+      decoding="async"/>
                     </div>
                 </div>
             </section>
@@ -166,11 +171,13 @@ export function Recrutamento_Selecao () {
 
           <div className="experience__img grid">
             <div className="experience__overlay">
-              <img src={experiencia1} alt="" className="experience__img-one" />
+              <img src={experiencia1} alt="" className="experience__img-one"loading="lazy"
+      decoding="async" />
             </div>
 
             <div className="experience__overlay">
-              <img src={experiencia2} alt="" className="experience__img-two" />
+              <img src={experiencia2} alt="" className="experience__img-two" loading="lazy"
+      decoding="async"/>
             </div>
           </div>
         </div>

@@ -28,6 +28,7 @@ import { Solucoes_Section } from './SolucoesRH/Solucoes';
 
 
 
+
 export function Home () {
 
   // const [currentSlide, setCurrentSlide] = useState(1);
@@ -243,6 +244,7 @@ export function Home () {
       className="item_slider_home_page "
       style={{ backgroundImage: `url('${slide.imageUrl}')` }}
     >
+      
       <div className="content_slider_home_page">
         <h2 className="title_slider_home_page">{slide.title}</h2>
         <p className="description_slider_home_page">
@@ -325,6 +327,8 @@ export function Home () {
   <Solucoes_Section/>
   <ContactHome/>
   <Video/>
+
+  
  
   
 
