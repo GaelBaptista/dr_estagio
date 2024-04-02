@@ -79,7 +79,7 @@ export function Palestra_Treinamento(){
           Consectetur adipiscing elit sed do eiusmod tempor.
         </p>
        
-      {/* <!--==================== STEPS ====================--> */}
+      {/*STEPS  */}
       <section className="steps section container ">
                 <div className="steps__bg " >
                     <h2 className="section__title-center steps__title">

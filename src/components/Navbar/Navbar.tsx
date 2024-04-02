@@ -64,7 +64,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                   >
                     <AiFillFacebook
-                      style={{ color: "#ff7417" }}
+                      style={{ color: "#F75C25" }}
                       className="social-icon"
                     />
                   </a>
@@ -75,7 +75,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                   >
                     <AiFillLinkedin
-                      style={{ color: "#ff7417" }}
+                      style={{ color: "#F75C25" }}
                       className="social-icon "
                     />
                   </a>
@@ -85,7 +85,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                   >
                     <AiFillInstagram
-                      style={{ color: "#ff7417" }}
+                      style={{ color: "#F75C25" }}
                       className="social-icon"
                     />
                   </a>
@@ -96,7 +96,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                   >
                     <AiFillYoutube
-                      style={{ color: "#ff7417" }}
+                      style={{ color: "#F75C25" }}
                       className="social-icon"
                     />
                   </a>

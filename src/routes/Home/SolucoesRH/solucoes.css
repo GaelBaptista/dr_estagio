@@ -44,7 +44,7 @@ text-align: justify;
 .rowCard_solucoes.section-head h4 {
 position: relative;
 padding:0;
-color:#FF6609;
+color:#F75C25;
 line-height: 1;
 letter-spacing:0.3px;
 font-size: 34px;
@@ -97,7 +97,7 @@ margin-top: -15px;
   width: 64px;
   height: 1px;
   display: inline-block;
-  background-color: #FF6609;
+  background-color: #F75C25;
   transform: translate(0, -50%);
 }
 
@@ -133,7 +133,7 @@ margin-top: -15px;
   width: 11px;
   height: 11px;
   
-  background-color: #FF6609;
+  background-color: #F75C25;
   transform:rotate(45deg);
     -ms-transform:rotate(45deg); 
     -webkit-transform:rotate(45deg); 
@@ -147,7 +147,7 @@ margin-top: -15px;
  
   width: 19px;
   height: 19px;
-  border: 1px solid #FF6609;
+  border: 1px solid #F75C25;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
@@ -225,7 +225,7 @@ box-sizing: border-box;
 
 }
 .item_solucoes:hover{
-background:#121242;
+background:#F79542;
 box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
@@ -256,7 +256,7 @@ background-color: #FF6609;
 .item_solucoes .icon {
 font-size: 40px;
 margin-bottom:25px;
-color: #FF6609;   
+color: #F75C25;   
 width: 90px;
 height: 90px;
 line-height: 96px;
@@ -266,7 +266,7 @@ border-radius: 50px;
 display: inline-block;
 width: 10px;
 height: 10px;
-background-color: #FF6609;
+background-color: #F75C25;
 border-radius: 50%;
 margin-right: 10px;
 }
@@ -274,7 +274,7 @@ margin-right: 10px;
 display: inline-block;
 width: 10px;
 height: 10px;
-background-color: #121242;
+background-color: #F79542;
 border-radius: 50%;
 margin-right: 10px;
 }

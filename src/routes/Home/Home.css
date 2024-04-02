@@ -68,13 +68,13 @@
 
   & .title_slider_home_page {
     /* text-transform: uppercase; */
-    background-color: #121242;
+    background-color: #F75C25;
     font-weight: bold;
     font-size: 25px;
     color: white;
     margin: 0;
     padding: 10px;
-    border-right: 5px solid #fb670a ;
+    border-right: 5px solid #F79542 ;
   }
 
   & .description_slider_home_page {
@@ -249,8 +249,8 @@
 .quadrado {
   width: 300px;
   height: 180px;
-  background: rgb(44,52,140);
-background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, rgba(14,2,56,1) 100%);
+  background: #F79542;
+
   color: #fff;
   text-align: center;
   padding: 50px;

@@ -2,8 +2,8 @@
   --header-height: 3.5rem;
 
   /* Colors */
-  --black-color: #ff7417;
-  --black-color-light: #f4913c;
+  --black-color: #F75C25;
+  --black-color-light: #F75C25;
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
   --body-color: hsl(220, 100%, 97%);
@@ -79,7 +79,7 @@ a {
   /* opacity: 0.5;
   pointer-events: none;
   cursor: not-allowed; */
-  background-color: #121242;
+  background-color: #F79542;
   padding: 1.25rem 1.25rem 1.25rem 2.5rem;
   color: var(--white-color);
  
@@ -366,7 +366,7 @@ a {
 .dropdown__sublink {
   padding: 1.25rem 1.25rem 1.25rem 2.5rem;
   color: var(--white-color);
-  background: #121242;
+  background: #F79542;
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -411,7 +411,7 @@ a {
 
 .dropdown__sublink {
   /* background-color: var(--black-color-lighten); */
-  background: #121242;
+  background: #F79542;
 }
 @media screen and (max-width: 768px) {
   .logo-text {

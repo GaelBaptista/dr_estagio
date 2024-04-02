@@ -59,7 +59,7 @@
   cursor: pointer;
 }
 .info-details a:hover{
-  color : #FF6609
+  color : #F75C25
   }
 @media (max-width: 1024px) {
   .Header {
