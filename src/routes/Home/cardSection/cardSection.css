@@ -302,8 +302,8 @@ color:#2f2f2f;
   .cardrow {
     grid-template-columns: 1fr;
   }
-  .section-head p{ 
-    width: 90%;
+  .cardHome .section-head p{ 
+    width: 70%;
   align-items: center;
     margin: 0 auto;
   }

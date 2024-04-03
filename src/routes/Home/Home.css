@@ -7,7 +7,8 @@
 }
 
 .slider_home_page {
-  height: 95vh;
+  /* diminuindo o tamnaho da pagina home */
+  height: 75vh;
   width: 100%;
   display: grid;
   place-items: center;
@@ -27,7 +28,8 @@
   height: 250px;
   list-style-type: none;
   position: absolute;
-  top: 50%;
+  /* mudança abaixando mais os cards */
+  top: 60%;
   transform: translateY(-50%);
   z-index: 1;
   background-position: center;
@@ -74,7 +76,7 @@
     color: white;
     margin: 0;
     padding: 10px;
-    border-right: 5px solid #F79542 ;
+    border-right: 5px solid #ffffff ;
   }
 
   & .description_slider_home_page {
@@ -240,7 +242,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 65%;
+  width: 75%;
   margin-top: -100px;
   z-index: 99;
 

@@ -25,12 +25,12 @@ import { VidSobreNos } from './DrEstagioVid/VidSobreNos';
 
 const hexagonOrange = {
   icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
-  iconStyle: { background: '#fff', color: '#FF6609' },
+  iconStyle: { background: '#fff', color: '#F75C25' },
 };
 const hexagonBlue = {
   icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
   
-  iconStyle: { background: '#fff', color: '#121242' },
+  iconStyle: { background: '#fff', color: '#F79542' },
  
 };
 
@@ -215,11 +215,11 @@ export function About() {
         {timeline.map((t, i) => {
           const contentStyle =
             i === 0
-              ? { background: '#FF6609', color: '#fff' }
+              ? { background: '#F75C25', color: '#fff' }
               : undefined;
           const arrowStyle =
             i === 0
-              ? { borderRight: '7px solid #FF6609' }
+              ? { borderRight: '7px solid #F75C25' }
               : undefined;
               
 
@@ -290,7 +290,7 @@ export function About() {
       <div className="containerAbout">
         <div className="infoImageContainer">
           <div className="infoAbout">
-            <h1>Indicadores do Programa de Estágio </h1>
+            <h1>Indicadores </h1>
             {/* <p>
            Temos equipes de suporte para a sua empresa e para seus estagiários 
             </p> */}

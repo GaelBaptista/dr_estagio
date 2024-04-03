@@ -30,6 +30,7 @@
 
 .prEst{
   margin-top: -5rem;
+ 
 }
 
 
@@ -38,7 +39,7 @@
   max-width: 768px;
   margin: 0 auto;
   padding: 15px;
-  
+ 
 }
 
 .faqs .faq {
@@ -50,6 +51,7 @@
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   color: #fff;
   
+  
 } 
 
 .faqs .faq .faq-question {
@@ -57,6 +59,7 @@
   font-size: 10px;
   padding-right: 80px;
   transition: all 0.4s ease;
+  
 }
 
 .faqs .faq .faq-question::after {

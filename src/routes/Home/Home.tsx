@@ -256,6 +256,14 @@ export function Home () {
             </Link>
 
         </div>
+        <div className="quadrado">
+        <Link to='/programa-estagio'>
+
+            <div className="icone"><BsPersonBadgeFill/></div>
+            <div>Programa de Estágio</div>
+            </Link>
+
+        </div>
         {/* <div className="quadrado-quinto">
           <a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer">
             <div className="icone-quinto"><IoLogoWhatsapp/></div>

@@ -322,11 +322,11 @@ export function ContactHome() {
 </div>
   </button>
   </div>
-       <div className="contact-info">
+       {/* <div className="contact-info">
          
     <i ><BsFillPersonFill className="large-icon"/></i>
     <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer"><p className="phone-number">+55 (85) 99247-7241</p></a> 
-  </div>
+  </div> */}
        
   </div>
       

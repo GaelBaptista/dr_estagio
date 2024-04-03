@@ -158,7 +158,7 @@
   position: absolute;
   top: 0;
   transform: translateX(-50%); /* Move a caixinha para o centro da posição */
-  background-color: #121242;
+  background-color: #F79542;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -358,11 +358,11 @@ font-weight: bold;
 }
 
 .orange-cardAbout {
-  background-color: #ED7829;
+  background-color: #F75C25;
 }
 
 .blue-cardAbout {
-  background-color: #121242;
+  background-color: #F75C25;
 }
 
 .iconAbout {
@@ -388,8 +388,9 @@ font-weight: bold;
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   padding: 8px 16px;
-  background-color: #121242;
-  color: #fff;
+  background-color: #ffffff;
+  color: #2f2f2f;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -402,7 +403,11 @@ font-weight: bold;
 
 
 .contact-btnAbout-orange:hover {
-  background-color: #120052;
+  background-color: #f0dddd;
+
+  background-color: #F79542;
+  color: hsl(0, 0%, 100%);
+  /* box-shadow: rgb(93 24 220) 0px 7px 29px 0px; */
 }
 
 .contact-btnAbout-blue {
@@ -410,8 +415,9 @@ font-weight: bold;
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   padding: 8px 16px;
-  background-color: #ED7829;
-  color: #fff;
+  background-color: #ffffff;
+  color: #2f2f2f;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -424,7 +430,11 @@ font-weight: bold;
 
 
 .contact-btnAbout-blue:hover {
-  background-color: #d16217;
+  background-color: #f0dddd;
+
+  background-color: #F79542;
+  color: hsl(0, 0%, 100%);
+  /* box-shadow: rgb(93 24 220) 0px 7px 29px 0px; */
 }
 
 
