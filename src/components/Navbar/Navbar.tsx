@@ -12,7 +12,7 @@ import { RiMenuLine, RiArrowDownSLine, RiMegaphoneFill } from "react-icons/ri";
 import {  FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
 import { SlLogin } from "react-icons/sl";
-import { IoClose } from "react-icons/io5";
+import { IoClose, IoSchool } from "react-icons/io5";
 import { MdMiscellaneousServices, MdRocketLaunch } from "react-icons/md";
 import "./style.css";
 import { BsFillCartFill } from "react-icons/bs";
@@ -158,7 +158,7 @@ export function Navbar() {
                         onClick={closeMenu}
                       >
                         <FaUser style={{ fontSize: "25px" }} /> Programa de
-                        estágio
+                        Estágio
                       </Link>
                     </li>
 
@@ -168,19 +168,29 @@ export function Navbar() {
                         className="dropdown__link"
                         onClick={closeMenu}
                       >
-                        <BsFillCartFill style={{ fontSize: "30px" }} /> Estágio
-                        para varejo
+                        <IoSchool style={{ fontSize: "30px" }} /> Programa de 
+                        Aprendizagem
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        to="/farmacia"
+                        to="/recrutamento-selecao"
                         className="dropdown__link"
                         onClick={closeMenu}
                       >
-                        <MdHealthAndSafety style={{ fontSize: "32px" }} />{" "}
-                        Estágio para Farmácia
+                        <GiMagnifyingGlass style={{ fontSize: "32px" }} />{" "}
+                        Recrutamento e Seleção
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/palestra-treinamento"
+                        className="dropdown__link"
+                        onClick={closeMenu}
+                      >
+                        <MdRocketLaunch style={{ fontSize: "32px" }} />{" "}
+                       Treinamento e Desenvolvimento
                       </Link>
                     </li>
                     {/* <li className="dropdown__subitem">
@@ -211,7 +221,7 @@ export function Navbar() {
                 </ul>
               </li> */}
 
-                    <li className="dropdown__subitem">
+                    {/* <li className="dropdown__subitem">
                 <div className="dropdown__link">
                  <MdMiscellaneousServices style={{ fontSize: "32px" }}/>Soluções RH<i className="ri-add-line dropdown__add"></i>
                 </div>
@@ -229,13 +239,13 @@ export function Navbar() {
                     </Link>
                   </li>
 
-                  {/* <li>
+                  <li>
                     <Link to="/analytics/reports/refunds" className="dropdown__sublink">
                       <FaMoneyBillWave /> Refunds
                     </Link>
-                  </li> */}
+                  </li>
                 </ul>
-              </li>
+              </li> */}
                   </ul>
                 </li>
 

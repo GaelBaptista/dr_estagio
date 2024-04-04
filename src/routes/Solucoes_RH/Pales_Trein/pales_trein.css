@@ -54,9 +54,9 @@
    * typography
    */
 
-  --ff-league_spartan: 'League Spartan', sans-serif;
-  --ff-poppins: 'Poppins', sans-serif; 
-
+  --ff-league_spartan: 'Open Sans', sans-serif;
+  --ff-poppins: 'Open Sans', sans-serif; 
+  --title-font: "DM Sans", sans-serif;
   --fs-1: 4.2rem;
   --fs-2: 3.2rem;
   --fs-3: 2.3rem;

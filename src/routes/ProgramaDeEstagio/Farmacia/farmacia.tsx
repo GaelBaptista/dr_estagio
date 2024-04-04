@@ -1,67 +1,52 @@
 import CarouselComponent from '../servicos_pr/Cardservico'
 import { Testimonials_ } from '../servicos_pr/testimonials'
 import './farmacia.css'
-
+import img_Varejo from '../assetsPr/Paralax-three.png'
 export function Farmacia () {
   return (
-    <>
-    <div id="parallax-world-of-ugg">
-     
-  
-  <section>
-    <div className="title">
-      <h3>Programa de Estágio </h3>
-      <h1>FARMÁCIA</h1>
-    </div>
-  </section>
-  
-  <section>
-      <div className="parallax-one-far">
-        <h2>Trilhando o Caminho Profissional em Farmácia</h2>
-      </div>
-  </section>
-  
-  <section>
-    <div className="block">
-      <p><span className="first-character sc">O</span>estágio é um ato educativo onde são ofertadas vagas para que estudantes dos cursos de farmácia e áreas afins nos níveis superior, técnico ou profissionalizantes possam colocar em prática todo conhecimento teórico adquirido durante seu curso e assim iniciar sua carreira profissional.</p>
-      <p className="line-break margin-top-10"></p>
-      <p className="margin-top-10">Nossos estagiários do Programa de Estágio para Farmácia podem desenvolver atividades em diversos setores como: Atendimento ao cliente no balcão, reposição e organização, operação de caixa, marketing digital, atendimento presencial e online entre outras atividades inerente ao setor, aumentando assim a produtividade da sua empresa.</p>
-    </div>
-  </section>
-  
-  <section>
-    <div rel="preload" className="parallax-two-far">
-      <h2>Fortalecendo a Equipe Farmacêutica  </h2>
-    </div>
-  </section>
-  
-  <section>
-    <div className="block">
-      <p><span className="first-character ny">C</span>ontar com estagiários no dia a dia de sua farmácia tem muitos benefícios, isso porque eles têm maior flexibilidade e adaptabilidade para aprender e executar diversas tarefas nos setores </p>
-      <p className="line-break margin-top-10"></p>
-      <p className="margin-top-10">Aqueles que se destacam têm a chance de se tornar colaboradores em tempo integral, reduzindo o tournover, tempo e custos associados ao recrutamento externo, como treinamentos e integração, pois eles já estão familiarizados com a cultura da empresa e bem adaptados com a equipe.</p>
-    </div>
-  </section>
-  
-  
-  <section>
-    <div className="parallax-three-far">
-      <h2> Fomentando Futuros Profissionais</h2>
-    </div>
-  </section>
-  
-  <section>
-    <div className="block">
-      <p><span className="first-character atw">O</span>ferecer oportunidades de estágio mostra o compromisso com o desenvolvimento desses estudantes. Isso pode melhorar a reputação da sua empresa perante a comunidade tornando a sua farmácia um local atraente para que talentos promissores possam desenvolver sua carreira profissional.</p>
-      <p className="line-break margin-top-10"></p>
-      <p className="margin-top-10">Em resumo, a contratação de estagiários  pode trazer vantagens substanciais, sendo crucial proporcionar um ambiente de trabalho acolhedor e oportunidades significativas de aprendizado, para garantir que ambos os lados colham os benefícios máximos dessa colaboração..</p>
-    </div>
-  </section>
-  
     
-  </div>
-  <CarouselComponent/>
-  <Testimonials_/>
+    <>
+       <section className="section" id="home">
+      <div className="container grid">
+      <div className="text">
+          <h2 className="title">Programa de Estágio no Varejo</h2>
+          <p>O estágio no varejo oferece aos estudantes a oportunidade de aplicar conhecimentos teóricos na prática, contribuindo para áreas como atendimento ao cliente, reposição e operação de caixa. Destaques têm a chance de serem contratados integralmente, reduzindo custos de recrutamento e evidenciando o compromisso da empresa com o desenvolvimento profissional.</p>
+         
+        </div>
+        <div className="image_estag">
+          <img src={img_Varejo} alt="Mulher sorrindo penteando outra mulher"/>
+        </div>
+       
+      </div>
+    </section>
+
+    {/* <!-- Divisor --> */}
+    <div className="divider-1"></div>
+
+    {/* <!-- About --> */}
+    <section className="section" id="about">
+      <div className="container grid">
+        <div className="image_estag">
+          <img src="assets/images/about.jpg" alt="3 mulheres sorrinfo"/>
+        </div>
+        <div className="text">
+          <h2 className="title">Sobre nós</h2>
+          <p>Beauty Salon é um novo conceito de salão: um espaço aconchegante, alternativo, com uma postura ética,
+            onde se utilizam produtos que respeitam sua saúde
+            e a natureza.
+          </p>
+          <br/>
+          <p>Um salão super slow beauty, com atendimento individualizado, ambiente muito calmo e com
+            muito papo-cabeça.</p>
+          <br/>
+          <p>Imagem aqui não é tratada com futilidade. Se sentir bem faz parte da autoestima, e a imagem de cada um de
+            nós transmite uma mensagem. Essa mensagem deve estar de acordo com o que somos, deve nos representar.</p>
+        </div>
+      </div>
+    </section>
+
+
+
   </>
   )
 }

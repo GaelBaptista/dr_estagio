@@ -13,7 +13,7 @@
   --base-colorServicos: #fb670a;
  --base-colorServicos-second:#fb670a;
   --base-colorServicos-alt: hsl(var(--hueServicos) 57% 53%);
-  --title-color: hsl(var(--hueServicos) 41% 10%);
+  --title-color: #302b2b;
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
@@ -61,9 +61,9 @@
   margin-bottom: 1rem;
 }
 
-.section .subtitle {
+/* .section .subtitle {
   font-size: var(--subtitle-font-size);
-}
+} */
 
 .section header {
   margin-bottom: 4rem;

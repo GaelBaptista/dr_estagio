@@ -1,5 +1,5 @@
 
-import './servicos.css'
+import './Card_testimo.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

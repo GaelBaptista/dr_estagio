@@ -6,6 +6,7 @@ import {FAQ} from "./FAQ";
 import { FAQItem } from './FAQ';
 import CarouselComponent from "../servicos_pr/Cardservico";
 import { Testimonials_ } from "../servicos_pr/testimonials";
+import { Varejo_Farmacia } from "../servicos_pr/Varejo_farma";
 
 
 
@@ -185,7 +186,7 @@ import { Testimonials_ } from "../servicos_pr/testimonials";
       </div>
     </section>
 
-    
+  <Varejo_Farmacia/>
   <CarouselComponent/>
   <Testimonials_/>
     </>

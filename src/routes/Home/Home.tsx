@@ -25,6 +25,8 @@ import img5 from '../../assests/banner5.jpg'
 import img6 from '../../assests/banner6.jpg'
 import { GiMagnifyingGlass } from 'react-icons/gi';
 import { Solucoes_Section } from './SolucoesRH/Solucoes';
+import { IoSchool } from 'react-icons/io5';
+import { Aprendiz } from './Aprendizagem/Aprendiz';
 
 
 
@@ -245,7 +247,7 @@ export function Home () {
         <div className="quadrado">
           <Link to='/palestra-treinamento'>
             <div className="icone"><MdRocketLaunch/></div>
-            <div>Palestras e Treinamentos</div>
+            <div>Treinamento e Desenvolvimento</div>
             </Link>
         </div>
         <div className="quadrado">
@@ -259,8 +261,8 @@ export function Home () {
         <div className="quadrado">
         <Link to='/programa-estagio'>
 
-            <div className="icone"><BsPersonBadgeFill/></div>
-            <div>Programa de Estágio</div>
+            <div className="icone"><IoSchool/></div>
+            <div>Programa de Aprendizagem</div>
             </Link>
 
         </div>
@@ -275,6 +277,7 @@ export function Home () {
     </section>
   {/* COMPONENTES */}
   <CardSection/>
+  <Aprendiz/>
   <Solucoes_Section/>
   <ContactHome/>
   <Video/>

@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BsFillMegaphoneFill,  BsFillHeartPulseFill, BsBuildingFillGear, BsPersonFillGear } from 'react-icons/bs'; // Importe os ícones que você está usando
 import{HiDocumentText} from 'react-icons/hi'
-
+import './Card_testimo.css'
 type CardProps = {
   icon: JSX.Element;
   title: string;

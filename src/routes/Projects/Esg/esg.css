@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
@@ -17,7 +17,7 @@
   --scroll-bar-color: hsl(var(--hue), 4%, 85%);
   --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
   /*========== Font and typography ==========*/
-  --.bodyESG-font: 'Poppins', sans-serif;
+  --bodyESG-font: 'Poppins', sans-serif;
   --biggest-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;

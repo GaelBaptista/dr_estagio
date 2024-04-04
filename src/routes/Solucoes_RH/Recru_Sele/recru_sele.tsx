@@ -58,9 +58,10 @@ export function Recrutamento_Selecao () {
     <section className="about section" id="about">
       <div className="about__container container grid">
         <div className="about__data">
-          <h2 className="section__title about__title">Título<br />indefinido</h2>
+          <h2 className="section__title about__title">Riscos da Contratação <br />Mal Planejada</h2>
           <p className="about__description">
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis harum repudiandae optio asperiores porro illum, cumque, quis ad quas eos aspernatur sapiente molestiae facilis quos nostrum doloremque quae blanditiis deserunt!
+          Realizar um processo seletivo eficaz é crucial para o crescimento saudável de sua empresa.
+          ma contratação inadequada pode trazer sérios prejuízos, incluindo ineficiência operacional, desmotivação da equipe e atrasos nos projetos. Esses males podem comprometer significativamente o desempenho do negócio, afetando sua reputação, lucratividade e posição competitiva no mercado.
           </p>
           {/* <a href="#" className="button">
             Reserve a place
@@ -87,20 +88,30 @@ export function Recrutamento_Selecao () {
 
                 <div className="skills__container bd-grid">          
                     <div>
-                    <h2 className="section__title about__title">Título indefinido</h2>
-                        <p className="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <h2 className="section__title about__title">Por que o Processo Seletivo merece minha atenção?</h2>
+                        <p className="skills__text">Uma seleção mal feita pode não apenas desperdiçar recursos financeiros,
+                        mas também prejudicar o fluxo de trabalho, impactando negativamente a produtividade e o desempenho da equipe. 
+                        </p>
+                        
+                        {/* <h2 className="section__title about__title" > Isso não é exagero</h2>
+                        <p className="skills__text">Pense nos seguintes custos.
+                        </p> */}
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-html5 skills__icon'></i>
-                                <span className="skills__name">A DEFINIR</span>
+                                <span className="skills__name"> Processo Seletivo.</span>
                             </div>
                             <div className="skills__bar skills__html">
 
                             </div>
                             <div>
-                                <span className="skills__percentage">95%</span>
+                                <span className="skills__percentage">10%</span>
                             </div>
+                          
                         </div>
+                        <span className="skills__name">Cerca de 10% do salário anual do funcionário.</span>
+                        <br />
+                        <br />
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-css3 skills__icon'></i>

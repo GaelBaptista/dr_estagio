@@ -10,10 +10,10 @@
   --hue-color: 190;
 
   /* HSL color mode */
-  --first-color: #FF6609;
-  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color: #F75C25;
+  --first-color-second: #F75C25;
   --first-color-alt: hsl(var(--hue-color), 64%, 15%);
-  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --title-color:#272525;
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
@@ -87,7 +87,7 @@ html {
 }
 
 .section__title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
@@ -158,7 +158,7 @@ html {
 }
 
 .home__info {
-  background-color: #FF6609;
+  background-color: #F75C25;
   display: flex;
   padding: 1.5rem 1rem;
   align-items: center;
@@ -608,7 +608,7 @@ html {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 10%;
 }
 .skills__css {
   width: 85%;
