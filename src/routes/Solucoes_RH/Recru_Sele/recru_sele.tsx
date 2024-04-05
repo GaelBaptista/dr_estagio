@@ -2,10 +2,10 @@ import './recru_sele.css'
 
 import home1 from './assets_sol_rh/home1.jpg'
 import home2 from './assets_sol_rh/home2.jpg'
-import about1 from './assets_sol_rh/about1.jpg'
-import about2 from './assets_sol_rh/about2.jpg'
-import experiencia1 from './assets_sol_rh/experience1.jpg'
-import experiencia2 from './assets_sol_rh/experience2.jpg'
+import about1 from './assets_sol_rh/contratacao2.jpg'
+import about2 from './assets_sol_rh/contratacao1.jpg'
+import experiencia1 from './assets_sol_rh/atencaoContrato.jpg'
+
 
 export function Recrutamento_Selecao () {
   return (
@@ -21,9 +21,9 @@ export function Recrutamento_Selecao () {
           <h1 className="home__data-title">
             Recrutamento <br /> e <b>Seleção</b>
           </h1>
-          {/* <a href="#" className="button">
-            Explore
-          </a> */}
+          <a href="#about" className="button">
+            Confira
+          </a>
         </div>
 
         {/* <div className="home__social">
@@ -40,7 +40,7 @@ export function Recrutamento_Selecao () {
 
         <div className="home__info">
           <div>
-            <span className="home__info-title">Fale conosco agora mesmo!</span>
+            <span className="home__info-title">Simplifique seu recrutamento hoje!</span>
             <a href="" className="button button--flex button--link home__info-button">
               Fale conosco <i className="ri-arrow-right-line"></i>
             </a>
@@ -53,6 +53,9 @@ export function Recrutamento_Selecao () {
         </div>
       </div>
     </section>
+   
+
+
 
     {/* ==================== ABOUT ==================== */}
     <section className="about section" id="about">
@@ -93,9 +96,9 @@ export function Recrutamento_Selecao () {
                         mas também prejudicar o fluxo de trabalho, impactando negativamente a produtividade e o desempenho da equipe. 
                         </p>
                         
-                        {/* <h2 className="section__title about__title" > Isso não é exagero</h2>
-                        <p className="skills__text">Pense nos seguintes custos.
-                        </p> */}
+                        <h2 className="section__title about__title" > Isso não é exagero</h2>
+                        <p className="skills__text">Pense nos seguintes custos baseada em porcentagem do salário de um funcionário. 
+                        </p>
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-html5 skills__icon'></i>
@@ -109,43 +112,67 @@ export function Recrutamento_Selecao () {
                             </div>
                           
                         </div>
-                        <span className="skills__name">Cerca de 10% do salário anual do funcionário.</span>
+                        {/* <span className="skills__name">Cerca de 10% do salário anual do funcionário.</span>
                         <br />
-                        <br />
+                        <br /> */}
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-css3 skills__icon'></i>
-                                <span className="skills__name">A DEFINIR</span>
+                                <span className="skills__name"> Tempo dos Profissionais de RH</span>
                             </div>
                             <div className="skills__bar skills__css">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">20%</span>
                             </div>
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-javascript skills__icon' ></i>
-                                <span className="skills__name">A DEFINIR</span>
+                                <span className="skills__name">Treinamento</span>
                             </div>
                             <div className="skills__bar skills__js">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">65%</span>
+                                <span className="skills__percentage">15%</span>
                             </div>
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxs-paint skills__icon'></i>
-                                <span className="skills__name">A DEFINIR</span>
+                                <span className="skills__name">Meses de Salário Desperdiçados</span>
                             </div>
                             <div className="skills__bar skills__ux">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <div className="skills__names">
+                                <i className='bx bxs-paint skills__icon'></i>
+                                <span className="skills__name">Encargos e Benefícios</span>
+                            </div>
+                            <div className="skills__bar skills__ux2">
+                                
+                            </div>
+                            <div>
+                                <span className="skills__percentage">30%</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <div className="skills__names">
+                                <i className='bx bxs-paint skills__icon'></i>
+                                <span className="skills__name">Improdutividade e Retrabalhos</span>
+                            </div>
+                            <div className="skills__bar skills__ux3">
+                                
+                            </div>
+                            <div>
+                                <span className="skills__percentage">25 %</span>
                             </div>
                         </div>
                     </div>
@@ -159,7 +186,7 @@ export function Recrutamento_Selecao () {
 
     
       {/* ==================== EXPERIENCE ==================== */}
-      <section className="experience section">
+      {/* <section className="experience section">
         <h2 className="section__title">Título <br /> indefinido</h2>
 
         <div className="experience__container container grid">
@@ -192,38 +219,22 @@ export function Recrutamento_Selecao () {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <!--==================== STEPS ====================--> */}
             <section className="steps section container">
                 <div className="steps__bg">
                     <h2 className="section__title-center steps__title">
-                        Título <br/> indefinido
+                        Simplifique seu Recrutamento<br/>com a Dr.Estágio
                     </h2>
 
                     <div className="steps__container grid">
                         <div className="steps__card">
-                            <div className="steps__card-number">01</div>
-                            <h3 className="steps__card-title">Choose defined</h3>
+                            {/* <div className="steps__card-number">Dr.Estágio</div> */}
+                            {/* <h3 className="steps__card-title">Choose defined</h3> */}
                             <p className="steps__card-description">
-                                We have several varieties plants you can choose from.
-                            </p>
-                        </div>
-
-                        <div className="steps__card">
-                            <div className="steps__card-number">02</div>
-                            <h3 className="steps__card-title">Choose defined</h3>
-                            <p className="steps__card-description">
-                                Once your order is set, we move to the next step which is the shipping.
-                            </p>
-                        </div>
-
-                        <div className="steps__card">
-                            <div className="steps__card-number">03</div>
-                            <h3 className="steps__card-title">Choose defined </h3>
-                            <p className="steps__card-description">
-                                Our delivery process is easy, you receive the plant direct to your door.
-                            </p>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consequatur eaque corporis id nobis consectetur laboriosam tenetur possimus? Aliquid, dicta? Quis, velit. Earum eveniet enim ullam perspiciatis, necessitatibus at maiores?
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur molestiae sunt, voluptatibus quas iste veniam facere iure deserunt excepturi repudiandae sed ratione, inventore optio explicabo voluptate tenetur dolor amet voluptates!                            </p>
                         </div>
                     </div>
                 </div>

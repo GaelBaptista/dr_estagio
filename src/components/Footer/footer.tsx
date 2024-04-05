@@ -4,6 +4,7 @@ import { FaClock, FaPhone, FaEnvelopeOpen,  } from 'react-icons/fa';
 import Abres from '../../assests/Logo ABRES.png'
 
 
+
 import './footer.css'
 import LogoFooter from '../../assests/Logo1.png'
 
@@ -62,7 +63,9 @@ export function Footer() {
               <div className="footer-social-icon">
                 <span>Empresa Associada à Associação Brasileira de Estágio</span>
                 <img className='Abres' src={Abres} width={'200px'} height={'100px'}  alt=""  loading="lazy"
+                
       decoding="async"/>
+
                 
                {/* <a href="#"><FaFacebookF className="facebook-bg" /></a>
                 <a href="#"><FaTwitter className="twitter-bg" /></a>

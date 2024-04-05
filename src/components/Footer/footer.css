@@ -1,7 +1,7 @@
 /* Estilos para alinhamento e espaçamento */
 .footer-section {
   background: #151414;
-  padding: 50px 0;
+  padding: 0 0;
 }
 
 .footer-cta,
@@ -166,7 +166,7 @@
 @media screen and (max-width: 650px) {
   .single-cta {
     flex: 1; /* Faz com que todos os elementos tenham a mesma largura */
-   margin:10px;
+   /* margin:10px; tava dando bug no menu mobile*/ 
    padding: 10px; /* Adiciona um pequeno espaçamento entre os elementos */
     width: 300px;
    

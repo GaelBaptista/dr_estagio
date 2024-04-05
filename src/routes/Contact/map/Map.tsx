@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './map.css'
-import IMG from './asset/ImgCE.png' 
-import ImgRN from './asset/ImgRN.png'
+import IMG from './asset/rn.png' 
+import ImgRN from './asset/ce.png'
 
 export function Map () {
   
