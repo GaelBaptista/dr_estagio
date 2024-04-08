@@ -135,8 +135,7 @@ export function About() {
           </div>
           <p>Atuando no mercado desde 2015 e com marca registrada no INPI, a <strong> Dr.Estágio </strong> estende sua atuação por todo o
              território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.
-             Como especialistas em programas de estágio voltados para o varejo, desempenhamos um papel fundamental no 
-             desenvolvimento de profissionais de destaque no setor supermercadista. Ao nos tornarmos parceiros de 
+             Como especialistas em programas de estágio, jovem aprendiz e recrutamento e seleção voltados para o varejo, desempenhamos um papel fundamental no desenvolvimento de profissionais de destaque no setor supermercadista. Ao nos tornarmos parceiros de 
              empresas conveniadas, proporcionamos a oportunidade de lapidar 
              jovens talentos por meio do estágio, contribuindo para a formação de futuros profissionais qualificados. </p>
         </div>
@@ -154,8 +153,7 @@ export function About() {
       qualificada para ocupar futuras vagas de colaborador CLT.
       A <strong> DR.ESTÁGIO </strong> ajuda a sua empresa na redução de custos e ganho na produtividade com
       a qualidade no atendimento da sua unidade.
-      Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender 
-      e executar diversas tarefas. <br /><br />Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os 
+      Contar com estagiários, jovens aprendizes no dia a dia tem muitos benefícios. Além de trazerem flexibilidade e adaptabilidade para aprender e executar diversas tarefas, nossos serviços de gestão de estágio, programas de jovem aprendiz e recrutamento e seleção garantem a qualidade e eficiência necessárias para impulsionar o sucesso de sua empresa. <br /><br />Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os 
       benefícios que nosso programa de estágio tem a oferecer para aprimorar o quadro de colaboradores da sua 
       empresa.
             </p>

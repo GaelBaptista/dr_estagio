@@ -147,14 +147,14 @@ export function Home () {
 
       title: 'Mais assertividades em novas contratções',
       description:
-        'Programa de Estágio',
+        'Programa de Estágio e Aprendizagem',
     },
     {
       // imageUrl: 'https://i.redd.it/tc0aqpv92pn21.jpg',
       imageUrl: img2,
       title: 'Aumente o potencial da sua empresa com nosso ',
       description:
-        'Programa de Estágio',
+        'Programa de Aprendizagem',
     },
     {
       // imageUrl: 'https://wharferj.files.wordpress.com/2015/11/bio_north.jpg',
@@ -168,13 +168,13 @@ export function Home () {
       imageUrl: img4,
       title: 'Gestão de Talentos e Crescimento Organizacional',
       description:
-        'Palestras e Treinamentos',
+        'Treinamento e Desenvolvimento',
     },
     {
       imageUrl: img5,
-      title: 'Em Busca de Oportunidades Profissionais? Conheça nossas ',
+      title: 'Em Busca de Oportunidades Profissionais? ',
       description:
-        'Vagas de Estágio',
+        'Conheça nossas Vagas',
     },
     {
       imageUrl: img6,

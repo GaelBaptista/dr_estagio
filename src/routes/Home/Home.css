@@ -64,7 +64,7 @@
   transform: translateY(-50%);
   font: 400 0.85rem,sans-serif;
   color: white;
-  text-shadow: 0 3px 8px rgba(0,0,0,0.5);
+  /* text-shadow: 0 3px 8px rgba(0,0,0,0.5); */
   opacity: 0;
   display: none;
 
@@ -76,7 +76,7 @@
     color: white;
     margin: 0;
     padding: 10px;
-    border-right: 5px solid #ffffff ;
+    /* border-right: 5px solid #ffffff ; */
   }
 
   & .description_slider_home_page {

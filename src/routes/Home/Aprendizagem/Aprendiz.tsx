@@ -16,64 +16,30 @@ export function Aprendiz () {
           
           </div>
           <p>
-A <strong>Dr.Estágio</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi repellendus deleniti facilis, deserunt cupiditate officiis ullam praesentium magni qui neque enim eligendi. Deleniti blanditiis eligendi voluptas mollitia atque nihil id? </p>
+ Nosso Programa de Aprendizagem tem como objetivo promover o desenvolvimento profissional dos jovens, seguindo a Lei da Aprendizagem. </p>
         </div>
-        <div className='cardrow'>
+        <div className='cardrow_ap'>
 
         
         <div >
           <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"><MdGroups2/></i></span>
-            <h3>Alguma coisa</h3>
+            <h3>Incentivos Fiscais e Tributários </h3>
             <div className='list'>
             <span className='bolinha1'></span>
-            <p>Alguma coisaAlguma coisaAlguma coisa</p>
+            <p>Redução de Encargos</p>
             </div>
             <div className='list'>
             <span className='bolinha2'></span>
-            <p>Alguma coisaAlguma coisa</p>
+            <p>Incentivo Fiscal</p>
             </div>
             <div className='list'>
             <span className='bolinha1'></span>
-            <p>Alguma coisaAlguma coisa</p>
+            <p>Simplificação Administrativa</p>
             </div>
             </div>
         </div>
         
-        <div >
-          <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"><MdAttachMoney/></i></span>
-            <h3>Alguma coisa</h3>
-            <div className='list'>
-            <span className='bolinha2'></span>
-            <p>Alguma coisaAlguma coisa</p>
-            </div>
-            <div className='list'>
-            <span className='bolinha1'></span>
-            <p>Alguma coisa</p>
-            </div>
-            <div className='list'>
-            <span className='bolinha2'></span>
-            <p>Alguma coisaAlguma coisa</p>
-            </div>
-            </div>
-        </div>
-
-        <div >
-          <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"><MdGroups2/></i></span>
-            <h3>Alguma coisa</h3>
-            <div className='list'>
-            <span className='bolinha1'></span>
-            <p>Alguma coisa</p>
-            </div>
-            <div className='list'>
-            <span className='bolinha2'></span>
-            <p>Alguma coisaAlguma coisa </p>
-            </div>
-            <div className='list'>
-            <span className='bolinha1'></span>
-            <p>Alguma coisaAlguma coisaAlguma </p>
-            </div>
-            </div>
-        </div>
+        
         </div>
       </div>
     </div>
