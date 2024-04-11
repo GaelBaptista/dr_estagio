@@ -1,13 +1,18 @@
 
 import './varejo.css'
 
-
+import heroo from './assets/webinar-animate.svg'
 
 
 export function Varejo () {
   return (
     <>
-    <h1 className='ap'>DESENVOLVIMENTO</h1>
+  
+<h1>asjfhlsdijdjbaifb</h1>
+
+
+
+
     </>
   )
 }
