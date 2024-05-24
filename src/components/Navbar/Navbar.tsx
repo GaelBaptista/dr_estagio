@@ -164,7 +164,7 @@ export function Navbar() {
 
                     <li>
                       <Link
-                        to="/varejo"
+                        to="/aprendiz_page"
                         className="dropdown__link"
                         onClick={closeMenu}
                       >

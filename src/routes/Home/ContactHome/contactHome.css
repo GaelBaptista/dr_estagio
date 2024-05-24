@@ -85,7 +85,7 @@ button a {
 } */
 /* This is an example, feel free to delete this code */
 .tooltip-container {
-  --background: #FF6609;
+  --background:#FF6609;
   --support-size: 50px;
   --tooltip-radius: 10px 10px 10px 0;
   --outline-border-color: #0096aa;
@@ -256,7 +256,7 @@ button a {
 
 /* Estilização para a seção ContactHome */
 .ContactHome {
-  background-color: #F75C25;
+  background-color: #F4913C;
   background-size: cover;
   background-position: center;
   height: 40vh; /* Altura desejada */

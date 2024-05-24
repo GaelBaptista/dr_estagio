@@ -23,7 +23,7 @@ import { Projects } from "./routes/Projects/projects";
 import { PrEst } from "./routes/ProgramaDeEstagio/Estagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
 import { NossoMapa } from "./routes/Localizacao/NossoMapa";
-import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
+// import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
 // import { Servicos } from "./routes/Projects/Sericos/servicos";
 import { Blog } from "./routes/Blog/blogprops";
@@ -34,6 +34,7 @@ import { Login_empresa } from "./routes/Login/Login_Empresa/loginEmpresa";
 import { Recrutamento_Selecao } from "./routes/Solucoes_RH/Recru_Sele/recru_sele";
 import { Palestra_Treinamento } from "./routes/Solucoes_RH/Pales_Trein/pales_trein";
 import { Fak } from "./routes/Blog/PagesBlog/Fak/Fak";
+import { Aprendiz_Page } from "./routes/ProgramaAprendiz/aprendiz";
 
 
 
@@ -85,9 +86,13 @@ const router = createBrowserRouter([
         element: <PrEst />, 
       },
       {
-        path: "varejo",
-        element: <Varejo />, 
+        path: "aprendiz_page",
+        element: <Aprendiz_Page />, 
       },
+      // {
+      //   path: "varejo",
+      //   element: <Varejo />, 
+      // },
     
       {
         path: "farmacia",

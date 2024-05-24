@@ -95,6 +95,11 @@
   .VideoSectionAbout .container-video-about .video-container-about {
     padding: 10px;
   }
+  .VideoSectionAbout .container-video-about .video-container-about {
+    display: block;
+    
+    
+  }
 }
 
 @media (max-width: 768px) {

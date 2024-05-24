@@ -191,7 +191,7 @@ export function About() {
 
 {/* =======================================================GESTAO DE DH TITULO ================================================================ */}
  
-      <div className="section-head ">
+      <div className="section-head DH ">
           <h4><span>Gestão de</span>DH</h4>
           <div className='divider__title'>
             
