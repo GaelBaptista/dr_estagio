@@ -3,13 +3,15 @@ import './aprendiz.css'
 
 import heroo from './assets/home_Protagonista.svg'
 import features from './assets/feactures.jpg'
+import features2 from './assets/feactures2.jpg'
+
 
 import { IoSchool } from 'react-icons/io5'
 import { BsBarChartFill, BsBasket2Fill, BsBoxes, BsStars } from 'react-icons/bs'
 import { BiSolidCar } from 'react-icons/bi'
 import { GoLaw } from "react-icons/go";
 import { HiAcademicCap, HiMinus } from 'react-icons/hi'
-import { FaArrowDown } from 'react-icons/fa'
+import { FaArrowDown, FaSchool } from 'react-icons/fa'
 import { HiMiniXCircle } from "react-icons/hi2";
 import { MdAttachMoney } from 'react-icons/md'
 
@@ -225,42 +227,42 @@ Administração                </p> */}
           <div className="features-wrapper">
 
             <figure className="features-banner">
-              <img src="./assets/images/features-img-2.png" alt="illustration art"/>
+              <img src={features2} alt="illustration art"/>
             </figure>
 
             <div className="features-content">
 
               <p className="features-content-subtitle">
-                {/* <ion-icon name="sparkles"></ion-icon> */}
+              <FaSchool style={{color:'#560372'}} />
 
-                <span>CREATIVE FEATURES</span>
+                <span>PAPP</span>
               </p>
 
               <h3 className="features-content-title">
-                We do the work you <strong>stay focused</strong> on <strong>your customers.</strong>
+                Metodologia <strong style={{color:'#560372'}}>Pedagógica</strong> Direcionada
               </h3>
 
               <p className="features-content-text">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum a necessitatibus saepe eveniet ut et
-                voluptates repudiandae
-                sint molestiae non recusandae itaque.
+              Programa de Acompanhamento Profissional e Psicológico.
+Um programa de desenvolvimento profissional, social e educacional, ferramenta estratégica.
+Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas competências e habilidades , um recurso de gestão de talento e aperfeiçoamento como ferramenta estratégica 
               </p>
 
-              <ul className="features-list">
+              {/* <ul className="features-list">
 
                 <li className="features-list-item">
-                  {/* <ion-icon name="rocket-outline"></ion-icon> */}
+                  <ion-icon name="rocket-outline"></ion-icon>
 
                   <p>Donec pede justo fringilla vel nec.</p>
                 </li>
 
                 <li className="features-list-item">
-                  {/* <ion-icon name="wifi-outline"></ion-icon> */}
+                  <ion-icon name="wifi-outline"></ion-icon>
 
                   <p>Cras ultricies mi eu turpis hendrerit fringilla.</p>
                 </li>
 
-              </ul>
+              </ul> */}
 
               {/* <div className="btn-group">
                 <button className="btn btn-primary">Read More</button>
@@ -290,7 +292,7 @@ Administração                </p> */}
             cumque.
           </p>
 
-          <ul className="blog-list">
+          {/* <ul className="blog-list">
 
             <li>
               <div className="blog-card">
@@ -302,13 +304,13 @@ Administração                </p> */}
                 <div className="blog-meta">
 
                   <span>
-                    {/* <ion-icon name="calendar-outline"></ion-icon> */}
+                    <ion-icon name="calendar-outline"></ion-icon>
 
                     <time dateTime="2021-04-10">april 10 2021</time>
                   </span>
 
                   <span>
-                    {/* <ion-icon name="person-outline"></ion-icon> */}
+                    <ion-icon name="person-outline"></ion-icon>
 
                     <p>admin</p>
                   </span>
@@ -326,7 +328,7 @@ Administração                </p> */}
                 <a href="#" className="blog-link-btn">
                   <span>Learn More</span>
 
-                  {/* <ion-icon name="chevron-forward-outline"></ion-icon> */}
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
                 </a>
 
               </div>
@@ -342,13 +344,13 @@ Administração                </p> */}
                 <div className="blog-meta">
 
                   <span>
-                    {/* <ion-icon name="calendar-outline"></ion-icon> */}
+                    <ion-icon name="calendar-outline"></ion-icon>
 
                     <time dateTime="2021-04-10">april 10 2021</time>
                   </span>
 
                   <span>
-                    {/* <ion-icon name="person-outline"></ion-icon> */}
+                    <ion-icon name="person-outline"></ion-icon>
 
                     <p>admin</p>
                   </span>
@@ -366,7 +368,7 @@ Administração                </p> */}
                 <a href="#" className="blog-link-btn">
                   <span>Learn More</span>
 
-                  {/* <ion-icon name="chevron-forward-outline"></ion-icon> */}
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
                 </a>
 
               </div>
@@ -382,13 +384,13 @@ Administração                </p> */}
                 <div className="blog-meta">
 
                   <span>
-                    {/* <ion-icon name="calendar-outline"></ion-icon> */}
+                    <ion-icon name="calendar-outline"></ion-icon>
 
                     <time dateTime="2021-04-10">april 10 2021</time>
                   </span>
 
                   <span>
-                    {/* <ion-icon name="person-outline"></ion-icon> */}
+                    <ion-icon name="person-outline"></ion-icon>
 
                     <p>admin</p>
                   </span>
@@ -406,13 +408,13 @@ Administração                </p> */}
                 <a href="#" className="blog-link-btn">
                   <span>Learn More</span>
 
-                  {/* <ion-icon name="chevron-forward-outline"></ion-icon> */}
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
                 </a>
 
               </div>
             </li>
 
-          </ul>
+          </ul> */}
 
         </div>
       </section>
