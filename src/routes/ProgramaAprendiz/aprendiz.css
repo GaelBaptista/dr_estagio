@@ -158,7 +158,7 @@ button {
 
 .section-text {
   color: var(--cool-gray);
-  font-size: var(--fs-7);
+  font-size: var(--fs-5);
   line-height: 1.7;
   text-align: center;
 }

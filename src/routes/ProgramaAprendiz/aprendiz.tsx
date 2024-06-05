@@ -13,7 +13,7 @@ import { GoLaw } from "react-icons/go";
 import { HiAcademicCap, HiMinus } from 'react-icons/hi'
 import { FaArrowDown, FaSchool } from 'react-icons/fa'
 import { HiMiniXCircle } from "react-icons/hi2";
-import { MdAttachMoney } from 'react-icons/md'
+import { MdAttachMoney, MdEmail } from 'react-icons/md'
 
 export function Aprendiz_Page () {
   return (
@@ -285,11 +285,10 @@ Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas
       <section className="blog" id="blog">
         <div className="container">
 
-          <h2 className="h2_prot section-title-prot">Latest News</h2>
+          <h2 className="h2_prot section-title-prot">Manutenção mensal do programa por aprendiz </h2>
 
           <p className="section-text">
-            Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis eligendi
-            cumque.
+          O valor do investimento a ser pago possibilitará a capacitação teórica, contratação de professores técnico e a manutenção do programa por aprendiz 
           </p>
 
           {/* <ul className="blog-list">
@@ -428,11 +427,9 @@ Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas
       <section className="contact" id="contact">
         <div className="container">
 
-          <h2 className="h2 section-title-prot">Contact Us</h2>
-
+          <h2 className="h2 section-title-prot">Contatos</h2>
           <p className="section-text">
-            Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis eligendi
-            cumque.
+           Traga sua Vaga para o Instituto Tempo de Educar!
           </p>
 
           <div className="contact-wrapper">
@@ -473,25 +470,25 @@ Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas
 
               <li>
                 <a href="mailto:support@website.com" className="contact-link">
-                  {/* <ion-icon name="mail-outline"></ion-icon> */}
+                {/* <MdEmail /> */}
 
-                  <span>: support@website.com</span>
+                  <span>E-mail: institutotempodeeducar@gmail.com  </span>
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a href="#" className="contact-link">
-                  {/* <ion-icon name="globe-outline"></ion-icon> */}
+                  <ion-icon name="globe-outline"></ion-icon>
 
                   <span>: www.website.com</span>
                 </a>
-              </li>
+              </li> */}
 
               <li>
                 <a href="tel:+0011234567890" className="contact-link">
                   {/* <ion-icon name="call-outline"></ion-icon> */}
 
-                  <span>: (+001) 123 456 7890</span>
+                  <span>Telefone: (+55) 85 994180168</span>
                 </a>
               </li>
 
@@ -499,7 +496,7 @@ Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas
                 <div className="contact-link">
                   {/* <ion-icon name="time-outline"></ion-icon> */}
 
-                  <span>: 9:00 AM - 6:00 PM</span>
+                  <span>Atendimento: 9:00 AM - 17:00 PM</span>
                 </div>
               </li>
 
@@ -507,7 +504,8 @@ Que visa o crescimento do educando na empresa , com o objetivo de aprimorar suas
                 <a href="#" className="contact-link">
                   {/* <ion-icon name="location-outline"></ion-icon> */}
 
-                  <address>: 1644 Deer Ridge Drive Rochelle Park, NJ 07662</address>
+                  <address>Localização: Rua - Oscar Fernandes de Souza, 219 
+Buriti -Pacajus</address>
                 </a>
               </li>
 
