@@ -11,6 +11,10 @@ import './pales_trein.css'
 // import aboutshape4 from  './assets_pales_trein/about-shape-4.svg'
 // import aboutshape3 from  './assets_pales_trein/about-shape-3.jpg'
 import header from './assets_pales_trein/header.jpg'
+import footer from './assets_pales_trein/footer_trein.jpg'
+import music from './assets_pales_trein/Seminar-bro.png'
+
+
 
 
 
@@ -83,13 +87,13 @@ export function Palestra_Treinamento(){
         <div className="section__container music__container">
           <div className="music__image">
             <span>02</span>
-            {/* <img className='img_ap' src={music} alt="music" /> */}
+            <img className='img_ap' src={music} alt="music" />
           </div>
           <div className="music__content">
-            <h2 className="section__header">If music be the food of love, play on</h2>
-            <p>Explore our curated selection of speakers, instruments, and accessories designed to enrich your musical journey, feeding your soul with the nourishment of sound.</p>
+            <h2 className="section__header">Palestras e Treinamentos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolore sint laudantium. Quos consequatur excepturi nulla aut incidunt repudiandae, debitis voluptas ut repellat quaerat architecto, corporis illum voluptate ipsum aliquam.</p>
             <div className="music__btn">
-              <button className="btn">Go to shop</button>
+              <button className="btn">Saiba Mais</button>
             </div>
           </div>
         </div>
@@ -138,16 +142,16 @@ export function Palestra_Treinamento(){
 
       <section className="discount">
         <div className="section__container discount__container">
-          <img  src="assets/discount-bg.png" alt="discount-bg" className="discount-bg img_ap" />
+          {/* <img  src="assets/discount-bg.png" alt="discount-bg" className="discount-bg img_ap" /> */}
           <div className="discount__content">
-            <h2 className="section__header">Music is an outburst of the soul</h2>
+            <h2 className="section__header">Treinamento e desenvolvimento</h2>
             <p>Delve into the depths of human experience as melodies intertwine with the essence of our being, conveying emotions too profound for words alone. From the gentle whispers of a piano to the thunderous roar of a symphony, our products encapsulate the raw power and beauty of musical expression.</p>
             <div className="discount__btn">
               <button className="btn">Go to shop</button>
             </div>
           </div>
           <div className="discount__image">
-            <img src="assets/discount.jpg" alt="discount" />
+            <img className='img_ap' src={footer} alt="discount" />
           </div>
         </div>
       </section>

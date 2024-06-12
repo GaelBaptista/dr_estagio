@@ -59,7 +59,7 @@
   color: var(--secondary-color);
 }
 
-img .img_ap {
+img.img_ap {
   display: flex;
   width: 100%;
 }
@@ -88,12 +88,13 @@ a {
   top: 50%;
   right: 0;
   transform: translate(50%, -50%) rotate(-90deg);
-  font-size: 12rem;
+  font-size: 10rem;
   font-weight: 700;
   color: var(--primary-color);
   opacity: 0.2;
   z-index: -1;
 }
+
 
 .header__image img {
   max-width: 450px;
@@ -177,7 +178,7 @@ a {
 .music__image::before {
   position: absolute;
   content: "Desenv.";
-  top: 50%;
+  top: 40%;
   left: 0;
   font-size: 10rem;
   font-weight: 700;
@@ -329,7 +330,7 @@ a {
 
 .discount__image::after {
   position: absolute;
-  content: "10% Discount";
+  content: "Treinamento e Desenvolvimento";
   padding-block: 0.5rem;
   top: 50%;
   left: 0;
