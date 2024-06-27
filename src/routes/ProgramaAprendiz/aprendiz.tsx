@@ -13,7 +13,7 @@ import { GoLaw } from "react-icons/go";
 import { HiAcademicCap, HiMinus } from 'react-icons/hi'
 import { FaArrowDown, FaSchool } from 'react-icons/fa'
 import { HiMiniXCircle } from "react-icons/hi2";
-import { MdAttachMoney, MdEmail } from 'react-icons/md'
+import { MdAttachMoney } from 'react-icons/md'
 
 export function Aprendiz_Page () {
   return (

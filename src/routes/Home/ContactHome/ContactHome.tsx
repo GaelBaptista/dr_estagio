@@ -1,6 +1,6 @@
 import './contactHome.css'
 
-import {BsFillPersonFill} from 'react-icons/bs'
+
 
 
 export function ContactHome() {

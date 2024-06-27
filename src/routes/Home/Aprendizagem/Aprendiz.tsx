@@ -1,5 +1,5 @@
 import './Aprendiz.css'
-import { MdGroups2, MdAttachMoney, } from 'react-icons/md'
+import { MdGroups2, } from 'react-icons/md'
 
 export function Aprendiz () {
   return (

@@ -283,6 +283,7 @@ a {
 
 .discount {
   overflow: hidden;
+  margin-bottom: 9rem;
 }
 
 .discount__container {

@@ -57,28 +57,28 @@ export function Palestra_Treinamento(){
       </header>
 
       <div className="section__container feature__container">
-        <h3 className="section__subheader">Features</h3>
-        <h2 className="section__header">Sound around the world</h2>
+        <h3 className="section__subheader">Dr.Estágio</h3>
+        <h2 className="section__header">Palestras e Treinamento</h2>
         <div className="feature__grid">
           <div className="feature__card">
             <div>.01</div>
-            <h4>World-Class Audio Quality</h4>
-            <p>Immerse yourself in the global soundscape with our speakers, engineered to deliver unparalleled audio fidelity.</p>
+            <h4>Título 01</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam est quod tempora cum dolorum corrupti mollitia eos enim. </p>
           </div>
           <div className="feature__card">
             <div>.02</div>
-            <h4>Customizable Sound Profiles</h4>
-            <p>Tailor your listening experience to match the diverse music genres and cultural preferences from different regions.</p>
+            <h4>Título 02</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam est quod tempora cum dolorum corrupti mollitia eos enim.</p>
           </div>
           <div className="feature__card">
             <div>.03</div>
-            <h4>Music Streaming Integration</h4>
-            <p>Access an extensive library of music from across the globe with integrated music streaming services.</p>
+            <h4>Título 03</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam est quod tempora cum dolorum corrupti mollitia eos enim.</p>
           </div>
           <div className="feature__card">
             <div>.04</div>
-            <h4>Multi-Room Audio Sync</h4>
-            <p>Create a synchronized audio experience throughout your home or space with multi-room audio synchronization.</p>
+            <h4>Título 04</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam est quod tempora cum dolorum corrupti mollitia eos enim.</p>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ export function Palestra_Treinamento(){
           {/* <img  src="assets/discount-bg.png" alt="discount-bg" className="discount-bg img_ap" /> */}
           <div className="discount__content">
             <h2 className="section__header">Treinamento e desenvolvimento</h2>
-            <p>Delve into the depths of human experience as melodies intertwine with the essence of our being, conveying emotions too profound for words alone. From the gentle whispers of a piano to the thunderous roar of a symphony, our products encapsulate the raw power and beauty of musical expression.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae voluptatem quidem est vel iure ex laudantium doloribus, quibusdam asperiores enim blanditiis facilis quos ab harum, provident exercitationem officiis sapiente doloremque.</p>
             <div className="discount__btn">
               <button className="btn">Go to shop</button>
             </div>
@@ -155,7 +155,7 @@ export function Palestra_Treinamento(){
           </div>
         </div>
       </section>
-
+{/* 
       <footer className="footer">
         <div className="section__container footer__container">
           <ul className="footer__links">
@@ -171,9 +171,9 @@ export function Palestra_Treinamento(){
           </ul>
         </div>
         <div className="footer__bar">
-          Copyright © 2024 Web Design Mastery. All rights reserved.
+          Copyright © 2024.
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

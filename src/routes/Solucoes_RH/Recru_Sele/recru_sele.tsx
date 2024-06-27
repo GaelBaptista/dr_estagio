@@ -233,8 +233,10 @@ export function Recrutamento_Selecao () {
                             {/* <div className="steps__card-number">Dr.Estágio</div> */}
                             {/* <h3 className="steps__card-title">Choose defined</h3> */}
                             <p className="steps__card-description">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consequatur eaque corporis id nobis consectetur laboriosam tenetur possimus? Aliquid, dicta? Quis, velit. Earum eveniet enim ullam perspiciatis, necessitatibus at maiores?
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur molestiae sunt, voluptatibus quas iste veniam facere iure deserunt excepturi repudiandae sed ratione, inventore optio explicabo voluptate tenetur dolor amet voluptates!                            </p>
+                            Desde 2015, a Dr. Estágio é uma marca registrada no INPI, atuando em todo o território nacional, com serviços no Ceará e Rio Grande do Norte. Somos especialistas em programas de estágio, jovem aprendiz e recrutamento e seleção focados no varejo. Nossa expertise e compreensão das necessidades dos clientes garantem a identificação e alocação eficaz de talentos.
+
+Nosso diferencial inclui avaliações por analistas comportamentais e psicólogos, entrevistas para avaliar a adequação dos candidatos e a apresentação dos 3 melhores candidatos com 180 dias de garantia na contratação. Atuamos em diversas áreas como varejo, farmácia, comércio, vendas, recursos humanos, tecnologia, marketing, contratação temporária e outras. Utilizamos um banco de currículos próprio, metodologia de headhunting e participação em eventos para captar novos talentos.
+                            </p>
                         </div>
                     </div>
                 </div>
