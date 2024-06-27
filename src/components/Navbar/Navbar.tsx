@@ -13,14 +13,11 @@ import {  FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
 import { SlLogin } from "react-icons/sl";
 import { IoClose, IoSchool } from "react-icons/io5";
-import { MdMiscellaneousServices, MdRocketLaunch } from "react-icons/md";
+import { MdRocketLaunch } from "react-icons/md";
 import "./style.css";
-import { BsFillCartFill } from "react-icons/bs";
-import { GiMagnifyingGlass } from "react-icons/gi";
-import {
-  MdHealthAndSafety,
 
-} from "react-icons/md";
+import { GiMagnifyingGlass } from "react-icons/gi";
+
 
 export function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
