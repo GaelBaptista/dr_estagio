@@ -24,6 +24,7 @@ import { PrEst } from "./routes/ProgramaDeEstagio/Estagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
 import { NossoMapa } from "./routes/Localizacao/NossoMapa";
 // import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
+
 // import { Servicos } from "./routes/Projects/Sericos/servicos";
 import { Blog } from "./routes/Blog/blogprops";
 import { DrConect } from "./routes/Blog/PagesBlog/DrConect/DrConect";

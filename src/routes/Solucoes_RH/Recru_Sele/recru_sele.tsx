@@ -91,25 +91,25 @@ export function Recrutamento_Selecao () {
 
                 <div className="skills__container bd-grid">          
                     <div>
-                    <h2 className="section__title about__title">Por que o Processo Seletivo merece minha atenção?</h2>
+                    <h2 className="section__title about__title">Por que o processo seletivo merece a minha atenção?</h2>
                         <p className="skills__text">Uma seleção mal feita pode não apenas desperdiçar recursos financeiros,
                         mas também prejudicar o fluxo de trabalho, impactando negativamente a produtividade e o desempenho da equipe. 
                         </p>
                         
                         <h2 className="section__title about__title" > Isso não é exagero</h2>
-                        <p className="skills__text">Pense nos seguintes custos baseada em porcentagem do salário de um funcionário. 
+                        <p className="skills__text">Pense nos seguintes custos baseada no salário de um funcionário. 
                         </p>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxl-html5 skills__icon'></i>
+                                {/* <i className='bx bxl-html5 skills__icon'></i> */}
                                 <span className="skills__name"> Processo Seletivo.</span>
                             </div>
-                            <div className="skills__bar skills__html">
+                            {/* <div className="skills__bar skills__html">
 
                             </div>
                             <div>
                                 <span className="skills__percentage">10%</span>
-                            </div>
+                            </div> */}
                           
                         </div>
                         {/* <span className="skills__name">Cerca de 10% do salário anual do funcionário.</span>
@@ -117,63 +117,63 @@ export function Recrutamento_Selecao () {
                         <br /> */}
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxl-css3 skills__icon'></i>
+                                {/* <i className='bx bxl-css3 skills__icon'></i> */}
                                 <span className="skills__name"> Tempo dos Profissionais de RH</span>
                             </div>
-                            <div className="skills__bar skills__css">
+                            {/* <div className="skills__bar skills__css">
                                 
                             </div>
                             <div>
                                 <span className="skills__percentage">20%</span>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxl-javascript skills__icon' ></i>
+                                {/* <i className='bx bxl-javascript skills__icon' ></i> */}
                                 <span className="skills__name">Treinamento</span>
                             </div>
-                            <div className="skills__bar skills__js">
+                            {/* <div className="skills__bar skills__js">
                                 
                             </div>
                             <div>
                                 <span className="skills__percentage">15%</span>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxs-paint skills__icon'></i>
+                                {/* <i className='bx bxs-paint skills__icon'></i> */}
                                 <span className="skills__name">Meses de Salário Desperdiçados</span>
                             </div>
-                            <div className="skills__bar skills__ux">
+                            {/* <div className="skills__bar skills__ux">
                                 
                             </div>
                             <div>
                                 <span className="skills__percentage">100%</span>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxs-paint skills__icon'></i>
+                                {/* <i className='bx bxs-paint skills__icon'></i> */}
                                 <span className="skills__name">Encargos e Benefícios</span>
                             </div>
-                            <div className="skills__bar skills__ux2">
+                            {/* <div className="skills__bar skills__ux2">
                                 
                             </div>
                             <div>
                                 <span className="skills__percentage">30%</span>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxs-paint skills__icon'></i>
+                                {/* <i className='bx bxs-paint skills__icon'></i> */}
                                 <span className="skills__name">Improdutividade e Retrabalhos</span>
                             </div>
-                            <div className="skills__bar skills__ux3">
+                            {/* <div className="skills__bar skills__ux3">
                                 
                             </div>
                             <div>
                                 <span className="skills__percentage">25 %</span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     
