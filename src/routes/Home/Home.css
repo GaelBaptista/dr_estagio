@@ -147,7 +147,7 @@
 
 @media (width < 1025px) {
   .content_slider_home_page {
-    width: 700px;
+    width: 550px;
     top: 25%;
     bottom: 100%;
 
@@ -240,27 +240,57 @@
 
 .quadrado-container {
   display: flex;
+  flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha se necessário */
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 85%; /* Ajuste a largura conforme necessário */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
   margin-top: -100px;
   z-index: 99;
-
 }
 
 .quadrado {
-  width: 300px;
+  flex: 1 1 300px; /* Permite que os itens cresçam e encolham, mas com um tamanho base de 300px */
+  max-width: 300px; /* Garante que os itens não fiquem maiores que 300px */
   height: 180px;
   background: #F79542;
-
   color: #fff;
   text-align: center;
   padding: 50px;
   border-radius: 10px;
   margin: 10px;
-
   transition: transform 0.2s ease;
 }
+
+@media (min-width: 1440px) {
+  .quadrado-container {
+    flex-wrap: nowrap;
+
+  }
+
+  
+}
+
+
+/* Media queries para ajustes em telas menores */
+@media (max-width: 1024px) {
+  .quadrado-container {
+    justify-content: center; /* Centraliza os quadrados na versão mobile */
+    width: 100%; /* Define a largura máxima para se adaptar a telas menores */
+  }
+
+  .quadrado, .quadrado-quinto {
+    width: calc(50% - 20px); /* Define a largura dos quadrados na versão mobile */
+    margin: 10px; /* Adiciona espaçamento entre os quadrados empilhados */
+  }
+}
+
+@media (max-width: 768px) {
+  .quadrado-container {
+    display: none; /* Esconde o container em telas pequenas */
+  }
+}
+
 
 .icone {
   font-size: 40px;
@@ -301,27 +331,7 @@
 .quadrado:hover, .quadrado-quinto:hover {
   transform: translateY(-5px);
 }
-@media (max-width: 1024px) {
-  .quadrado-container {
-    flex-wrap: wrap; /* Permite que os quadrados sejam empilhados verticalmente */
-    justify-content: center; /* Centraliza os quadrados na versão mobile */
-    width: 100%; /* Define a largura máxima para se adaptar a telas menores */
-  }
 
-  
-  .quadrado, .quadrado-quinto {
-    width: calc(50% - 20px); /* Define a largura dos quadrados na versão mobile */
-    margin: 10px; /* Adiciona espaçamento entre os quadrados empilhados */
-  }
-}
-
-@media (max-width: 768px) {
-  .quadrado-container {
-   display: none;
-  }
-
- 
-}
 
 @media screen and (max-width: 425px) {
   .banner {
