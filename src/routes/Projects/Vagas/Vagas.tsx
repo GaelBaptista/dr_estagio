@@ -4,17 +4,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./vagas.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-interface Vaga {
-  id: number;
-  titulo: string;
-  descricao?: string;
-  cidade: string;
-  tipoContrato: string;
-  link: string;
-  // outras propriedades da vaga, se tiver
-}
+
+// interface Vaga {
+//   id: number;
+//   titulo: string;
+//   descricao?: string;
+//   cidade: string;
+//   tipoContrato: string;
+//   link: string;
+//   // outras propriedades da vaga, se tiver
+// }
 
 export function Vagas() {
   const sliderSettingsVagas = {
@@ -29,210 +30,210 @@ export function Vagas() {
   };
 
   const [filtroCidade, setFiltroCidade] = useState<string>("");
-  const [mostrarVagas, setMostrarVagas] = useState(false);
-  const [vagasFiltradas, setVagasFiltradas] = useState<Vaga[]>([]);
-  const [mostrarMensagem, setMostrarMensagem] = useState(false);
-  const [mostrarMensagemSemVagas, setMostrarMensagemSemVagas] = useState(false);
+  // const [mostrarVagas, setMostrarVagas] = useState(false);
+  // const [vagasFiltradas, setVagasFiltradas] = useState<Vaga[]>([]);
+  // const [mostrarMensagem, setMostrarMensagem] = useState(false);
+  // const [mostrarMensagemSemVagas, setMostrarMensagemSemVagas] = useState(false);
 
-  const [vagasData, setVagasData] = useState<Vaga[]>([
-    {
-      id: 1,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "PLANALTO AYRTON SENNA, FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "Descrição da vaga de vendedor.",
-      link: "https://drestagio.gupy.io/jobs/5355782?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 2,
-      titulo: "VAGA AUXILIAR ADMINISTRATIVO",
-      cidade: " FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "Descrição da vaga de vendedor.",
-      link: "https://drestagio.gupy.io/",
-    },
-    {
-      id: 3,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "JÓQUEI CLUBE , FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "Descrição da vaga de vendedor.",
-      link: "https://drestagio.gupy.io/jobs/5121028?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 4,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "RODOLFO TEÓFILO, FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5508610?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 5,
-      titulo: "VAGA AUXILIAR ADMINISTRATIVO",
-      cidade: "JABUTI, EUSÉBIO",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5358038?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 6,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "MORADA NOVA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5538298?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 7,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "EDSON QUEIROZ, FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5139889?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 8,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "CURIÓ / LAGOA REDONDA , FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5722709?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 9,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: " AMONTADA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5378461?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 10,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "JOSÉ WALTER , FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5355753?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 11,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "JOÃO XXIII , FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5355998?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 12,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "QUINTINO CUNHA , FORTALEZA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5355647?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 13,
-      titulo: "VAGA MARKETING",
-      cidade: "JACARECANGA , FORTALEZA",
-      tipoContrato: "ESTÁGIO SUPERIOR",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5358001?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 14,
-      titulo: "VAGA SEGURANÇA DO TRABALHO ",
-      cidade: "JABUTI , EUSÉBIO",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5355693?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 15,
-      titulo: "VAGA MARKETING",
-      cidade: "RUSSAS - CE",
-      tipoContrato: "ESTÁGIO SUPERIOR",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5672484?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 16,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "MOSSORÓ , RIO GRANDE DO NORTE",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5126307?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 17,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "MARACANAÚ",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5126984?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 18,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "ITAPIPOCA",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5309551?jobBoardSource=gupy_public_page",
-    },
-    {
-      id: 19,
-      titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
-      cidade: "NATAL, RIO GRANDE DO NORTE",
-      tipoContrato: "ESTÁGIO",
-      descricao: "", // ou null, se não houver descrição
-      link: "https://drestagio.gupy.io/jobs/5131899?jobBoardSource=gupy_public_page",
-    },
-  ]);
-  useEffect(() => {
+  // const [vagasData, setVagasData] = useState<Vaga[]>([
+  //   {
+  //     id: 1,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "PLANALTO AYRTON SENNA, FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "Descrição da vaga de vendedor.",
+  //     link: "https://drestagio.gupy.io/jobs/5355782?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 2,
+  //     titulo: "VAGA AUXILIAR ADMINISTRATIVO",
+  //     cidade: " FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "Descrição da vaga de vendedor.",
+  //     link: "https://drestagio.gupy.io/",
+  //   },
+  //   {
+  //     id: 3,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "JÓQUEI CLUBE , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "Descrição da vaga de vendedor.",
+  //     link: "https://drestagio.gupy.io/jobs/5121028?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 4,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "RODOLFO TEÓFILO, FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5508610?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 5,
+  //     titulo: "VAGA AUXILIAR ADMINISTRATIVO",
+  //     cidade: "JABUTI, EUSÉBIO",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5358038?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 6,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "MORADA NOVA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5538298?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 7,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "EDSON QUEIROZ, FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5139889?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 8,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "CURIÓ / LAGOA REDONDA , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5722709?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 9,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: " AMONTADA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5378461?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 10,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "JOSÉ WALTER , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5355753?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 11,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "JOÃO XXIII , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5355998?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 12,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "QUINTINO CUNHA , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5355647?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 13,
+  //     titulo: "VAGA MARKETING",
+  //     cidade: "JACARECANGA , FORTALEZA",
+  //     tipoContrato: "ESTÁGIO SUPERIOR",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5358001?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 14,
+  //     titulo: "VAGA SEGURANÇA DO TRABALHO ",
+  //     cidade: "JABUTI , EUSÉBIO",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5355693?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 15,
+  //     titulo: "VAGA MARKETING",
+  //     cidade: "RUSSAS - CE",
+  //     tipoContrato: "ESTÁGIO SUPERIOR",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5672484?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 16,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "MOSSORÓ , RIO GRANDE DO NORTE",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5126307?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 17,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "MARACANAÚ",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5126984?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 18,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "ITAPIPOCA",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5309551?jobBoardSource=gupy_public_page",
+  //   },
+  //   {
+  //     id: 19,
+  //     titulo: "VAGA AUXILIAR DE COMÉRCIO E VAREJO",
+  //     cidade: "NATAL, RIO GRANDE DO NORTE",
+  //     tipoContrato: "ESTÁGIO",
+  //     descricao: "", // ou null, se não houver descrição
+  //     link: "https://drestagio.gupy.io/jobs/5131899?jobBoardSource=gupy_public_page",
+  //   },
+  // ]);
+  // useEffect(() => {
     
-    fetch("https://api.exemplo.com/vagas")
-      .then((response) => response.json())
-      .then((data) => setVagasData(data));
-  }, []);
-  const handleFiltrarVagas = () => {
-    if (filtroCidade === "") {
-      // Se o campo de entrada estiver vazio, mostrar mensagem de erro e impedi a exibição das vagas
-      setMostrarMensagem(true);
-      setTimeout(() => {
-        setMostrarMensagem(false);
-      }, 1500); // Esconde a mensagem após 1,5 segundos
-      setMostrarVagas(false); // Oculta as vagas
-      setMostrarMensagemSemVagas(false); // Oculta a mensagem não há vags
-      return;
-    }
+  //   fetch("https://api.exemplo.com/vagas")
+  //     .then((response) => response.json())
+  //     .then((data) => setVagasData(data));
+  // }, []);
+  // const handleFiltrarVagas = () => {
+  //   if (filtroCidade === "") {
+  //     // Se o campo de entrada estiver vazio, mostrar mensagem de erro e impedi a exibição das vagas
+  //     setMostrarMensagem(true);
+  //     setTimeout(() => {
+  //       setMostrarMensagem(false);
+  //     }, 1500); // Esconde a mensagem após 1,5 segundos
+  //     setMostrarVagas(false); // Oculta as vagas
+  //     setMostrarMensagemSemVagas(false); // Oculta a mensagem não há vags
+  //     return;
+  //   }
 
-    const vagasFiltradas: Vaga[] = vagasData.filter((vaga: Vaga) =>
-      vaga.cidade.toLowerCase().includes(filtroCidade.toLowerCase())
-    );
-    if (vagasFiltradas.length === 0) {
-      // Se não houver vagas correspondentes à cidade, mostrar mensagem não há vafgas
-      setMostrarMensagemSemVagas(true);
-      setMostrarVagas(false); // Oculta as vagas
-    } else {
-      // Se houver vagas pro qe foi digitado, exibir as vagas e ocultar a mensagem nao há vagas
-      setVagasFiltradas(vagasFiltradas);
-      setMostrarVagas(true);
-      setMostrarMensagemSemVagas(false);
-    }
+  //   const vagasFiltradas: Vaga[] = vagasData.filter((vaga: Vaga) =>
+  //     vaga.cidade.toLowerCase().includes(filtroCidade.toLowerCase())
+  //   );
+  //   if (vagasFiltradas.length === 0) {
+  //     // Se não houver vagas correspondentes à cidade, mostrar mensagem não há vafgas
+  //     setMostrarMensagemSemVagas(true);
+  //     setMostrarVagas(false); // Oculta as vagas
+  //   } else {
+  //     // Se houver vagas pro qe foi digitado, exibir as vagas e ocultar a mensagem nao há vagas
+  //     setVagasFiltradas(vagasFiltradas);
+  //     setMostrarVagas(true);
+  //     setMostrarMensagemSemVagas(false);
+  //   }
 
-    setMostrarMensagem(false);
-  };
+  //   setMostrarMensagem(false);
+  // };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const textoFiltrado = e.target.value;
-    setFiltroCidade(textoFiltrado);
+  // const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   const textoFiltrado = e.target.value;
+  //   setFiltroCidade(textoFiltrado);
 
-    // Se o campo de entrada estiver vazio, oculta as vagas e a mensagem de erro
-    if (textoFiltrado === "") {
-      setMostrarVagas(false);
-      setMostrarMensagem(false);
-    }
-  };
+  //   // Se o campo de entrada estiver vazio, oculta as vagas e a mensagem de erro
+  //   if (textoFiltrado === "") {
+  //     setMostrarVagas(false);
+  //     setMostrarMensagem(false);
+  //   }
+  // };
 
   return (
     <>
