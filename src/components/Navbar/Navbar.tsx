@@ -13,7 +13,7 @@ import {  FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
 import { SlLogin } from "react-icons/sl";
 import { IoClose, IoSchool } from "react-icons/io5";
-import { MdRocketLaunch } from "react-icons/md";
+// import { MdRocketLaunch } from "react-icons/md";
 import "./style.css";
 
 import { GiMagnifyingGlass } from "react-icons/gi";
