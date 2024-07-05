@@ -29,7 +29,7 @@ export function Vagas() {
     arrows: false,
   };
 
-  const [filtroCidade, setFiltroCidade] = useState<string>("");
+  // const [filtroCidade, setFiltroCidade] = useState<string>("");
   // const [mostrarVagas, setMostrarVagas] = useState(false);
   // const [vagasFiltradas, setVagasFiltradas] = useState<Vaga[]>([]);
   // const [mostrarMensagem, setMostrarMensagem] = useState(false);
