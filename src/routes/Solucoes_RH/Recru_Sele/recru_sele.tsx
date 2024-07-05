@@ -1,7 +1,7 @@
 import './recru_sele.css'
 
 import home1 from './assets_sol_rh/home1.jpg'
-import home2 from './assets_sol_rh/home2.jpg'
+// import home2 from './assets_sol_rh/home2.jpg'
 import about1 from './assets_sol_rh/contratacao2.jpg'
 import about2 from './assets_sol_rh/contratacao1.jpg'
 import experiencia1 from './assets_sol_rh/atencaoContrato.jpg'
