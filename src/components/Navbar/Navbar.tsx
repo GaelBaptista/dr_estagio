@@ -11,8 +11,8 @@ import {
 import { RiMenuLine, RiArrowDownSLine, RiMegaphoneFill } from "react-icons/ri";
 import {  FaUser } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
-import { SlLogin } from "react-icons/sl";
-import { IoClose, IoSchool } from "react-icons/io5";
+// import { SlLogin } from "react-icons/sl";
+import {  IoSchool } from "react-icons/io5";
 // import { MdRocketLaunch } from "react-icons/md";
 import "./style.css";
 
@@ -30,15 +30,15 @@ export function Navbar() {
   };
   const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
 
-  const [showMessageBox, setShowMessageBox] = useState(false);
+  // const [showMessageBox, setShowMessageBox] = useState(false);
 
-  const showMessageBoxHandler = () => {
-    setShowMessageBox(true);
-  };
+  // const showMessageBoxHandler = () => {
+  //   setShowMessageBox(true);
+  // };
 
-  const closeMessageBoxHandler = () => {
-    setShowMessageBox(false);
-  };
+  // const closeMessageBoxHandler = () => {
+  //   setShowMessageBox(false);
+  // };
 
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
@@ -302,15 +302,15 @@ export function Navbar() {
                     Blog
                   </Link>
                 </li>
-                <div className="nav__buttons">
-                  {/* <Link
+                {/* <div className="nav__buttons">
+                  <Link
                   to='/Login_aluno'
                     href="https://igtcursos.com.br/account/"
                     className="nav__button"
                     onClick={closeMenu}
                   >
                     Sou Estagiário
-                  </Link> */}
+                  </Link>
                   <Link
                  style={{ pointerEvents: 'none', opacity:'0.6', textDecoration: 'none' }}
                     to=''
@@ -323,8 +323,8 @@ export function Navbar() {
                 />
                   Login
                   </Link>
-                </div>
-                {showMessageBox && (
+                </div> */}
+                {/* {showMessageBox && (
                   <div className="message-box">
                     <div className="message-box__top">
                       <button
@@ -369,7 +369,7 @@ export function Navbar() {
                       </Link>
                     </div>
                   </div>
-                )}
+                )} */}
               </ul>
             </div>
           </nav>
