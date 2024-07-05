@@ -38,7 +38,7 @@ export function Recrutamento_Selecao () {
           </a>
         </div> */}
 
-        <div className="home__info">
+        {/* <div className="home__info">
           <div>
             <span className="home__info-title">Simplifique seu recrutamento hoje!</span>
             <a href="" className="button button--flex button--link home__info-button">
@@ -50,7 +50,7 @@ export function Recrutamento_Selecao () {
             <img src={home2}alt="" className="home__info-img"  loading="lazy"
       decoding="async"/>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
    
