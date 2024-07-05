@@ -15,7 +15,6 @@ import { BiSolidContact } from "react-icons/bi";
 import {  IoSchool } from "react-icons/io5";
 // import { MdRocketLaunch } from "react-icons/md";
 import "./style.css";
-
 import { GiMagnifyingGlass } from "react-icons/gi";
 
 
@@ -29,13 +28,11 @@ export function Navbar() {
     setShowMenu(false);
   };
   const navMenuClass = showMenu ? "nav__menu show-menu" : "nav__menu";
-
   // const [showMessageBox, setShowMessageBox] = useState(false);
 
   // const showMessageBoxHandler = () => {
   //   setShowMessageBox(true);
   // };
-
   // const closeMessageBoxHandler = () => {
   //   setShowMessageBox(false);
   // };
