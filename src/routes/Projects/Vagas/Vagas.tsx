@@ -250,10 +250,10 @@ export function Vagas() {
             recolocarem profissionalmente.
           </p>
           <a
-            href="#encontrevagas"
-            // href="https://drestagio.gupy.io/"
-            // target="_blank"
-            // rel="noopener noreferrer"
+          
+            href="https://drestagio.gupy.io/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Ache Vagas
           </a>
@@ -275,7 +275,7 @@ export function Vagas() {
 
         {/* <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" className="bg2" /> */}
       </section>
-      <div id="encontrevagas"></div>
+      {/* <div id="encontrevagas"></div>
       <section className="sectionVagasFiltradas">
         <div className="input-container">
           <h3>Busque sua vaga</h3>
@@ -350,7 +350,7 @@ export function Vagas() {
 
 
 
-      </section>
+      </section> */}
 {/* 
       <section className="iDZyfD">
   <div className="styles__Card-sc-dtfyah-1 fJJWdB">

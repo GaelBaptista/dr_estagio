@@ -2,6 +2,8 @@ import { useState } from "react";
 import './map.css'
 import IMG from './asset/rn.png' 
 import ImgRN from './asset/ce.png'
+import ImgPER from './asset/Per.png'
+
 
 export function Map () {
   
@@ -96,7 +98,7 @@ export function Map () {
     }else if (selectedState === 'pernambuco') {
       return (
         <ul>
-          <li>Cabo de Snto Augostinho</li>
+          <li>Santo Agostinho</li>
         </ul>
       );}
     return null;
@@ -192,7 +194,7 @@ d="m523.58 198.88l2.9086-1.7775 2.2433-5.8488 0.1427-9.8885-5.1898 4.3313-8.9064
        <div className="image-panel">
     {selectedState === 'Ceará' && <img src={IMG} alt="Ceará" />}
     {selectedState === 'Rio Grande do Norte' && <img src={ImgRN} alt="Rio Grande do Norte" />}
-    {selectedState === 'pernambuco' && <img src={ImgRN} alt="pernambuco" />}
+    {selectedState === 'pernambuco' && <img src={ImgPER} alt="pernambuco" />}
 
   </div>
       

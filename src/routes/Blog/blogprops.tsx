@@ -20,7 +20,7 @@ const cardsData = [
     imgSrc: rh,
     date: { day: '01', month: 'Jan' },
     title: 'Planner para o RH em 2024',
-    text: "Mudanças que impactam su rotina.",
+    text: "Mudanças que impactam sua rotina.",
     icon: IoMdCube, 
     saibaMaisLink: 'https://drive.google.com/file/d/1PS4Egtj6RtO3U5pKzEzHUg6SQ59IRjhc/view?usp=sharing',
   },

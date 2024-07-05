@@ -259,7 +259,7 @@ export function Home () {
 
         </div>
         <div className="quadrado">
-        <Link to='/programa-estagio'>
+        <Link to='/aprendiz_page'>
 
             <div className="icone"><IoSchool/></div>
             <div>Programa de Aprendizagem</div>

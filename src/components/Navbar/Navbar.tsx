@@ -181,14 +181,14 @@ export function Navbar() {
                       </Link>
                     </li>
                     <li>
-                      <Link
+                      {/* <Link
                         to="/palestra-treinamento"
                         className="dropdown__link"
                         onClick={closeMenu}
                       >
                         <MdRocketLaunch style={{ fontSize: "32px" }} />{" "}
                        Treinamento e Desenvolvimento
-                      </Link>
+                      </Link> */}
                     </li>
                     {/* <li className="dropdown__subitem">
                 <div className="dropdown__link">
